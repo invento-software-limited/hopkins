@@ -129,9 +129,10 @@ app_license = "mit"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-# 	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	"Item": "hopkins.custom_functions.item.CustomItem",
+	"Item Group": "hopkins.custom_functions.item_group.CustomItemGroup"
+}
 
 # Document Events
 # ---------------
