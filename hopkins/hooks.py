@@ -131,7 +131,8 @@ app_license = "mit"
 
 override_doctype_class = {
 	"Item": "hopkins.custom_functions.item.CustomItem",
-	"Item Group": "hopkins.custom_functions.item_group.CustomItemGroup"
+	"Item Group": "hopkins.custom_functions.item_group.CustomItemGroup",
+	"Website Slideshow": "hopkins.custom_functions.website_slideshow.CustomWebsiteSlideshow",
 }
 
 # Document Events
@@ -243,3 +244,10 @@ override_doctype_class = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    'Builder Page',
+    'Builder Project Folder',
+    'Builder Settings',
+    'Builder Client Script',
+    'Builder Page Client Script'
+]
