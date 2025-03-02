@@ -1,1 +1,11 @@
-[]
+[
+ {
+  "docstatus": 0,
+  "doctype": "Builder Client Script",
+  "modified": "2025-02-27 11:05:18.373683",
+  "name": "style.css",
+  "public_url": "/files/page_styles/CSS-7b272-dae3679343.css?v=1ab0a37a28",
+  "script": "/* Write your CSS here */\n.truncate {\n  white-space: nowrap; \n  overflow: hidden; \n  text-overflow: ellipsis;\n}",
+  "script_type": "CSS"
+ }
+]

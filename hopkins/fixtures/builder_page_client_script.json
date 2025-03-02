@@ -1,1 +1,12 @@
-[]
+[
+ {
+  "builder_script": "style.css",
+  "docstatus": 0,
+  "doctype": "Builder Page Client Script",
+  "modified": "2025-02-27 11:35:18.245247",
+  "name": "o74tkb1c82",
+  "parent": "page-7c280dea",
+  "parentfield": "client_scripts",
+  "parenttype": "Builder Page"
+ }
+]
