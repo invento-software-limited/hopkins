@@ -249,5 +249,8 @@ fixtures = [
     'Builder Project Folder',
     'Builder Settings',
     'Builder Client Script',
-    'Builder Page Client Script'
+    'Builder Page Client Script',
+    'Builder Component',
+    'Block Template',
+    'User Font'
 ]
