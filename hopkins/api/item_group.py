@@ -27,3 +27,17 @@ def get_categories():
         category_tree.append(category)
 
     return category_tree
+
+
+@frappe.whitelist(allow_guest=True)
+def search_category(categories, category_route):
+    """Recursively searches for a category by its ID"""
+    for category in categories:
+        if category["custom_route"] == category_route:
+            return category
+
+        if "subcategories" in category and category["subcategories"]:
+            found = search_category(category["subcategories"], category_route)
+            if found:
+                return found
+    return None
