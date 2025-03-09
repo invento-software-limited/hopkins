@@ -6,4 +6,4 @@ class CustomItemGroup(ItemGroup):
     def validate(self):
         print("Hello")
         if not self.custom_route:
-            self.custom_route = slug(self.item_group_name)
+            self.custom_route = "/shop/" + slug(self.item_group_name)
