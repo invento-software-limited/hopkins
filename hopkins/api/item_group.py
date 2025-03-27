@@ -1,4 +1,5 @@
 import frappe
+from hopkins.api.item import ProductQuery
 
 
 @frappe.whitelist(allow_guest=True)
@@ -34,40 +35,28 @@ def get_categories():
 @frappe.whitelist(allow_guest=True)
 def search_category(categories, category_route):
     """Recursively searches for a category by its custom_route."""
-    if not category_route.startswith("/shop/"):
-        category_route = "/shop/" + category_route
+    if categories and category_route:
+        if not category_route.startswith("/shop/"):
+            category_route = "/shop/" + category_route
 
-    for category in categories:
-        if category.get("custom_route") == category_route:
-            return category
+        for category in categories:
+            if category.get("custom_route") == category_route:
+                return category
 
-        if "subcategories" in category and category["subcategories"]:
-            found = search_category(category["subcategories"], category_route)
-            if found:
-                return found
+            if "subcategories" in category and category["subcategories"]:
+                found = search_category(category["subcategories"], category_route)
+                if found:
+                    return found
     return None
 
+
 @frappe.whitelist(allow_guest=True)
-def get_products(category_name, page=1, limit=12):
+def get_products(category_name=None, page=1, limit=12):
     """Returns paginated products for a given category name and its descendants."""
 
-    # Ensure page and limit are integers
-    try:
-        page = int(page)
-        limit = int(limit)
-    except ValueError:
-        return {"error": "Invalid page or limit value"}
+    filters = {"custom_publish_to_website": 1}
+    descendant_categories = []
 
-    if page < 1 or limit < 1:
-        return {"error": "Page and limit must be greater than 0"}
-
-    # Fetch category details
-    try:
-        category = frappe.get_cached_doc("Item Group", category_name)
-    except frappe.DoesNotExistError:
-        return {"error": "Category not found"}
-
-    # Get descendant categories recursively
     def get_descendant_categories(parent_name):
         """Recursively fetches all descendant categories."""
         subcategories = frappe.get_all(
@@ -80,39 +69,31 @@ def get_products(category_name, page=1, limit=12):
             descendants.extend(get_descendant_categories(subcategory["name"]))
         return descendants
 
-    # Fetch all descendant categories including the current category
-    descendant_categories = get_descendant_categories(category.name)
-    descendant_categories.append(category.name)  # Include the category itself
+    category = None
+    if category_name:
+        category = frappe.get_cached_doc("Item Group", category_name)
+        if category:
 
-    # Pagination logic
-    offset = (page - 1) * limit
+            descendant_categories = get_descendant_categories(category.name)
+            descendant_categories.append(category.name)
 
-    # Fetch products in the category and its descendants
-    products = frappe.get_all(
-        "Item",
-        filters={
-            "item_group": ["in", descendant_categories],
-            "custom_publish_to_website": 1
-        },
-        fields=["name", "item_name", "item_code", "custom_route", "image", "standard_rate"],
-        start=offset,
-        page_length=limit
-    )
+            if descendant_categories:
+                filters["item_group"] = ["in", descendant_categories]
 
-    # Return paginated product data
+    query = ProductQuery(page=page, limit=limit, filters=filters)
+    products = query.get_products(as_dict=True)
+
+    total_products = frappe.db.count("Item", filters=filters)
+
+    category_data = {
+        "name": category.name if category else None,
+        "custom_route": getattr(category, "custom_route", None),
+    } if category else None
+
     return {
-        "category": {
-            "name": category.name,
-            "custom_route": category.custom_route,
-        },
+        "category": category_data,
         "products": products,
         "page": page,
         "limit": limit,
-        "total_products": frappe.db.count(
-            "Item",
-            filters={
-                "item_group": ["in", descendant_categories],
-                "custom_publish_to_website": 1
-            }
-        )
+        "total_products": total_products
     }

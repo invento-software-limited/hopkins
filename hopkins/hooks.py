@@ -176,9 +176,9 @@ override_doctype_class = {
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "hopkins.event.get_events"
-# }
+override_whitelisted_methods = {
+	"builder_ecommerce.cart.place_order": "hopkins.api.cart.place_order"
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
