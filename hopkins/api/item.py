@@ -2,7 +2,7 @@ import frappe
 
 
 class ProductQuery:
-    def __init__(self, page=1, limit=100, filters=None):
+    def __init__(self, page=1, limit=50000, filters=None):
         offset = (page - 1) * limit
         self.start = offset
         self.page_length = limit
@@ -57,6 +57,7 @@ class ProductQuery:
             FROM `tabItem` i
             LEFT JOIN `tabItem Price` ip ON i.item_code = ip.item_code AND ip.selling = 1
             WHERE {where_clause}
+            ORDER BY i.creation ASC
             LIMIT %s OFFSET %s
         """
 

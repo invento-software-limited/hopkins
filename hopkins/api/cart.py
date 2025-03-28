@@ -10,7 +10,7 @@ from erpnext.selling.doctype.quotation.quotation import _make_sales_order
 def place_order(doc=None, cart_items=None):
     if frappe.session.user == "Guest" and doc:
         doc = frappe.parse_json(doc)
-        user = create_user(data=doc)
+        create_user(data=doc)
         first_name = doc.get("first_name", "")
         last_name = doc.get("last_name", "")
         address_title = f"{first_name} {last_name}".strip()
@@ -31,6 +31,41 @@ def place_order(doc=None, cart_items=None):
                 update_address_with_customer(address.name, party.name)
                 update_cart_address(address_type=address.address_type, address_name=address.name,
                                     quotation=quotation)
+
+            # if not doc.get('deliver_same'):
+            #     required_fields = ['deliver_address_line_1', 'deliver_town', 'deliver_country', 'deliver_postcode',
+            #                        'deliver_state', 'phone', 'email_id']
+            #
+            #     # Ensure required fields are available
+            #     missing_fields = [field for field in required_fields if not doc.get(field)]
+            #     if missing_fields:
+            #         frappe.throw(
+            #             _("Missing required fields for delivery address: {0}").format(", ".join(missing_fields)))
+            #
+            #     deliver_address_json = {
+            #         'address_title': address_title,
+            #         'address_line1': doc['deliver_address_line_1'],
+            #         'address_line2': doc.get('deliver_address_line_2', ''),
+            #         'city': doc['deliver_town'],
+            #         'country': doc['deliver_country'],
+            #         'pincode': doc['deliver_postcode'],
+            #         'state': doc['deliver_state'],
+            #         'address_type': 'Shipping',
+            #         'phone': doc['phone'],
+            #         'email_id': doc['email_id']
+            #     }
+            #
+            #     deliver_address = add_new_address(frappe.as_json(deliver_address_json))
+            #
+            #     if deliver_address:
+            #         update_address_with_customer(deliver_address.name, party.name)
+            #         update_cart_address(
+            #             address_type=deliver_address.address_type,
+            #             address_name=deliver_address.name,
+            #             quotation=quotation
+            #         )
+            #     else:
+            #         frappe.throw(_("Failed to create the delivery address."))
 
             cart_items = frappe.parse_json(cart_items) if cart_items else []
             if cart_items:
