@@ -32,40 +32,40 @@ def place_order(doc=None, cart_items=None):
                 update_cart_address(address_type=address.address_type, address_name=address.name,
                                     quotation=quotation)
 
-            # if not doc.get('deliver_same'):
-            #     required_fields = ['deliver_address_line_1', 'deliver_town', 'deliver_country', 'deliver_postcode',
-            #                        'deliver_state', 'phone', 'email_id']
-            #
-            #     # Ensure required fields are available
-            #     missing_fields = [field for field in required_fields if not doc.get(field)]
-            #     if missing_fields:
-            #         frappe.throw(
-            #             _("Missing required fields for delivery address: {0}").format(", ".join(missing_fields)))
-            #
-            #     deliver_address_json = {
-            #         'address_title': address_title,
-            #         'address_line1': doc['deliver_address_line_1'],
-            #         'address_line2': doc.get('deliver_address_line_2', ''),
-            #         'city': doc['deliver_town'],
-            #         'country': doc['deliver_country'],
-            #         'pincode': doc['deliver_postcode'],
-            #         'state': doc['deliver_state'],
-            #         'address_type': 'Shipping',
-            #         'phone': doc['phone'],
-            #         'email_id': doc['email_id']
-            #     }
-            #
-            #     deliver_address = add_new_address(frappe.as_json(deliver_address_json))
-            #
-            #     if deliver_address:
-            #         update_address_with_customer(deliver_address.name, party.name)
-            #         update_cart_address(
-            #             address_type=deliver_address.address_type,
-            #             address_name=deliver_address.name,
-            #             quotation=quotation
-            #         )
-            #     else:
-            #         frappe.throw(_("Failed to create the delivery address."))
+            if not doc.get('deliver_same'):
+                required_fields = ['deliver_address_line_1', 'deliver_town', 'deliver_country', 'deliver_postcode',
+                                   'phone', 'email_id']
+
+                # Ensure required fields are available
+                missing_fields = [field for field in required_fields if not doc.get(field)]
+                if missing_fields:
+                    frappe.throw(
+                        _("Missing required fields for delivery address: {0}").format(", ".join(missing_fields)))
+
+                deliver_address_json = {
+                    'address_title': address_title,
+                    'address_line1': doc.get('deliver_address_line_1', ''),
+                    'address_line2': doc.get('deliver_address_line_2', ''),
+                    'city': doc.get('deliver_town', ''),
+                    'country': doc.get('deliver_country', ''),
+                    'pincode': doc.get('deliver_postcode', ''),
+                    'state': doc.get('deliver_state', ''),
+                    'address_type': 'Shipping',
+                    'phone': doc.get('phone', ''),
+                    'email_id': doc.get('email_id', '')
+                }
+
+                deliver_address = add_new_address(frappe.as_json(deliver_address_json))
+
+                if deliver_address:
+                    update_address_with_customer(deliver_address.name, party.name)
+                    update_cart_address(
+                        address_type=deliver_address.address_type,
+                        address_name=deliver_address.name,
+                        quotation=quotation
+                    )
+                else:
+                    frappe.throw(_("Failed to create the delivery address."))
 
             cart_items = frappe.parse_json(cart_items) if cart_items else []
             if cart_items:
@@ -74,20 +74,24 @@ def place_order(doc=None, cart_items=None):
     else:
         quotation = _get_cart_quotation()
         party = get_party()
+        if doc.get('deliver_same'):
+            update_cart_address('Billing', doc.get('billing_address'), quotation)
+            update_cart_address('Shipping', doc.get('billing_address'), quotation)
+        else:
+            update_cart_address('Billing', doc.get('billing_address'), quotation)
+            update_cart_address('Shipping', doc.get('shipping_address'), quotation)
 
     if not quotation:
         frappe.throw(_("Quotation could not be created"))
 
     set_price_list_and_rate(quotation)
     quotation.run_method("calculate_taxes_and_totals")
-    set_taxes(quotation)
     _apply_shipping_rule(party, quotation)
 
     quotation.flags.ignore_permissions = True
     quotation.submit()
 
     if quotation.quotation_to == "Lead" and quotation.party_name:
-        # company used to create customer accounts
         frappe.defaults.set_user_default("company", quotation.company)
 
     if not (quotation.shipping_address_name or quotation.customer_address):
@@ -98,6 +102,7 @@ def place_order(doc=None, cart_items=None):
             quotation.name, ignore_permissions=True
         )
     )
+    print(sales_order.taxes)
     sales_order.payment_schedule = []
 
     sales_order.flags.ignore_permissions = True
@@ -106,6 +111,7 @@ def place_order(doc=None, cart_items=None):
 
     if hasattr(frappe.local, "cookie_manager"):
         frappe.local.cookie_manager.delete_cookie("cart_count")
+        frappe.local.cookie_manager.delete_cookie("cart_total")
 
     return sales_order.name
 

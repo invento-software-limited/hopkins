@@ -21,13 +21,13 @@ def get_shipping_addresses(party=None):
             "name": address.name,
             "title": address.address_title,
             "display": address.display,
-            'address_line1':address.address_line1,
-            'address_line2':address.address_line2,
-            'city':address.city,
-            'country':address.country,
-            'pincode':address.pincode,
-            'phone':address.phone,
-            'email_id':address.email_id,
+            'address_line1': address.address_line1,
+            'address_line2': address.address_line2,
+            'city': address.city,
+            'country': address.country,
+            'pincode': address.pincode,
+            'phone': address.phone,
+            'email_id': address.email_id,
         }
         for address in addresses
         if address.address_type == "Shipping"
@@ -53,12 +53,12 @@ def get_billing_addresses(party=None):
             "name": address.name,
             "title": address.address_title,
             "display": address.display,
-            'address_line1':address.address_line1,
-            'city':address.city,
-            'country':address.country,
-            'pincode':address.pincode,
-            'phone':address.phone,
-            'email_id':address.email_id,
+            'address_line1': address.address_line1,
+            'city': address.city,
+            'country': address.country,
+            'pincode': address.pincode,
+            'phone': address.phone,
+            'email_id': address.email_id,
         }
         for address in addresses
         if address.address_type == "Billing"
