@@ -22,14 +22,19 @@ def get_categories():
         )
         for subcategory in subcategories:
             subcategory["subcategories"] = get_subcategories(subcategory["name"])
+            if not subcategory.get("image"):
+                subcategory["image"] = '/assets/hopkins/img/no-image-250x250.png'
         return subcategories
 
     category_tree = []
     for category in categories:
+        if not category.get("image"):
+            category["image"] = '/assets/hopkins/img/no-image-250x250.png'
         category["subcategories"] = get_subcategories(category["name"])
         category_tree.append(category)
 
     return category_tree
+
 
 
 @frappe.whitelist(allow_guest=True)
@@ -53,6 +58,12 @@ def search_category(categories, category_route):
 @frappe.whitelist(allow_guest=True)
 def get_products(category_name=None, page=1, limit=12):
     """Returns paginated products for a given category name and its descendants."""
+
+    if isinstance(page, str):
+        page = int(page) if page.isdigit() else 1
+
+    if isinstance(limit, str):
+        limit = int(limit) if limit.isdigit() else 12
 
     filters = {"custom_publish_to_website": 1}
     descendant_categories = []

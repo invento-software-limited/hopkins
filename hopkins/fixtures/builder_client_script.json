@@ -29,6 +29,15 @@
  {
   "docstatus": 0,
   "doctype": "Builder Client Script",
+  "modified": "2025-04-09 06:11:09.887455",
+  "name": "shop-js",
+  "public_url": "/files/page_scripts/JavaScript-992a5-09152953e5.js?v=70f970ee08",
+  "script": "// Write your script here\n",
+  "script_type": "JavaScript"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Builder Client Script",
   "modified": "2025-02-27 11:05:18.373683",
   "name": "style.css",
   "public_url": "/files/page_styles/CSS-7b272-dae3679343.css?v=d9580398aa",

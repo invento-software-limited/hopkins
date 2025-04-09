@@ -72,6 +72,8 @@ class ProductQuery:
         for product in products:
             currency = product.get("item_currency", default_currency)
             product["standard_rate"] = frappe.utils.fmt_money(product["item_price"], currency=currency)
+            if not product.get("image"):
+                product['image'] = '/assets/hopkins/img/no-image-250x250.png'
 
         return products
 
