@@ -54,6 +54,7 @@ class ProductQuery:
                 i.image,
                 i.standard_rate,
                 i.custom_oem_part_no,
+                i.description,
                 ip.price_list_rate AS item_price
             FROM `tabItem` i
             LEFT JOIN `tabItem Price` ip ON i.item_code = ip.item_code AND ip.selling = 1
@@ -87,7 +88,7 @@ def get_products():
 
 
 @frappe.whitelist(allow_guest=True)
-def get_product(category_route, item_route):
+def get_product():
     category_route = frappe.form_dict.get('category_route')
     item_route = frappe.form_dict.get('item_route')
 
@@ -99,3 +100,15 @@ def get_product(category_route, item_route):
     query = ProductQuery(filters=filters, limit=1)
     products = query.get_products(as_dict=True)
     return products[0]
+
+
+@frappe.whitelist(allow_guest=True)
+def get_similar_products(category):
+    print(category)
+    filters = {
+        "custom_publish_to_website": 1,
+        "item_group": category.get('name'),
+    }
+    query = ProductQuery(filters=filters, limit=5)
+    products = query.get_products(as_dict=True)
+    return products

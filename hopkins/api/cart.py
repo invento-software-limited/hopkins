@@ -102,7 +102,6 @@ def place_order(doc=None, cart_items=None):
             quotation.name, ignore_permissions=True
         )
     )
-    print(sales_order.taxes)
     sales_order.payment_schedule = []
 
     sales_order.flags.ignore_permissions = True
@@ -113,7 +112,10 @@ def place_order(doc=None, cart_items=None):
         frappe.local.cookie_manager.delete_cookie("cart_count")
         frappe.local.cookie_manager.delete_cookie("cart_total")
 
-    return sales_order.name
+    return {
+        "name": sales_order.name,
+        "items": sales_order.items
+    }
 
 
 def create_user(data):
