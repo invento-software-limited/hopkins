@@ -20,15 +20,6 @@
  {
   "docstatus": 0,
   "doctype": "Builder Client Script",
-  "modified": "2025-04-13 07:10:12.918077",
-  "name": "contact",
-  "public_url": "/files/page_scripts/JavaScript-754dd-77578bf5bc.js?v=4a3ffbd69a",
-  "script": "// Write your script here\ndocument.getElementById(\"contact-form\").addEventListener(\"submit\", async function(e) {\n  e.preventDefault();\n\n  const csrfToken = page_data.csrf_token;\n\n  const subject = document.querySelector('[name=\"subject\"]').value;\n  const sender = document.querySelector('[name=\"first_name\"]').value;\n  const message = document.querySelector('[name=\"message\"]').value;\n\n  const payload = {\n    cmd: \"frappe.www.contact.send_message\",\n    subject: subject,\n    sender: sender,\n    message: message\n  };\n\n  try {\n    const response = await fetch('/', {\n      method: 'POST',\n      headers: {\n        'Content-Type': 'application/json',\n        'X-Frappe-CSRF-Token': csrfToken\n      },\n      body: JSON.stringify(payload)\n    });\n\n    const result = await response.json();\n\n    if (response.status === 200) {\n      Toastify({\n        text: \"📩 Message sent successfully!\",\n        close: true,\n        gravity: \"top\",\n        position: \"center\",\n        stopOnFocus: true,\n        style: {\n          background: \"linear-gradient(to right, #00b09b, #96c93d)\",\n        }\n      }).showToast();\n      e.target.reset();\n    } else {\n      Toastify({\n        text: `❌ Failed to send message: ${result.message || 'Unknown error'}`,\n        close: true,\n        gravity: \"top\",\n        position: \"center\",\n        stopOnFocus: true,\n        style: {\n          background: \"linear-gradient(to right, #ff5f6d, #ffc371)\",\n        }\n      }).showToast();\n    }\n  } catch (error) {\n    console.error(\"Contact form error:\", error);\n    Toastify({\n      text: \"⚠️ An error occurred. Please try again later.\",\n      close: true,\n      gravity: \"top\",\n      position: \"center\",\n      stopOnFocus: true,\n      style: {\n        background: \"linear-gradient(to right, #f857a6, #ff5858)\",\n      }\n    }).showToast();\n  }\n});\n",
-  "script_type": "JavaScript"
- },
- {
-  "docstatus": 0,
-  "doctype": "Builder Client Script",
   "modified": "2025-04-13 06:47:28.756608",
   "name": "register",
   "public_url": "/files/page_scripts/JavaScript-c7d47-9dbf95331c.js?v=e588f4778e",
@@ -42,6 +33,15 @@
   "name": "login",
   "public_url": "/files/page_scripts/JavaScript-82328-cc74ac0dd4.js?v=b8b0b07ba0",
   "script": "document.getElementById(\"login_form\").addEventListener(\"submit\", function(e) {\n  e.preventDefault();\n\n  const email = document.querySelector('#login_form input[type=\"text\"]').value;\n  const password = document.querySelector('#login_form input[type=\"password\"]').value;\n\n  fetch('/api/method/login', {\n    method: 'POST',\n    headers: {\n      'Content-Type': 'application/json'\n    },\n    body: JSON.stringify({\n      usr: email,\n      pwd: password\n    })\n  })\n  .then(response => response.json())\n  .then(data => {\n    if (data.full_name) {\n      Toastify({\n        text: `👋 Welcome ${data.full_name}!`,\n        close: true,\n        gravity: \"top\",\n        position: \"center\",\n        stopOnFocus: true,\n        style: {\n          background: \"linear-gradient(to right, #00b09b, #96c93d)\",\n        }\n      }).showToast();\n\n      setTimeout(() => {\n        window.location.href = data.home_page || '/';\n      }, 1200); // small delay to show toast\n    } else {\n      Toastify({\n        text: \"❌ Invalid credentials. Please try again.\",\n        close: true,\n        gravity: \"top\",\n        position: \"center\",\n        stopOnFocus: true,\n        style: {\n          background: \"linear-gradient(to right, #ff5f6d, #ffc371)\",\n        }\n      }).showToast();\n    }\n  })\n  .catch(error => {\n    console.error('Login error:', error);\n    Toastify({\n      text: \"⚠️ An error occurred during login. Please try again later.\",\n      close: true,\n      gravity: \"top\",\n      position: \"center\",\n      stopOnFocus: true,\n      style: {\n        background: \"linear-gradient(to right, #f857a6, #ff5858)\",\n      }\n    }).showToast();\n  });\n});\n\n\nwindow.onload = function () {\n  if (page_data.user && page_data.user !== \"Guest\") {\n    const urlParams = new URLSearchParams(window.location.search);\n    const redirectTo = urlParams.get('redirect-to');\n\n    window.location.href = redirectTo || '/profile';\n  }\n};",
+  "script_type": "JavaScript"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Builder Client Script",
+  "modified": "2025-04-13 07:10:12.918077",
+  "name": "contact",
+  "public_url": "/files/page_scripts/JavaScript-754dd-77578bf5bc.js?v=4a3ffbd69a",
+  "script": "// Write your script here\ndocument.getElementById(\"contact-form\").addEventListener(\"submit\", async function(e) {\n  e.preventDefault();\n\n  const csrfToken = page_data.csrf_token;\n\n  const subject = document.querySelector('[name=\"subject\"]').value;\n  const sender = document.querySelector('[name=\"first_name\"]').value;\n  const message = document.querySelector('[name=\"message\"]').value;\n\n  const payload = {\n    cmd: \"frappe.www.contact.send_message\",\n    subject: subject,\n    sender: sender,\n    message: message\n  };\n\n  try {\n    const response = await fetch('/', {\n      method: 'POST',\n      headers: {\n        'Content-Type': 'application/json',\n        'X-Frappe-CSRF-Token': csrfToken\n      },\n      body: JSON.stringify(payload)\n    });\n\n    const result = await response.json();\n\n    if (response.status === 200) {\n      Toastify({\n        text: \"📩 Message sent successfully!\",\n        close: true,\n        gravity: \"top\",\n        position: \"center\",\n        stopOnFocus: true,\n        style: {\n          background: \"linear-gradient(to right, #00b09b, #96c93d)\",\n        }\n      }).showToast();\n      e.target.reset();\n    } else {\n      Toastify({\n        text: `❌ Failed to send message: ${result.message || 'Unknown error'}`,\n        close: true,\n        gravity: \"top\",\n        position: \"center\",\n        stopOnFocus: true,\n        style: {\n          background: \"linear-gradient(to right, #ff5f6d, #ffc371)\",\n        }\n      }).showToast();\n    }\n  } catch (error) {\n    console.error(\"Contact form error:\", error);\n    Toastify({\n      text: \"⚠️ An error occurred. Please try again later.\",\n      close: true,\n      gravity: \"top\",\n      position: \"center\",\n      stopOnFocus: true,\n      style: {\n        background: \"linear-gradient(to right, #f857a6, #ff5858)\",\n      }\n    }).showToast();\n  }\n});\n",
   "script_type": "JavaScript"
  },
  {
@@ -61,6 +61,15 @@
   "public_url": "/files/page_styles/CSS-7b272-dae3679343.css?v=d9580398aa",
   "script": "/* Write your CSS here */\n.truncate {\n  white-space: nowrap; \n  overflow: hidden; \n  text-overflow: ellipsis;\n}",
   "script_type": "CSS"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Builder Client Script",
+  "modified": "2025-04-13 11:18:36.599218",
+  "name": "shop",
+  "public_url": "/files/page_scripts/JavaScript-2332b-4846627fd0.js?v=fa757e31f1",
+  "script": "document.addEventListener('DOMContentLoaded', function () {\n  const originalDrawer = document.getElementById('category_drawer');\n  const drawerBtn = document.getElementById('category_drawer_btn');\n\n  // Create and append overlay\n  const overlay = document.createElement('div');\n  overlay.id = 'drawer_overlay';\n  document.body.appendChild(overlay);\n\n  // Clone the drawer\n  const drawer = originalDrawer.cloneNode(true);\n  drawer.id = 'category_drawer_clone';\n  drawer.style.display = 'block'; // ensure it's not display: none\n  document.body.appendChild(drawer);\n\n  // Style the cloned drawer\n  Object.assign(drawer.style, {\n    position: 'fixed',\n    top: '0',\n    left: '-300px', // initially hidden off-screen\n    width: '300px',\n    height: '100%',\n    background: '#fff',\n    boxShadow: '2px 0 10px rgba(0,0,0,0.1)',\n    transition: 'left 0.3s ease',\n    zIndex: '9999',\n    overflowY: 'auto',\n    display: 'block' // important to override inherited display: none\n  });\n\n  // Style overlay\n  Object.assign(overlay.style, {\n    position: 'fixed',\n    top: '0',\n    left: '0',\n    right: '0',\n    bottom: '0',\n    background: 'rgba(0,0,0,0.4)',\n    zIndex: '9998',\n    display: 'none'\n  });\n\n  // Show drawer\n  drawerBtn.addEventListener('click', () => {\n    drawer.style.left = '0';\n    overlay.style.display = 'block';\n  });\n\n  // Hide drawer\n  overlay.addEventListener('click', () => {\n    drawer.style.left = '-300px';\n    overlay.style.display = 'none';\n  });\n});\n",
+  "script_type": "JavaScript"
  },
  {
   "docstatus": 0,

@@ -46,6 +46,8 @@ def search_category(categories, category_route):
 
         for category in categories:
             if category.get("custom_route") == category_route:
+                if not category.get("image"):
+                    category["image"] = '/assets/hopkins/img/no-image-250x250.png'
                 return category
 
             if "subcategories" in category and category["subcategories"]:

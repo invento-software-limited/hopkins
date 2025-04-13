@@ -99,15 +99,17 @@ def get_product():
     }
     query = ProductQuery(filters=filters, limit=1)
     products = query.get_products(as_dict=True)
-    return products[0]
+    if len(products) > 0:
+        return products[0]
+    else:
+        return None
 
 
 @frappe.whitelist(allow_guest=True)
 def get_similar_products(category):
-    print(category)
     filters = {
         "custom_publish_to_website": 1,
-        "item_group": category.get('name'),
+        "item_group": category.get('name') if category else "",
     }
     query = ProductQuery(filters=filters, limit=5)
     products = query.get_products(as_dict=True)
