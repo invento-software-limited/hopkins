@@ -20,6 +20,15 @@
  {
   "docstatus": 0,
   "doctype": "Builder Client Script",
+  "modified": "2025-04-15 09:54:09.019987",
+  "name": "CSS-78204",
+  "public_url": "/files/page_styles/CSS-78204-7ec1198ea2.css?v=3bd947f49b",
+  "script": "/* Write your CSS here */\n",
+  "script_type": "CSS"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Builder Client Script",
   "modified": "2025-04-13 06:47:28.756608",
   "name": "register",
   "public_url": "/files/page_scripts/JavaScript-c7d47-9dbf95331c.js?v=e588f4778e",
@@ -74,10 +83,10 @@
  {
   "docstatus": 0,
   "doctype": "Builder Client Script",
-  "modified": "2025-04-06 07:10:35.880652",
+  "modified": "2025-04-15 07:26:36.326025",
   "name": "tab-css",
-  "public_url": "/files/page_styles/CSS-77938-70d2b4718f.css?v=2796eee7c4",
-  "script": "/* Write your CSS here */\n.tab {\n    display: none; \n}\n.tab.active { \n    display: block; \n}\n.tabs { \n    display: flex; \n    justify-content: space-around; \n    margin-bottom: 20px; \n}\n.tab-button { \n    padding: 10px; \n    cursor: pointer; \n    border: none; \n    background: #ddd; \n    border-radius: 10px;\n}\n.tab-button.active { \n    background: #2B3686; \n    color: white; \n}",
+  "public_url": "/files/page_styles/CSS-77938-70d2b4718f.css?v=3c1aa99d24",
+  "script": "/* Write your CSS here */\n.tab {\n    display: none; \n}\n.tab.active { \n    display: block; \n}\n.tabs { \n    display: flex; \n    justify-content: center; \n    margin-bottom: 20px; \n}\n.tab-button { \n    cursor: pointer; \n    border: none; \n    background: #ddd; \n    border-radius: 10px;\n}\n.tab-button.active { \n    background: #2B3686; \n    color: white; \n}",
   "script_type": "CSS"
  },
  {
