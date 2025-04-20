@@ -36,7 +36,6 @@ def get_categories():
     return category_tree
 
 
-
 @frappe.whitelist(allow_guest=True)
 def search_category(categories, category_route):
     """Recursively searches for a category by its custom_route."""
@@ -58,7 +57,7 @@ def search_category(categories, category_route):
 
 
 @frappe.whitelist(allow_guest=True)
-def get_products(category_name=None, page=1, limit=12):
+def get_products(category_name=None, page=1, limit=12, sort_by="Default"):
     """Returns paginated products for a given category name and its descendants."""
 
     if isinstance(page, str):
@@ -66,6 +65,16 @@ def get_products(category_name=None, page=1, limit=12):
 
     if isinstance(limit, str):
         limit = int(limit) if limit.isdigit() else 12
+
+    # Map sort options to SQL ORDER BY clauses
+    sort_map = {
+        "Default": "i.creation ASC",
+        "Price Low To High": "ip.price_list_rate ASC",
+        "Price High To Low": "ip.price_list_rate DESC",
+        "Alphabetical (A to Z)": "i.item_name ASC",
+        "Alphabetical (Z to A)": "i.item_name DESC"
+    }
+    order_by = sort_map.get(sort_by, "i.creation ASC")
 
     filters = {"custom_publish_to_website": 1}
     descendant_categories = []
@@ -86,14 +95,13 @@ def get_products(category_name=None, page=1, limit=12):
     if category_name:
         category = frappe.get_cached_doc("Item Group", category_name)
         if category:
-
             descendant_categories = get_descendant_categories(category.name)
             descendant_categories.append(category.name)
 
             if descendant_categories:
                 filters["item_group"] = ["in", descendant_categories]
 
-    query = ProductQuery(page=page, limit=limit, filters=filters)
+    query = ProductQuery(page=page, limit=limit, filters=filters, order_by=order_by)
     products = query.get_products(as_dict=True)
 
     total_products = frappe.db.count("Item", filters=filters)

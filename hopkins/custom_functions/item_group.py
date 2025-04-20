@@ -5,4 +5,5 @@ from erpnext.setup.doctype.item_group.item_group import ItemGroup
 class CustomItemGroup(ItemGroup):
     def validate(self):
         if not self.custom_route:
-            self.custom_route = "/shop/" + slug(self.item_group_name)
+            clean_name = self.item_group_name.replace("/", " ")
+            self.custom_route = "/shop/" + slug(clean_name)

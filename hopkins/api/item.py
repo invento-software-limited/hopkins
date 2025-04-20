@@ -2,12 +2,13 @@ import frappe
 
 
 class ProductQuery:
-    def __init__(self, page=1, limit=50000, filters=None):
+    def __init__(self, page=1, limit=50000, filters=None, order_by="i.creation ASC"):
         offset = (page - 1) * limit
         self.start = offset
         self.page_length = limit
         self.page = page
         self.filters = filters
+        self.order_by = order_by
 
     def validate_page(self):
         try:
@@ -52,14 +53,13 @@ class ProductQuery:
                 i.item_code,
                 i.custom_route,
                 i.image,
-                i.standard_rate,
                 i.custom_oem_part_no,
                 i.description,
                 ip.price_list_rate AS item_price
             FROM `tabItem` i
             LEFT JOIN `tabItem Price` ip ON i.item_code = ip.item_code AND ip.selling = 1
             WHERE {where_clause}
-            ORDER BY i.creation ASC
+            ORDER BY {self.order_by}
             LIMIT %s OFFSET %s
         """
 
