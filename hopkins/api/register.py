@@ -24,4 +24,9 @@ def register(doc):
         create_contact(doc, party.name)
         if address:
             update_address_with_customer(address.name, party.name)
+
+    if hasattr(frappe.local, "cookie_manager"):
+        frappe.local.cookie_manager.delete_cookie("cart_count")
+        frappe.local.cookie_manager.delete_cookie("cart_total")
+
     return user
