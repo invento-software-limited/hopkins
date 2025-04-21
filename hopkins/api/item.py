@@ -127,12 +127,17 @@ def update_products_route():
     existing_routes = set(x[0] for x in frappe.db.get_all("Item", fields=["custom_route"], as_list=True))
 
     for item in items:
-        group = item.item_group.replace("/", " ") if item.item_group else ""
+        if not item.item_group or not item.item_name:
+            continue
+
+        group_route = frappe.db.get_value("Item Group", item.item_group, "custom_route")
+        if not group_route:
+            group_route = f"/shop/{clean_slug(item.item_group)}"
+
         name = item.item_name.replace("/", " ") if item.item_name else ""
 
-        group_slug = clean_slug(group)
         name_slug = clean_slug(name)
-        base_route = f"/shop/{group_slug}/{name_slug}"
+        base_route = f"{group_route}/{name_slug}"
         route = base_route
 
         suffix = 1
