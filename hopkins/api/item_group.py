@@ -1,5 +1,5 @@
 import frappe
-from hopkins.api.item import ProductQuery
+from hopkins.api.item import ProductQuery, clean_slug
 
 
 @frappe.whitelist(allow_guest=True)
@@ -13,6 +13,7 @@ def get_categories():
         },
         fields=["name", "item_group_name", "custom_route", "custom_description", "image"]
     )
+
 
     def get_subcategories(parent_name):
         subcategories = frappe.get_all(
@@ -118,3 +119,33 @@ def get_products(category_name=None, page=1, limit=12, sort_by="Default"):
         "limit": limit,
         "total_products": total_products
     }
+
+
+def update_item_group_routes():
+    groups = frappe.get_all("Item Group", fields=["name", "item_group_name"])
+    existing_routes = set(x[0] for x in frappe.db.get_all("Item Group", fields=["custom_route"], as_list=True))
+
+    for group in groups:
+        name = group.item_group_name.replace("/", " ") if group.item_group_name else ""
+        name_slug = clean_slug(name)
+        base_route = f"/shop/{name_slug}"
+        route = base_route
+
+        suffix = 1
+        while route in existing_routes:
+            suffix += 1
+            route = f"{base_route}-{suffix}"
+        existing_routes.add(route)
+
+        frappe.db.set_value("Item Group", group.name, "custom_route", route)
+
+    frappe.db.commit()
+
+@frappe.whitelist()
+def enqueue_update_item_group_routes():
+    frappe.enqueue(
+        "hopkins.api.item_group.update_item_group_routes",
+        queue='long',
+        timeout=300
+    )
+    return "Queued background job to update item group routes."
