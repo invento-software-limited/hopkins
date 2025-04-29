@@ -1,75 +1,5 @@
 [
  {
-  "builder_script": "style.css",
-  "docstatus": 0,
-  "doctype": "Builder Page Client Script",
-  "modified": "2025-04-21 05:30:13.484792",
-  "name": "3cqmpn65j9",
-  "parent": "page-7c280dea",
-  "parentfield": "client_scripts",
-  "parenttype": "Builder Page"
- },
- {
-  "builder_script": "shop",
-  "docstatus": 0,
-  "doctype": "Builder Page Client Script",
-  "modified": "2025-04-21 11:26:39.827401",
-  "name": "77u39d64or",
-  "parent": "page-dd455797",
-  "parentfield": "client_scripts",
-  "parenttype": "Builder Page"
- },
- {
-  "builder_script": "profile-tab",
-  "docstatus": 0,
-  "doctype": "Builder Page Client Script",
-  "modified": "2025-04-21 11:19:25.977000",
-  "name": "thqnjdfl5a",
-  "parent": "page-66f29eb3",
-  "parentfield": "client_scripts",
-  "parenttype": "Builder Page"
- },
- {
-  "builder_script": "tab-css",
-  "docstatus": 0,
-  "doctype": "Builder Page Client Script",
-  "modified": "2025-04-21 10:56:16.059634",
-  "name": "m725pb04rj",
-  "parent": "page-91f3c6da",
-  "parentfield": "client_scripts",
-  "parenttype": "Builder Page"
- },
- {
-  "builder_script": "register",
-  "docstatus": 0,
-  "doctype": "Builder Page Client Script",
-  "modified": "2025-04-21 05:30:13.652135",
-  "name": "qgrt2p6hdk",
-  "parent": "page-10cc9625",
-  "parentfield": "client_scripts",
-  "parenttype": "Builder Page"
- },
- {
-  "builder_script": "login",
-  "docstatus": 0,
-  "doctype": "Builder Page Client Script",
-  "modified": "2025-04-21 10:53:21.052094",
-  "name": "ocsn8h6ih6",
-  "parent": "page-4c0af03a",
-  "parentfield": "client_scripts",
-  "parenttype": "Builder Page"
- },
- {
-  "builder_script": "contact",
-  "docstatus": 0,
-  "doctype": "Builder Page Client Script",
-  "modified": "2025-04-21 05:30:13.700901",
-  "name": "0vnhsbflsc",
-  "parent": "page-971f6448",
-  "parentfield": "client_scripts",
-  "parenttype": "Builder Page"
- },
- {
   "builder_script": "forgot-password",
   "docstatus": 0,
   "doctype": "Builder Page Client Script",
@@ -83,8 +13,88 @@
   "builder_script": "style.css",
   "docstatus": 0,
   "doctype": "Builder Page Client Script",
-  "modified": "2025-04-21 11:26:39.827401",
-  "name": "nvtu2jug83",
+  "modified": "2025-04-29 07:31:18.585412",
+  "name": "nng651rrds",
+  "parent": "page-7c280dea",
+  "parentfield": "client_scripts",
+  "parenttype": "Builder Page"
+ },
+ {
+  "builder_script": "shop",
+  "docstatus": 0,
+  "doctype": "Builder Page Client Script",
+  "modified": "2025-04-29 09:03:52.527309",
+  "name": "nnh7f61a3c",
+  "parent": "page-dd455797",
+  "parentfield": "client_scripts",
+  "parenttype": "Builder Page"
+ },
+ {
+  "builder_script": "profile-tab",
+  "docstatus": 0,
+  "doctype": "Builder Page Client Script",
+  "modified": "2025-04-29 07:21:25.024115",
+  "name": "nnhpqcgdv2",
+  "parent": "page-66f29eb3",
+  "parentfield": "client_scripts",
+  "parenttype": "Builder Page"
+ },
+ {
+  "builder_script": "tab-css",
+  "docstatus": 0,
+  "doctype": "Builder Page Client Script",
+  "modified": "2025-04-29 07:21:25.108555",
+  "name": "nni3l2t0hi",
+  "parent": "page-91f3c6da",
+  "parentfield": "client_scripts",
+  "parenttype": "Builder Page"
+ },
+ {
+  "builder_script": "register",
+  "docstatus": 0,
+  "doctype": "Builder Page Client Script",
+  "modified": "2025-04-29 07:21:25.164260",
+  "name": "nnjt5qcftk",
+  "parent": "page-10cc9625",
+  "parentfield": "client_scripts",
+  "parenttype": "Builder Page"
+ },
+ {
+  "builder_script": "login",
+  "docstatus": 0,
+  "doctype": "Builder Page Client Script",
+  "modified": "2025-04-29 07:21:25.228277",
+  "name": "nnkc2mpej9",
+  "parent": "page-4c0af03a",
+  "parentfield": "client_scripts",
+  "parenttype": "Builder Page"
+ },
+ {
+  "builder_script": "contact",
+  "docstatus": 0,
+  "doctype": "Builder Page Client Script",
+  "modified": "2025-04-29 09:07:41.905841",
+  "name": "nnkcd6qtkt",
+  "parent": "page-971f6448",
+  "parentfield": "client_scripts",
+  "parenttype": "Builder Page"
+ },
+ {
+  "builder_script": "forgot-password",
+  "docstatus": 0,
+  "doctype": "Builder Page Client Script",
+  "modified": "2025-04-29 07:21:25.741685",
+  "name": "nnpsc78uja",
+  "parent": "page-bd72e6c4",
+  "parentfield": "client_scripts",
+  "parenttype": "Builder Page"
+ },
+ {
+  "builder_script": "style.css",
+  "docstatus": 0,
+  "doctype": "Builder Page Client Script",
+  "modified": "2025-04-29 09:03:52.527309",
+  "name": "nnh0ialja2",
   "parent": "page-dd455797",
   "parentfield": "client_scripts",
   "parenttype": "Builder Page"
@@ -93,8 +103,8 @@
   "builder_script": "profile-js",
   "docstatus": 0,
   "doctype": "Builder Page Client Script",
-  "modified": "2025-04-21 11:19:25.977000",
-  "name": "pib34eebe2",
+  "modified": "2025-04-29 07:21:25.024821",
+  "name": "nnhcets02o",
   "parent": "page-66f29eb3",
   "parentfield": "client_scripts",
   "parenttype": "Builder Page"
@@ -103,8 +113,8 @@
   "builder_script": "checkout",
   "docstatus": 0,
   "doctype": "Builder Page Client Script",
-  "modified": "2025-04-21 10:56:16.059634",
-  "name": "t2l1ni6tfh",
+  "modified": "2025-04-29 07:21:25.109277",
+  "name": "nni7m5q747",
   "parent": "page-91f3c6da",
   "parentfield": "client_scripts",
   "parenttype": "Builder Page"
