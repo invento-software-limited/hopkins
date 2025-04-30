@@ -180,7 +180,8 @@ override_doctype_class = {
 # ------------------------------
 #
 override_whitelisted_methods = {
-	"builder_ecommerce.cart.place_order": "hopkins.api.cart.place_order"
+	"builder_ecommerce.cart.place_order": "hopkins.api.cart.place_order",
+    "frappe.email.doctype.newsletter.newsletter.subscribe": "hopkins.api.newsletter.subscribe"
 }
 #
 # each overriding function accepts a `data` argument;
