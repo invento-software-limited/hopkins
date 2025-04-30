@@ -1,11 +1,9 @@
 [
  {
   "auto_convert_images_to_webp": 1,
-  "body_html": null,
   "docstatus": 0,
   "doctype": "Builder Settings",
   "favicon": null,
-  "head_html": null,
   "home_page": "home",
   "modified": "2025-03-05 06:23:11.217767",
   "name": "Builder Settings",
