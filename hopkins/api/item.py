@@ -1,6 +1,9 @@
 import re
 import frappe
 
+def snake_case_slug(text):
+    text = re.sub(r"[^\w]+", "_", text)
+    return text.lower().strip("_")
 
 class ProductQuery:
     def __init__(self, page=1, limit=50000, filters=None, order_by="i.creation ASC"):
@@ -52,7 +55,9 @@ class ProductQuery:
                 i.name,
                 i.item_name,
                 i.item_code,
+                i.item_group,
                 i.custom_route,
+                i.brand,
                 i.image,
                 i.custom_oem_part_no,
                 i.description,
@@ -79,6 +84,44 @@ class ProductQuery:
                 product['image'] = '/assets/hopkins/img/no-image-250x250.png'
 
         return products
+
+
+@frappe.whitelist(allow_guest=True)
+def get_products_data():
+    query = ProductQuery()
+    products = query.get_products(as_dict=True)
+
+    category_wise_product_dict = {}
+    category_slug_label_map = {}
+
+    brand_wise_product_dict = {}
+    brand_slug_label_map = {}
+
+    for product in products:
+        category_name = frappe.db.get_value("Item Group", product.item_group, "item_group_name")
+        category_slug = snake_case_slug(category_name) if category_name else "unknown_category"
+
+        category_slug_label_map[category_slug] = category_name or "Unknown Category"
+
+        if category_slug not in category_wise_product_dict:
+            category_wise_product_dict[category_slug] = []
+        category_wise_product_dict[category_slug].append(product)
+
+        brand_name = product.get("brand") or "Unknown Brand"
+        brand_slug = snake_case_slug(brand_name)
+
+        brand_slug_label_map[brand_slug] = brand_name
+
+        if brand_slug not in brand_wise_product_dict:
+            brand_wise_product_dict[brand_slug] = []
+        brand_wise_product_dict[brand_slug].append(product)
+
+    products_data = {
+        "products": products,
+        "category_wise_product_dict": category_wise_product_dict,
+        "brand_wise_product_dict": brand_wise_product_dict,
+    }
+    return products_data
 
 
 @frappe.whitelist(allow_guest=True)
@@ -121,6 +164,7 @@ def get_similar_products(category):
 def enqueue_update_products_route():
     frappe.enqueue("hopkins.api.item.update_products_route", queue='long', timeout=300)
     return "Queued background job to update product routes."
+
 
 def update_products_route():
     items = frappe.get_all("Item", fields=["name", "item_group", "item_name"])
