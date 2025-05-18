@@ -15,7 +15,7 @@ export default defineConfig({
 		},
 	},
 	build: {
-		outDir: `../builder/public/frontend`,
+		outDir: `../hopkins/public/frontend`,
 		emptyOutDir: true,
 		target: "es2015",
 		sourcemap: true,
