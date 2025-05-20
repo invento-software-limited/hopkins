@@ -105,7 +105,8 @@ def get_products_data():
 
         if category_slug not in category_wise_product_dict:
             category_wise_product_dict[category_slug] = []
-        category_wise_product_dict[category_slug].append(product)
+        if len(category_wise_product_dict[category_slug]) < 10:
+            category_wise_product_dict[category_slug].append(product)
 
         brand_name = product.get("brand") or "Unknown Brand"
         brand_slug = snake_case_slug(brand_name)
@@ -114,7 +115,8 @@ def get_products_data():
 
         if brand_slug not in brand_wise_product_dict:
             brand_wise_product_dict[brand_slug] = []
-        brand_wise_product_dict[brand_slug].append(product)
+        if len(brand_wise_product_dict[brand_slug]) < 10:
+            brand_wise_product_dict[brand_slug].append(product)
 
     products_data = {
         "products": products,
