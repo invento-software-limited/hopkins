@@ -4,4 +4,7 @@
 *.swp
 tags
 node_modules
-__pycache__
+hopkins/public/frontend
+hopkins/public/page_scripts
+hopkins/public/page_styles
+hopkins/www/_builder.html
