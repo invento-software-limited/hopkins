@@ -1,13 +1,13 @@
 [
  {
   "auto_convert_images_to_webp": 1,
-  "body_html": null,
+  "body_html": "",
   "docstatus": 0,
   "doctype": "Builder Settings",
   "favicon": null,
-  "head_html": null,
+  "head_html": "",
   "home_page": "home",
-  "modified": "2025-03-05 06:23:11.217767",
+  "modified": "2025-06-23 06:13:14.020317",
   "name": "Builder Settings",
   "script": "",
   "script_public_url": "",
