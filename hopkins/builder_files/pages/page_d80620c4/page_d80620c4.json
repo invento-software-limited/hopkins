@@ -22,7 +22,7 @@
      "baseStyles": {},
      "blockClientScript": "",
      "blockDataScript": "",
-     "blockId": "xj49j56tk",
+     "blockId": "ashzylg7l",
      "blockName": null,
      "children": [
       {
@@ -30,7 +30,7 @@
        "baseStyles": {},
        "blockClientScript": "",
        "blockDataScript": "",
-       "blockId": "78b58fe4",
+       "blockId": "1ss01dysc",
        "blockName": "container",
        "children": [
         {
@@ -38,7 +38,7 @@
          "baseStyles": {},
          "blockClientScript": "",
          "blockDataScript": "",
-         "blockId": "ec5ee241",
+         "blockId": "frrgjiy8l",
          "blockName": null,
          "children": [
           {
@@ -46,7 +46,7 @@
            "baseStyles": {},
            "blockClientScript": "",
            "blockDataScript": "",
-           "blockId": "6ecb1f85",
+           "blockId": "nrd6rycf2",
            "blockName": null,
            "children": [
             {
@@ -54,7 +54,7 @@
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
-             "blockId": "0357e594",
+             "blockId": "qvl29ubvb",
              "blockName": "container",
              "children": [
               {
@@ -62,7 +62,7 @@
                "baseStyles": {},
                "blockClientScript": "",
                "blockDataScript": "",
-               "blockId": "f820bd95",
+               "blockId": "fducb01wf",
                "blockName": null,
                "children": null,
                "classes": [],
@@ -92,13 +92,15 @@
              "draggable": false,
              "dynamicValues": [],
              "element": null,
-             "elementBeforeConversion": "div",
+             "elementBeforeConversion": null,
              "extendedFromComponent": null,
              "innerHTML": null,
              "innerText": null,
              "isChildOfComponent": "d43488f0fe3df2d5",
              "isRepeaterBlock": false,
-             "mobileStyles": {},
+             "mobileStyles": {
+              "position": "relative"
+             },
              "originalElement": null,
              "props": {},
              "rawStyles": {},
@@ -119,7 +121,9 @@
            "innerText": null,
            "isChildOfComponent": "d43488f0fe3df2d5",
            "isRepeaterBlock": false,
-           "mobileStyles": {},
+           "mobileStyles": {
+            "position": "relative"
+           },
            "originalElement": "",
            "props": {},
            "rawStyles": {},
@@ -132,7 +136,7 @@
            "baseStyles": {},
            "blockClientScript": "",
            "blockDataScript": "",
-           "blockId": "6087142e",
+           "blockId": "5s8wsl47k",
            "blockName": null,
            "children": [
             {
@@ -140,7 +144,7 @@
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
-             "blockId": "ddc9d927",
+             "blockId": "1u2ywgqfu",
              "blockName": null,
              "children": null,
              "classes": [],
@@ -168,7 +172,7 @@
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
-             "blockId": "041cdec8",
+             "blockId": "0x3slxfpr",
              "blockName": null,
              "children": null,
              "classes": [],
@@ -196,7 +200,7 @@
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
-             "blockId": "4d2991e1",
+             "blockId": "u9j4cm8iw",
              "blockName": null,
              "children": null,
              "classes": [],
@@ -266,7 +270,7 @@
          "baseStyles": {},
          "blockClientScript": "",
          "blockDataScript": "",
-         "blockId": "9ac6d26c",
+         "blockId": "trggn36jl",
          "blockName": null,
          "children": [
           {
@@ -274,7 +278,7 @@
            "baseStyles": {},
            "blockClientScript": "",
            "blockDataScript": "",
-           "blockId": "e3723c0d",
+           "blockId": "4qcoch2xc",
            "blockName": null,
            "children": [
             {
@@ -282,7 +286,7 @@
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
-             "blockId": "129d45a4",
+             "blockId": "jd8f45hjv",
              "blockName": null,
              "children": null,
              "classes": [],
@@ -310,7 +314,7 @@
              "baseStyles": {},
              "blockClientScript": "",
              "blockDataScript": "",
-             "blockId": "83834f8d",
+             "blockId": "9wjr2zr4h",
              "blockName": null,
              "children": null,
              "classes": [],
@@ -359,7 +363,7 @@
            "baseStyles": {},
            "blockClientScript": "",
            "blockDataScript": "",
-           "blockId": "51151e5b",
+           "blockId": "a3js0e7jf",
            "blockName": null,
            "children": null,
            "classes": [],
@@ -387,7 +391,7 @@
            "baseStyles": {},
            "blockClientScript": "",
            "blockDataScript": "",
-           "blockId": "c23e8e65",
+           "blockId": "yp4zlafq0",
            "blockName": null,
            "children": null,
            "classes": [],
@@ -436,7 +440,7 @@
          "baseStyles": {},
          "blockClientScript": "",
          "blockDataScript": "",
-         "blockId": "5ef5a40a",
+         "blockId": "hx9v90mv5",
          "blockName": null,
          "children": [
           {
@@ -444,7 +448,7 @@
            "baseStyles": {},
            "blockClientScript": "",
            "blockDataScript": "",
-           "blockId": "3f0a153e",
+           "blockId": "y8z9j81pz",
            "blockName": null,
            "children": null,
            "classes": [],
@@ -472,7 +476,7 @@
            "baseStyles": {},
            "blockClientScript": "",
            "blockDataScript": "",
-           "blockId": "4da7167b",
+           "blockId": "ekffacs1e",
            "blockName": null,
            "children": null,
            "classes": [],
@@ -529,7 +533,9 @@
        "innerText": null,
        "isChildOfComponent": "d43488f0fe3df2d5",
        "isRepeaterBlock": false,
-       "mobileStyles": {},
+       "mobileStyles": {
+        "position": "relative"
+       },
        "originalElement": null,
        "props": {},
        "rawStyles": {},
@@ -550,7 +556,9 @@
      "innerText": null,
      "isChildOfComponent": null,
      "isRepeaterBlock": false,
-     "mobileStyles": {},
+     "mobileStyles": {
+      "position": "relative"
+     },
      "originalElement": "",
      "props": {},
      "rawStyles": {},
@@ -889,7 +897,9 @@
            "visibilityCondition": null
           }
          ],
-         "classes": [],
+         "classes": [
+          "fade-3d from-top delay-1"
+         ],
          "customAttributes": {},
          "dataKey": null,
          "draggable": false,
@@ -902,10 +912,10 @@
          "isChildOfComponent": null,
          "isRepeaterBlock": false,
          "mobileStyles": {
-          "bottom": "auto",
-          "left": "auto",
+          "bottom": "0px",
+          "left": "0px",
           "marginTop": "30px",
-          "position": "relative",
+          "position": "absolute",
           "width": "100%"
          },
          "originalElement": "",
@@ -936,7 +946,8 @@
        "isRepeaterBlock": false,
        "mobileStyles": {
         "paddingLeft": "16px",
-        "paddingRight": "16px"
+        "paddingRight": "16px",
+        "position": "relative"
        },
        "originalElement": null,
        "props": {},
@@ -1021,7 +1032,9 @@
          "blockId": "vqtuug202",
          "blockName": "Main Heading",
          "children": null,
-         "classes": [],
+         "classes": [
+          "fade-3d from-left delay-1"
+         ],
          "customAttributes": {},
          "dataKey": null,
          "draggable": false,
@@ -1029,7 +1042,7 @@
          "element": "h1",
          "elementBeforeConversion": null,
          "extendedFromComponent": null,
-         "innerHTML": "Not your average<br>blinds supplier.",
+         "innerHTML": "Not your average\nblinds supplier.",
          "innerText": null,
          "isChildOfComponent": null,
          "isRepeaterBlock": false,
@@ -1294,7 +1307,9 @@
          "visibilityCondition": null
         }
        ],
-       "classes": [],
+       "classes": [
+        "fade-3d from-right delay-1"
+       ],
        "customAttributes": {},
        "dataKey": null,
        "draggable": false,
@@ -1388,7 +1403,9 @@
          "blockId": "img-tall",
          "blockName": "Tall Worker Image",
          "children": null,
-         "classes": [],
+         "classes": [
+          "fade-3d from-bottom delay-1"
+         ],
          "customAttributes": {},
          "dataKey": null,
          "draggable": false,
@@ -1722,7 +1739,9 @@
          "visibilityCondition": null
         }
        ],
-       "classes": [],
+       "classes": [
+        "fade-3d from-right delay-1"
+       ],
        "customAttributes": {},
        "dataKey": null,
        "draggable": false,
@@ -1911,7 +1930,9 @@
          "visibilityCondition": null
         }
        ],
-       "classes": [],
+       "classes": [
+        "fade-3d from-top delay-1"
+       ],
        "customAttributes": {},
        "dataKey": null,
        "draggable": false,
@@ -6460,7 +6481,9 @@
          "visibilityCondition": null
         }
        ],
-       "classes": [],
+       "classes": [
+        "fade-3d from-bottom delay-1"
+       ],
        "customAttributes": {},
        "dataKey": null,
        "draggable": false,
@@ -6556,7 +6579,9 @@
            "blockId": "team-title",
            "blockName": "Team Title",
            "children": null,
-           "classes": [],
+           "classes": [
+            "fade-3d from-left delay-1"
+           ],
            "customAttributes": {},
            "dataKey": null,
            "draggable": false,
@@ -6564,7 +6589,7 @@
            "element": "h1",
            "elementBeforeConversion": null,
            "extendedFromComponent": null,
-           "innerHTML": "The Hopkins<br>team",
+           "innerHTML": "The Hopkins\nteam",
            "innerText": null,
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
@@ -6676,7 +6701,9 @@
            "visibilityCondition": null
           }
          ],
-         "classes": [],
+         "classes": [
+          "fade-3d from-right delay-1"
+         ],
          "customAttributes": {},
          "dataKey": null,
          "draggable": false,
@@ -7925,7 +7952,9 @@
          "visibilityCondition": null
         }
        ],
-       "classes": [],
+       "classes": [
+        "fade-3d from-bottom delay-1"
+       ],
        "customAttributes": {},
        "dataKey": null,
        "draggable": false,
@@ -9390,13 +9419,13 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-06-04 11:51:16.257674",
+ "modified": "2026-06-04 14:47:47.131747",
  "modified_by": "Administrator",
  "name": "page-d80620c4",
  "owner": "Administrator",
  "page_name": "page-d80620c4",
  "page_title": "About US",
- "preview": "/files/page-d80620c4-preview.webp?v=a6fbc",
+ "preview": "/files/page-d80620c4-preview.webp?v=04d5e",
  "project_folder": "hopkins",
  "published": 1,
  "route": "about-us"

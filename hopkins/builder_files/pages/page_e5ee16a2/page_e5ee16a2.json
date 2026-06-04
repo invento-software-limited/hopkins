@@ -109,7 +109,7 @@
                "draggable": false,
                "dynamicValues": [],
                "element": null,
-               "elementBeforeConversion": "div",
+               "elementBeforeConversion": null,
                "extendedFromComponent": null,
                "innerHTML": null,
                "innerText": null,
@@ -905,7 +905,9 @@
              "visibilityCondition": null
             }
            ],
-           "classes": [],
+           "classes": [
+            "fade-3d from-bottom delay-1"
+           ],
            "customAttributes": {},
            "dataKey": null,
            "draggable": false,
@@ -1107,7 +1109,9 @@
              "blockId": "tzjm1atl1",
              "blockName": "Contact Image",
              "children": null,
-             "classes": [],
+             "classes": [
+              "fade-3d from-left delay-1"
+             ],
              "customAttributes": {},
              "dataKey": null,
              "draggable": false,
@@ -2238,7 +2242,9 @@
            "visibilityCondition": null
           }
          ],
-         "classes": [],
+         "classes": [
+          "fade-3d from-right delay-2"
+         ],
          "customAttributes": {},
          "dataKey": null,
          "draggable": false,
@@ -2399,7 +2405,9 @@
            "visibilityCondition": null
           }
          ],
-         "classes": [],
+         "classes": [
+          "fade-3d from-left delay-1"
+         ],
          "customAttributes": {},
          "dataKey": null,
          "draggable": false,
@@ -2933,7 +2941,9 @@
            "visibilityCondition": null
           }
          ],
-         "classes": [],
+         "classes": [
+          "fade-3d from-right delay-1"
+         ],
          "customAttributes": {
           "id": "contact-form"
          },
@@ -4470,14 +4480,14 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-06-04 11:51:16.226023",
+ "modified": "2026-06-04 14:47:47.167840",
  "modified_by": "Administrator",
  "name": "page-e5ee16a2",
  "owner": "Administrator",
  "page_data_script": "csrf = frappe.session.csrf_token\n\ndata.page_data = {\n  \"csrf\" : csrf\n}",
  "page_name": "page-e5ee16a2",
  "page_title": "Contact Us",
- "preview": "/files/page-e5ee16a2-preview.webp?v=52841",
+ "preview": "/files/page-e5ee16a2-preview.webp?v=a6c96",
  "project_folder": "hopkins",
  "published": 1,
  "route": "contact-us"
