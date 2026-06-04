@@ -1,8 +1,9 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "field:client_name",
- "creation": "2026-06-03 16:30:00.000000",
+ "creation": "2026-06-03 16:30:00",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
@@ -23,7 +24,6 @@
   {
    "fieldname": "logo",
    "fieldtype": "Attach Image",
-   "in_list_view": 1,
    "label": "Logo",
    "reqd": 1
   },
@@ -34,10 +34,11 @@
   }
  ],
  "links": [],
- "modified": "2026-06-03 16:30:00.000000",
+ "modified": "2026-06-04 12:21:59.876891",
  "modified_by": "Administrator",
  "module": "Hopkins",
  "name": "Trusted Client",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -58,6 +59,7 @@
   }
  ],
  "quick_entry": 1,
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
  "states": [],

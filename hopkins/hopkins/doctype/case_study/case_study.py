@@ -4,7 +4,7 @@
 import re
 
 import frappe
-from frappe.website.website_generator import WebsiteGenerator
+from frappe.model.document import Document
 
 
 def slugify(text):
@@ -22,7 +22,7 @@ def slugify(text):
 	return slug.strip("-")
 
 
-class CaseStudy(WebsiteGenerator):
+class CaseStudy(Document):
 	def validate(self):
 		if self.title:
 			self.route = slugify(self.title)

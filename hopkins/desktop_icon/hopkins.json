@@ -1,6 +1,6 @@
 {
  "app": "hopkins",
- "bg_color": "gray",
+ "bg_color": "blue",
  "creation": "2026-06-04 11:53:56.501458",
  "docstatus": 0,
  "doctype": "Desktop Icon",
@@ -11,7 +11,8 @@
  "label": "Hopkins",
  "link_to": "Hopkins",
  "link_type": "Workspace Sidebar",
- "modified": "2026-06-04 11:53:56.501458",
+ "logo_url": "/assets/hopkins/img/logo.png",
+ "modified": "2026-06-04 12:25:14.253399",
  "modified_by": "Administrator",
  "name": "Hopkins",
  "owner": "Administrator",
