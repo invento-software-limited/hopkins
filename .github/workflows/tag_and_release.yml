@@ -3,7 +3,6 @@ name: Auto Tag and Release
 on:
   push:
     branches:
-      - develop
       - version-16
 
 permissions:
