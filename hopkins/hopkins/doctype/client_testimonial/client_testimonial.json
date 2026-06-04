@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "hash",
  "creation": "2026-06-03 16:50:00",
@@ -43,7 +44,7 @@
   }
  ],
  "links": [],
- "modified": "2026-06-03 16:53:43.013709",
+ "modified": "2026-06-04 12:22:24.796411",
  "modified_by": "Administrator",
  "module": "Hopkins",
  "name": "Client Testimonial",
