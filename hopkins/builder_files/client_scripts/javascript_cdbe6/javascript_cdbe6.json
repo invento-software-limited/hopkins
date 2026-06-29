@@ -1,13 +1,13 @@
 {
- "creation": "2026-06-03 16:45:49.031574",
+ "creation": "2026-06-28 11:36:15.554924",
  "docstatus": 0,
  "doctype": "Builder Client Script",
- "idx": 21,
+ "idx": 31,
  "modified": "2026-06-03 17:25:03.283008",
  "modified_by": "Administrator",
  "name": "JavaScript-cdbe6",
  "owner": "Administrator",
- "public_url": "/files/page_scripts/JavaScript-cdbe6-d31dfbb1cf.js?v=8b8b377b0b",
+ "public_url": "/files/page_scripts/JavaScript-cdbe6-d31dfbb1cf.js?v=9e62cbafa8",
  "script": "\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n    const logoTrack = document.querySelector(\".logo-track\");\n\n    // Duplicate logos for seamless looping\n    logoTrack.innerHTML += logoTrack.innerHTML;\n\n    let position = 0;\n    const speed = 1; // Increase for faster scrolling\n\n    function animate() {\n        position -= speed;\n\n        if (Math.abs(position) >= logoTrack.scrollWidth / 2) {\n            position = 0;\n        }\n\n        logoTrack.style.transform = `translateX(${position}px)`;\n        requestAnimationFrame(animate);\n    }\n\n    animate();\n  \n    const track = document.querySelector(\".testimonial-track\");\n    const slides = document.querySelectorAll(\".testimonial-slide\");\n    const prevBtn = document.querySelector(\".testimonial-prev\");\n    const nextBtn = document.querySelector(\".testimonial-next\");\n\n    let currentIndex = 0;\n    const totalSlides = slides.length;\n\n    function goToSlide(index) {\n        currentIndex = index;\n\n        if (currentIndex >= totalSlides) {\n            currentIndex = 0;\n        }\n\n        if (currentIndex < 0) {\n            currentIndex = totalSlides - 1;\n        }\n\n        track.style.transform =\n            `translateX(-${currentIndex * 100}%)`;\n    }\n\n    nextBtn.addEventListener(\"click\", () => {\n        goToSlide(currentIndex + 1);\n        resetAutoSlide();\n    });\n\n    prevBtn.addEventListener(\"click\", () => {\n        goToSlide(currentIndex - 1);\n        resetAutoSlide();\n    });\n\n    let autoSlide = setInterval(() => {\n        goToSlide(currentIndex + 1);\n    }, 5000);\n\n    function resetAutoSlide() {\n        clearInterval(autoSlide);\n\n        autoSlide = setInterval(() => {\n            goToSlide(currentIndex + 1);\n        }, 5000);\n    }\n\n    // Pause on hover\n    const slider = document.querySelector(\".testimonial-slider\");\n\n    slider.addEventListener(\"mouseenter\", () => {\n        clearInterval(autoSlide);\n    });\n\n    slider.addEventListener(\"mouseleave\", () => {\n        resetAutoSlide();\n    });\n});",
  "script_type": "JavaScript"
 }

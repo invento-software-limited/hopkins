@@ -1,13 +1,13 @@
 {
- "creation": "2026-06-03 16:44:16.703768",
+ "creation": "2026-06-28 11:36:15.541958",
  "docstatus": 0,
  "doctype": "Builder Client Script",
- "idx": 27,
+ "idx": 40,
  "modified": "2026-06-03 17:58:23.866952",
  "modified_by": "Administrator",
  "name": "CSS-c1e44",
  "owner": "Administrator",
- "public_url": "/files/page_styles/CSS-c1e44-6b2a8b08af.css?v=accd63fd39",
+ "public_url": "/files/page_styles/CSS-c1e44-6b2a8b08af.css?v=d29a9392fc",
  "script": "/* Write your CSS here */\n.logo-slider {\n    overflow: hidden;\n    width: 100%;\n    position: relative;\n}\n\n.logo-track {\n    display: flex;\n    align-items: center;\n    gap: 40px;\n    width: max-content;\n}\n\n.logo-track .logo-item {\n    flex-shrink: 0;\n}\n.testimonial-slider {\n    overflow: hidden;\n    width: 100%;\n    position: relative;\n}\n\n.testimonial-track {\n    display: flex;\n    flex-wrap: nowrap;\n    transition: transform 0.5s ease;\n}\n\n.testimonial-slide {\n    flex: 0 0 100%;\n    width: 100%;\n    box-sizing: border-box;\n}\n\n.testimonial-prev,\n.testimonial-next {\n    cursor: pointer;\n}",
  "script_type": "CSS"
 }
