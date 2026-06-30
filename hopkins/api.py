@@ -57,7 +57,13 @@ def get_products(page: int = 1, page_length: int = 8, search: str | None = None,
 	start = (page - 1) * page_length
 
 	pq = ProductQuery()
-	res = pq.query(filters={"page_length": page_length}, search_term=search, start=start, item_group=category)
+	try:
+		res = pq.query(
+			filters={"page_length": page_length}, search_term=search, start=start, item_group=category
+		)
+	except Exception as e:
+		frappe.log_error(message=f"ProductQuery failed: {e}", title="get_products")
+		return {"error": True, "message": "Failed to fetch products. Please try again."}
 
 	items = res.get("items", [])
 	total_count = res.get("items_count", 0)
