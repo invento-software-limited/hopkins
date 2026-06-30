@@ -39,3 +39,48 @@ def subscribe_newsletter(email, first_name=None):
 	member_doc.insert(ignore_permissions=True)
 
 	return {"status": "success", "message": "Thank you for subscribing!"}
+
+
+@frappe.whitelist(allow_guest=True)
+def get_products(page: int = 1, page_length: int = 8, search: str | None = None, category: str | None = None):
+	import math
+
+	from invento_webshop.webshop_functions.items import ProductQuery
+
+	try:
+		page = int(page)
+		page_length = int(page_length)
+	except ValueError:
+		page = 1
+		page_length = 8
+
+	start = (page - 1) * page_length
+
+	pq = ProductQuery()
+	res = pq.query(filters={"page_length": page_length}, search_term=search, start=start, item_group=category)
+
+	items = res.get("items", [])
+	total_count = res.get("items_count", 0)
+	total_pages = math.ceil(total_count / page_length) if total_count else 1
+
+	products = []
+	for item in items:
+		price = item.get("price_list_rate") or 0.0
+		products.append(
+			{
+				"item_code": item.item_code,
+				"item_name": item.item_name,
+				"image": item.image or "https://placehold.co/400x300",
+				"description": item.description,
+				"price": price,
+				"price_formatted": f"£{price:,.2f}",
+				"stock_code_formatted": f"Stock Code: {item.item_code}",
+			}
+		)
+
+	return {
+		"products": products,
+		"total_pages": total_pages,
+		"current_page": page,
+		"total_products": total_count,
+	}
