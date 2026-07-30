@@ -980,12 +980,16 @@
            "innerHTML": "Let’s get started",
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
-           "mobileStyles": {},
+           "mobileStyles": {
+            "fontSize": "23px"
+           },
            "originalElement": "",
            "props": {},
            "rawStyles": {},
            "referenceBlockId": null,
-           "tabletStyles": {},
+           "tabletStyles": {
+            "fontSize": "28px"
+           },
            "visibilityCondition": null
           }
          ],
@@ -1245,10 +1249,16 @@
      "dataKey": null,
      "dynamicValues": [],
      "element": "div",
-     "mobileStyles": {},
+     "mobileStyles": {
+      "paddingBottom": "20px",
+      "paddingTop": "20px"
+     },
      "props": {},
      "rawStyles": {},
-     "tabletStyles": {}
+     "tabletStyles": {
+      "paddingBottom": "32px",
+      "paddingTop": "32px"
+     }
     },
     {
      "activeState": null,

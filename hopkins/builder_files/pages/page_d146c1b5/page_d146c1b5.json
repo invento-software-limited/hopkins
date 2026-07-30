@@ -2237,12 +2237,16 @@
            "innerHTML": "Above average",
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
-           "mobileStyles": {},
+           "mobileStyles": {
+            "fontSize": "23px"
+           },
            "originalElement": "",
            "props": {},
            "rawStyles": {},
            "referenceBlockId": null,
-           "tabletStyles": {},
+           "tabletStyles": {
+            "fontSize": "28px"
+           },
            "visibilityCondition": null
           }
          ],
@@ -2668,7 +2672,11 @@
      "mobileStyles": {
       "flexDirection": "column",
       "gap": "40px",
-      "padding": "60px 20px"
+      "padding": "60px 20px",
+      "paddingBottom": "40px",
+      "paddingLeft": "16px",
+      "paddingRight": "16px",
+      "paddingTop": "40px"
      },
      "originalElement": "",
      "props": {},
@@ -2676,7 +2684,11 @@
      "referenceBlockId": null,
      "tabletStyles": {
       "gap": "60px",
-      "padding": "80px 30px"
+      "padding": "80px 30px",
+      "paddingBottom": "60px",
+      "paddingLeft": "24px",
+      "paddingRight": "24px",
+      "paddingTop": "60px"
      },
      "visibilityCondition": null
     },
@@ -2771,7 +2783,7 @@
         {
          "activeState": null,
          "attributes": {
-          "src": "https://placehold.co/460x700"
+          "src": "https://images.unsplash.com/photo-1504309092620-4d0ec726efa4?w=600&q=80&fit=crop"
          },
          "baseStyles": {
           "borderRadius": "0px",
@@ -2912,12 +2924,16 @@
          "innerHTML": "<p>unc vehicula auctor magna, quis varius orci mollis fermentum erat commodo.</p>",
          "isChildOfComponent": null,
          "isRepeaterBlock": false,
-         "mobileStyles": {},
+         "mobileStyles": {
+          "fontSize": "31px"
+         },
          "originalElement": null,
          "props": {},
          "rawStyles": {},
          "referenceBlockId": null,
-         "tabletStyles": {},
+         "tabletStyles": {
+          "fontSize": "35px"
+         },
          "visibilityCondition": null
         },
         {
@@ -2937,7 +2953,7 @@
           {
            "activeState": null,
            "attributes": {
-            "src": "https://placehold.co/290x230"
+            "src": "https://images.unsplash.com/photo-1464082354059-27db6ce50048?w=400&q=80&fit=crop"
            },
            "baseStyles": {
             "borderRadius": "0px",
@@ -2975,7 +2991,7 @@
           {
            "activeState": null,
            "attributes": {
-            "src": "https://placehold.co/290x230"
+            "src": "https://images.unsplash.com/photo-1464082354059-27db6ce50048?w=400&q=80&fit=crop"
            },
            "baseStyles": {
             "borderRadius": "0px",
@@ -3050,7 +3066,7 @@
           {
            "activeState": null,
            "attributes": {
-            "src": "https://placehold.co/290x230"
+            "src": "https://images.unsplash.com/photo-1464082354059-27db6ce50048?w=400&q=80&fit=crop"
            },
            "baseStyles": {
             "borderRadius": "0px",
@@ -3088,7 +3104,7 @@
           {
            "activeState": null,
            "attributes": {
-            "src": "https://placehold.co/290x230"
+            "src": "https://images.unsplash.com/photo-1464082354059-27db6ce50048?w=400&q=80&fit=crop"
            },
            "baseStyles": {
             "borderRadius": "0px",
@@ -3180,7 +3196,11 @@
      "mobileStyles": {
       "flexDirection": "column",
       "gap": "20px",
-      "padding": "40px 20px"
+      "padding": "40px 20px",
+      "paddingBottom": "40px",
+      "paddingLeft": "16px",
+      "paddingRight": "16px",
+      "paddingTop": "40px"
      },
      "originalElement": "",
      "props": {},
@@ -3188,7 +3208,11 @@
      "referenceBlockId": null,
      "tabletStyles": {
       "gap": "20px",
-      "padding": "60px 30px"
+      "padding": "60px 30px",
+      "paddingBottom": "60px",
+      "paddingLeft": "24px",
+      "paddingRight": "24px",
+      "paddingTop": "60px"
      },
      "visibilityCondition": null
     },
@@ -3285,12 +3309,16 @@
          "innerHTML": "Solving the unsolvable in blinds - since 1753",
          "isChildOfComponent": null,
          "isRepeaterBlock": false,
-         "mobileStyles": {},
+         "mobileStyles": {
+          "fontSize": "29px"
+         },
          "originalElement": "",
          "props": {},
          "rawStyles": {},
          "referenceBlockId": null,
-         "tabletStyles": {},
+         "tabletStyles": {
+          "fontSize": "34px"
+         },
          "visibilityCondition": null
         },
         {
@@ -3314,7 +3342,7 @@
          "dynamicValues": [],
          "element": "p",
          "extendedFromComponent": null,
-         "innerHTML": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy<br>nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>",
+         "innerHTML": "<p>Founded in 1753, HOPKINS has been at the heart of British blinds and fitting manufacturing for over two and a half centuries — adapting, innovating, and enduring.</p>",
          "isChildOfComponent": null,
          "isRepeaterBlock": false,
          "mobileStyles": {},
@@ -3485,7 +3513,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "<p>Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.</p>",
+             "innerHTML": "<p>1753 — HOPKINS founded in Birmingham as a small ironmongery and fitting workshop.</p>\n",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -3586,7 +3614,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "HOPKINS — handcrafting quality blinds since 1753, blending tradition with innovation.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -3687,7 +3715,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "Our heritage spans 271 years of continuous manufacturing in the heart of England.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -3787,7 +3815,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "From Georgian sash windows to modern bi-folds — we've fitted them all.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -3888,7 +3916,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "Every HOPKINS product tells a story of British craftsmanship and trade expertise.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -3989,7 +4017,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "We've supplied blinds to palaces, museums, theatres, and homes across the globe.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -4089,7 +4117,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "<p>Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.</p>",
+             "innerHTML": "<p>1789 — Granted Royal Warrant for supplying blinds to Windsor Castle.</p>\n",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -4190,7 +4218,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "Our patent archive contains over 50 registered designs for blind mechanisms.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -4291,7 +4319,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "The HOPKINS name is synonymous with quality in the blinds and shading industry.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -4391,7 +4419,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "We've trained generations of tradespeople through our apprenticeship programmes.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -4492,7 +4520,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "Architectural shading — from conservation areas to cutting-edge commercial builds.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -4593,7 +4621,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "Our manufacturing techniques combine heritage methods with modern precision.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -4693,7 +4721,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "We've weathered wars, recessions, and changing tastes — always adapting.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -4794,7 +4822,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "The biggest names in British architecture specify HOPKINS for heritage projects.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -4895,7 +4923,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "Our component catalogue contains parts spanning three centuries of design.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -4996,7 +5024,7 @@
              "dynamicValues": [],
              "element": "p",
              "extendedFromComponent": null,
-             "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+             "innerHTML": "We manufacture over 10,000 individual products from our Biggleswade facility.",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
              "mobileStyles": {},
@@ -5203,7 +5231,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "Every order is picked, packed, and dispatched by hand — quality at every step.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -5359,7 +5387,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "We've supplied film and TV productions requiring period-accurate window dressings.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -5515,7 +5543,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "The National Trust, English Heritage, and Historic England all use HOPKINS.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -5671,7 +5699,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "Our conservation-grade blinds meet the strictest heritage building regulations.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -5827,7 +5855,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "We continue to support the trades with the same dedication as our founders did.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -5983,7 +6011,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "HOPKINS parts are designed to outlast the buildings they're installed in.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -6139,7 +6167,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "We hold the original tooling for blind mechanisms dating back to the 1800s.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -6295,7 +6323,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "Our technical team can identify and replicate virtually any historical fitting.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -6451,7 +6479,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "We export British engineering to over 30 countries worldwide.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -6607,7 +6635,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "Sustainability has always been in our DNA — products built to last a lifetime.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -6763,7 +6791,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "The HOPKINS archive preserves the history of British blinds manufacturing.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -6919,7 +6947,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "We partner with trade bodies to maintain the highest industry standards.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -7075,7 +7103,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "Our innovation continues with R&D into smart materials and automation.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -7231,7 +7259,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "We're proud to be a British manufacturer in an age of global supply chains.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -7387,7 +7415,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "From royal residences to council estates — HOPKINS serves them all equally.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -7543,7 +7571,7 @@
                "dynamicValues": [],
                "element": "p",
                "extendedFromComponent": null,
-               "innerHTML": "Lorem ipsum dolor<br>sit amet, consectetuer<br>adipiscing elit.",
+               "innerHTML": "The next generation of HOPKINS engineers is being trained right now.",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
                "mobileStyles": {},
@@ -7642,12 +7670,22 @@
      "innerHTML": null,
      "isChildOfComponent": null,
      "isRepeaterBlock": false,
-     "mobileStyles": {},
+     "mobileStyles": {
+      "paddingBottom": "40px",
+      "paddingLeft": "16px",
+      "paddingRight": "16px",
+      "paddingTop": "40px"
+     },
      "originalElement": "",
      "props": {},
      "rawStyles": {},
      "referenceBlockId": null,
-     "tabletStyles": {},
+     "tabletStyles": {
+      "paddingBottom": "60px",
+      "paddingLeft": "24px",
+      "paddingRight": "24px",
+      "paddingTop": "60px"
+     },
      "visibilityCondition": null
     },
     {
@@ -7709,7 +7747,7 @@
           {
            "activeState": null,
            "attributes": {
-            "src": "https://placehold.co/460x682"
+            "src": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=600&q=80&fit=crop"
            },
            "baseStyles": {
             "borderRadius": "0px",
@@ -7762,7 +7800,7 @@
             {
              "activeState": null,
              "attributes": {
-              "src": "https://placehold.co/290x230"
+              "src": "https://images.unsplash.com/photo-1464082354059-27db6ce50048?w=400&q=80&fit=crop"
              },
              "baseStyles": {
               "borderRadius": "0px",
@@ -7800,7 +7838,7 @@
             {
              "activeState": null,
              "attributes": {
-              "src": "https://placehold.co/290x230"
+              "src": "https://images.unsplash.com/photo-1464082354059-27db6ce50048?w=400&q=80&fit=crop"
              },
              "baseStyles": {
               "borderRadius": "0px",
@@ -7859,7 +7897,7 @@
           {
            "activeState": null,
            "attributes": {
-            "src": "https://placehold.co/460x460"
+            "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&fit=crop"
            },
            "baseStyles": {
             "borderRadius": "0px",
@@ -7972,7 +8010,7 @@
           {
            "activeState": null,
            "attributes": {
-            "src": "https://placehold.co/460x460"
+            "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&fit=crop"
            },
            "baseStyles": {
             "borderRadius": "0px",
@@ -8025,7 +8063,7 @@
             {
              "activeState": null,
              "attributes": {
-              "src": "https://placehold.co/290x230"
+              "src": "https://images.unsplash.com/photo-1464082354059-27db6ce50048?w=400&q=80&fit=crop"
              },
              "baseStyles": {
               "borderRadius": "0px",
@@ -8063,7 +8101,7 @@
             {
              "activeState": null,
              "attributes": {
-              "src": "https://placehold.co/290x230"
+              "src": "https://images.unsplash.com/photo-1464082354059-27db6ce50048?w=400&q=80&fit=crop"
              },
              "baseStyles": {
               "borderRadius": "0px",
@@ -8122,7 +8160,7 @@
           {
            "activeState": null,
            "attributes": {
-            "src": "https://placehold.co/460x682"
+            "src": "https://images.unsplash.com/photo-1508193638397-1c4234db14d8?w=600&q=80&fit=crop"
            },
            "baseStyles": {
             "borderRadius": "0px",
@@ -8212,7 +8250,11 @@
      "mobileStyles": {
       "flexDirection": "column",
       "gap": "20px",
-      "padding": "40px 20px"
+      "padding": "40px 20px",
+      "paddingBottom": "40px",
+      "paddingLeft": "16px",
+      "paddingRight": "16px",
+      "paddingTop": "40px"
      },
      "originalElement": "",
      "props": {},
@@ -8222,7 +8264,11 @@
       "gap": "20px",
       "gridAutoColumns": "minmax(0, 1fr)",
       "gridTemplateColumns": "repeat(1, minmax(0, 1fr))",
-      "padding": "60px 30px"
+      "padding": "60px 30px",
+      "paddingBottom": "60px",
+      "paddingLeft": "24px",
+      "paddingRight": "24px",
+      "paddingTop": "60px"
      },
      "visibilityCondition": null
     },
@@ -9558,7 +9604,7 @@
   }
  ],
  "client_scripts": [],
- "creation": "2026-06-29 15:44:01.961408",
+ "creation": "2026-07-30 14:18:03.406698",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -9568,7 +9614,7 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-06-30 12:35:53.611817",
+ "modified": "2026-07-30 14:18:36.754695",
  "modified_by": "Administrator",
  "name": "page-d146c1b5",
  "owner": "Administrator",

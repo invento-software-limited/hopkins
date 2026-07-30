@@ -981,12 +981,16 @@
            "innerHTML": "Let’s get started",
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
-           "mobileStyles": {},
+           "mobileStyles": {
+            "fontSize": "23px"
+           },
            "originalElement": "",
            "props": {},
            "rawStyles": {},
            "referenceBlockId": null,
-           "tabletStyles": {},
+           "tabletStyles": {
+            "fontSize": "28px"
+           },
            "visibilityCondition": null
           }
          ],

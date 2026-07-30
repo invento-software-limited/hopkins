@@ -980,12 +980,16 @@
            "innerHTML": "Let’s get started",
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
-           "mobileStyles": {},
+           "mobileStyles": {
+            "fontSize": "23px"
+           },
            "originalElement": "",
            "props": {},
            "rawStyles": {},
            "referenceBlockId": null,
-           "tabletStyles": {},
+           "tabletStyles": {
+            "fontSize": "28px"
+           },
            "visibilityCondition": null
           }
          ],
@@ -1263,13 +1267,16 @@
        "isChildOfComponent": null,
        "isRepeaterBlock": false,
        "mobileStyles": {
+        "fontSize": "27px",
         "width": "100%"
        },
        "originalElement": "",
        "props": {},
        "rawStyles": {},
        "referenceBlockId": null,
-       "tabletStyles": {},
+       "tabletStyles": {
+        "fontSize": "31px"
+       },
        "visibilityCondition": null
       },
       {
@@ -1813,11 +1820,16 @@
                "dynamicValues": [],
                "element": "form",
                "mobileStyles": {
+                "paddingBottom": "16px",
+                "paddingTop": "16px",
                 "width": "100%"
                },
                "props": {},
                "rawStyles": {},
-               "tabletStyles": {}
+               "tabletStyles": {
+                "paddingBottom": "24px",
+                "paddingTop": "24px"
+               }
               },
               {
                "activeState": null,
@@ -2171,11 +2183,16 @@
                "dynamicValues": [],
                "element": "div",
                "mobileStyles": {
+                "paddingBottom": "16px",
+                "paddingTop": "16px",
                 "width": "100%"
                },
                "props": {},
                "rawStyles": {},
-               "tabletStyles": {}
+               "tabletStyles": {
+                "paddingBottom": "24px",
+                "paddingTop": "24px"
+               }
               }
              ],
              "classes": [],

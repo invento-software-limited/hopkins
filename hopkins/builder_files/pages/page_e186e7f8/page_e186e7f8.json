@@ -3476,13 +3476,12 @@
              "activeState": null,
              "attributes": {
               "alt": "Blueprint and measurement tools",
-              "src": "https://placehold.co/450x550?text=Blueprint+Measurement"
+              "src": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80&fit=crop"
              },
              "baseStyles": {
               "borderRadius": "0px",
               "display": "block",
               "height": "auto",
-              "paddingBottom": "25px",
               "position": "relative",
               "width": "100%"
              },
@@ -3609,7 +3608,7 @@
              "activeState": null,
              "attributes": {
               "alt": "Historic building with gardens",
-              "src": "https://placehold.co/450x300?text=Historic+Building"
+              "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&fit=crop"
              },
              "baseStyles": {
               "borderRadius": "0px",
@@ -3953,7 +3952,7 @@
                "activeState": null,
                "attributes": {
                 "alt": "SUN-X Logo",
-                "src": "https://placehold.co/120x60?text=SUN-X"
+                "src": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=240&q=80&fit=crop"
                },
                "baseStyles": {
                 "borderRadius": "0px",
@@ -4867,7 +4866,7 @@
                "activeState": null,
                "attributes": {
                 "alt": "Case Study One - Historic Building",
-                "src": "https://placehold.co/300x300?text=Case+Study+1"
+                "src": "https://images.unsplash.com/photo-1570129477492-45c003dc2b6c?w=600&q=80&fit=crop"
                },
                "baseStyles": {
                 "borderRadius": "0px",
@@ -5103,7 +5102,7 @@
                "activeState": null,
                "attributes": {
                 "alt": "Case Study Two - Interior Design",
-                "src": "https://placehold.co/300x300?text=Case+Study+2"
+                "src": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?w=600&q=80&fit=crop"
                },
                "baseStyles": {
                 "borderRadius": "0px",
@@ -5367,7 +5366,7 @@
                "activeState": null,
                "attributes": {
                 "alt": "Case Study Three - Modern Living",
-                "src": "https://placehold.co/300x300?text=Case+Study+3"
+                "src": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=600&q=80&fit=crop"
                },
                "baseStyles": {
                 "borderRadius": "0px",
@@ -5825,13 +5824,12 @@
                "activeState": null,
                "attributes": {
                 "alt": "Hopkins team members in conversation",
-                "src": "https://placehold.co/400x500?text=Contact+Team"
+                "src": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&q=80&fit=crop"
                },
                "baseStyles": {
                 "borderRadius": "0px",
                 "display": "block",
                 "height": "auto",
-                "paddingBottom": "25px",
                 "position": "relative",
                 "width": "100%"
                },
@@ -6385,7 +6383,7 @@
        "baseStyles": {
         "alignItems": "center",
         "backgroundAttachment": "fixed",
-        "backgroundImage": "url('https://placehold.co/1200x500?text=Heritage+Story')",
+        "backgroundImage": "url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1400&q=80&fit=crop')",
         "backgroundPosition": "center",
         "backgroundSize": "cover",
         "display": "flex",
@@ -7984,14 +7982,14 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-07-30 10:32:56.395209",
+ "modified": "2026-07-30 14:20:38.680562",
  "modified_by": "Administrator",
  "name": "page-e186e7f8",
  "owner": "Administrator",
  "page_data_script": "data.clients = frappe.get_all(\n        \"Trusted Client\",\n        fields=[\"client_name\", \"logo\", \"website_url\"],\n        order_by=\"creation desc\"\n    )\ndata.testimonials = frappe.get_all(\n        \"Client Testimonial\",\n        filters={\"publish_to_website\": 1},\n        fields=[\"person_name\", \"trusted_client\", \"description\"],\n        order_by=\"creation desc\"\n    )\ncase_studies = frappe.get_all(\n        \"Case Study\",\n        filters={\"published\": 1},\n        fields=[\"title\", \"route\", \"image\", \"short_description\"],\n        order_by=\"creation desc\",\n        limit=3\n)\n\nfor cs in case_studies:\n  cs[\"route\"] = \"/case-studies/\" + cs.get('route')\n\ndata.first_cs = case_studies[0]\ndata.sec_cs = case_studies[1]\ndata.third_cs = case_studies[2]",
  "page_name": "page-e186e7f8",
  "page_title": "Hopkins Fittings",
- "preview": "/files/page-e186e7f8-preview.webp?v=dc2db",
+ "preview": "/files/page-e186e7f8-preview.webp?v=110c7",
  "project_folder": "hopkins",
  "published": 1,
  "route": "home"

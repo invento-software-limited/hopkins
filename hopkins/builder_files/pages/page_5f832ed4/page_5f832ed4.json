@@ -986,12 +986,16 @@
            "innerHTML": "Let’s get started",
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
-           "mobileStyles": {},
+           "mobileStyles": {
+            "fontSize": "23px"
+           },
            "originalElement": "",
            "props": {},
            "rawStyles": {},
            "referenceBlockId": null,
-           "tabletStyles": {},
+           "tabletStyles": {
+            "fontSize": "28px"
+           },
            "visibilityCondition": null
           }
          ],
@@ -5114,7 +5118,11 @@
                        "innerHTML": null,
                        "isChildOfComponent": null,
                        "isRepeaterBlock": false,
-                       "mobileStyles": {},
+                       "mobileStyles": {
+                        "alignItems": "stretch",
+                        "flexDirection": "column",
+                        "justifyContent": "flex-start"
+                       },
                        "originalElement": null,
                        "props": {},
                        "rawStyles": {},
@@ -8500,7 +8508,9 @@
                    "props": {},
                    "rawStyles": {},
                    "referenceBlockId": null,
-                   "tabletStyles": {},
+                   "tabletStyles": {
+                    "width": "100%"
+                   },
                    "visibilityCondition": null
                   }
                  ],

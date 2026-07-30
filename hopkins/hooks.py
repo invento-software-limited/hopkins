@@ -251,9 +251,7 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
-fixtures = [
-	"Builder Settings",
-]
+fixtures = ["Builder Settings", {"doctype": "Webshop Theme", "filters": [["name", "in", ["Navy Amber"]]]}]
 
 # Translation
 # ------------

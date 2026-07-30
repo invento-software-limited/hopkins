@@ -987,12 +987,16 @@
            "innerHTML": "Let’s get started",
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
-           "mobileStyles": {},
+           "mobileStyles": {
+            "fontSize": "23px"
+           },
            "originalElement": "",
            "props": {},
            "rawStyles": {},
            "referenceBlockId": null,
-           "tabletStyles": {},
+           "tabletStyles": {
+            "fontSize": "28px"
+           },
            "visibilityCondition": null
           }
          ],
@@ -1468,12 +1472,16 @@
            "innerHTML": "<p>Tubs containing 14kg</p>",
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
-           "mobileStyles": {},
+           "mobileStyles": {
+            "fontSize": "25px"
+           },
            "originalElement": "",
            "props": {},
            "rawStyles": {},
            "referenceBlockId": null,
-           "tabletStyles": {},
+           "tabletStyles": {
+            "fontSize": "28px"
+           },
            "visibilityCondition": null
           },
           {
@@ -1751,12 +1759,16 @@
            "innerHTML": "<p>£30</p>",
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
-           "mobileStyles": {},
+           "mobileStyles": {
+            "fontSize": "25px"
+           },
            "originalElement": "",
            "props": {},
            "rawStyles": {},
            "referenceBlockId": null,
-           "tabletStyles": {},
+           "tabletStyles": {
+            "fontSize": "28px"
+           },
            "visibilityCondition": {
             "comesFrom": "dataScript",
             "key": "not item.price_list_rate == 0"
@@ -1833,12 +1845,16 @@
                "innerHTML": "<p>-</p>",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
-               "mobileStyles": {},
+               "mobileStyles": {
+                "fontSize": "30px"
+               },
                "originalElement": null,
                "props": {},
                "rawStyles": {},
                "referenceBlockId": null,
-               "tabletStyles": {},
+               "tabletStyles": {
+                "fontSize": "33px"
+               },
                "visibilityCondition": null
               },
               {
@@ -1915,12 +1931,16 @@
                "innerHTML": "<p>+</p>",
                "isChildOfComponent": null,
                "isRepeaterBlock": false,
-               "mobileStyles": {},
+               "mobileStyles": {
+                "fontSize": "30px"
+               },
                "originalElement": null,
                "props": {},
                "rawStyles": {},
                "referenceBlockId": null,
-               "tabletStyles": {},
+               "tabletStyles": {
+                "fontSize": "33px"
+               },
                "visibilityCondition": null
               }
              ],
@@ -2017,7 +2037,10 @@
              "innerHTML": "",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
-             "mobileStyles": {},
+             "mobileStyles": {
+              "paddingLeft": "20px",
+              "paddingRight": "20px"
+             },
              "originalElement": "",
              "props": {},
              "rawStyles": {
@@ -2030,7 +2053,9 @@
               "marginBottom": "10px",
               "marginLeft": "0px",
               "marginRight": "0px",
-              "marginTop": "10px"
+              "marginTop": "10px",
+              "paddingLeft": "32px",
+              "paddingRight": "32px"
              },
              "visibilityCondition": {
               "comesFrom": "dataScript",
@@ -2135,7 +2160,10 @@
            "innerHTML": "",
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
-           "mobileStyles": {},
+           "mobileStyles": {
+            "paddingLeft": "20px",
+            "paddingRight": "20px"
+           },
            "originalElement": "",
            "props": {},
            "rawStyles": {
@@ -2148,7 +2176,9 @@
             "marginBottom": "10px",
             "marginLeft": "0px",
             "marginRight": "0px",
-            "marginTop": "10px"
+            "marginTop": "10px",
+            "paddingLeft": "32px",
+            "paddingRight": "32px"
            },
            "visibilityCondition": {
             "comesFrom": "dataScript",
@@ -2343,7 +2373,9 @@
        "innerHTML": null,
        "isChildOfComponent": null,
        "isRepeaterBlock": false,
-       "mobileStyles": {},
+       "mobileStyles": {
+        "gridTemplateColumns": "repeat(1, minmax(0, 1fr))"
+       },
        "originalElement": null,
        "props": {},
        "rawStyles": {},
@@ -3278,6 +3310,7 @@
        "isChildOfComponent": null,
        "isRepeaterBlock": false,
        "mobileStyles": {
+        "gridTemplateColumns": "repeat(1, minmax(0, 1fr))",
         "paddingBottom": "40px",
         "paddingLeft": "0px",
         "paddingRight": "0px",
@@ -3810,12 +3843,18 @@
        "innerHTML": null,
        "isChildOfComponent": null,
        "isRepeaterBlock": false,
-       "mobileStyles": {},
+       "mobileStyles": {
+        "paddingBottom": "28px",
+        "paddingTop": "28px"
+       },
        "originalElement": null,
        "props": {},
        "rawStyles": {},
        "referenceBlockId": null,
-       "tabletStyles": {},
+       "tabletStyles": {
+        "paddingBottom": "40px",
+        "paddingTop": "40px"
+       },
        "visibilityCondition": null
       }
      ],
@@ -3828,12 +3867,18 @@
      "innerHTML": null,
      "isChildOfComponent": null,
      "isRepeaterBlock": false,
-     "mobileStyles": {},
+     "mobileStyles": {
+      "paddingBottom": "16px",
+      "paddingTop": "16px"
+     },
      "originalElement": null,
      "props": {},
      "rawStyles": {},
      "referenceBlockId": null,
-     "tabletStyles": {},
+     "tabletStyles": {
+      "paddingBottom": "24px",
+      "paddingTop": "24px"
+     },
      "visibilityCondition": null
     },
     {

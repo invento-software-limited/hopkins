@@ -980,12 +980,16 @@
            "innerHTML": "Let’s get started",
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
-           "mobileStyles": {},
+           "mobileStyles": {
+            "fontSize": "23px"
+           },
            "originalElement": "",
            "props": {},
            "rawStyles": {},
            "referenceBlockId": null,
-           "tabletStyles": {},
+           "tabletStyles": {
+            "fontSize": "28px"
+           },
            "visibilityCondition": null
           }
          ],
@@ -1262,12 +1266,16 @@
        "innerHTML": "<p>Reset Password</p>",
        "isChildOfComponent": null,
        "isRepeaterBlock": false,
-       "mobileStyles": {},
+       "mobileStyles": {
+        "fontSize": "27px"
+       },
        "originalElement": "",
        "props": {},
        "rawStyles": {},
        "referenceBlockId": null,
-       "tabletStyles": {},
+       "tabletStyles": {
+        "fontSize": "31px"
+       },
        "visibilityCondition": null
       },
       {
@@ -1559,11 +1567,16 @@
                "dynamicValues": [],
                "element": "form",
                "mobileStyles": {
+                "paddingBottom": "16px",
+                "paddingTop": "16px",
                 "width": "100%"
                },
                "props": {},
                "rawStyles": {},
-               "tabletStyles": {}
+               "tabletStyles": {
+                "paddingBottom": "24px",
+                "paddingTop": "24px"
+               }
               }
              ],
              "classes": [],
@@ -1658,12 +1671,18 @@
      "innerHTML": null,
      "isChildOfComponent": null,
      "isRepeaterBlock": false,
-     "mobileStyles": {},
+     "mobileStyles": {
+      "paddingBottom": "36px",
+      "paddingTop": "16px"
+     },
      "originalElement": null,
      "props": {},
      "rawStyles": {},
      "referenceBlockId": null,
-     "tabletStyles": {},
+     "tabletStyles": {
+      "paddingBottom": "56px",
+      "paddingTop": "24px"
+     },
      "visibilityCondition": null
     },
     {

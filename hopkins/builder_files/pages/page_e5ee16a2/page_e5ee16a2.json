@@ -2246,12 +2246,16 @@
              "innerHTML": "Let’s get started",
              "isChildOfComponent": null,
              "isRepeaterBlock": false,
-             "mobileStyles": {},
+             "mobileStyles": {
+              "fontSize": "23px"
+             },
              "originalElement": "",
              "props": {},
              "rawStyles": {},
              "referenceBlockId": null,
-             "tabletStyles": {},
+             "tabletStyles": {
+              "fontSize": "28px"
+             },
              "visibilityCondition": null
             }
            ],
@@ -2439,7 +2443,7 @@
              "activeState": null,
              "attributes": {
               "alt": "Hopkins team members in conversation",
-              "src": "https://placehold.co/450x550?text=Contact+Team"
+              "src": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&q=80&fit=crop"
              },
              "baseStyles": {
               "borderRadius": "0px",
@@ -2656,7 +2660,7 @@
            "dynamicValues": [],
            "element": "p",
            "extendedFromComponent": null,
-           "innerHTML": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+           "innerHTML": "Get in touch with our expert team today. Whether you need technical advice, a quote, or help finding the right part, we're here to help — just as we have been since 1753.",
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
            "mobileStyles": {
@@ -3505,12 +3509,18 @@
            "innerHTML": null,
            "isChildOfComponent": null,
            "isRepeaterBlock": false,
-           "mobileStyles": {},
+           "mobileStyles": {
+            "paddingBottom": "40px",
+            "paddingTop": "40px"
+           },
            "originalElement": null,
            "props": {},
            "rawStyles": {},
            "referenceBlockId": null,
-           "tabletStyles": {},
+           "tabletStyles": {
+            "paddingBottom": "60px",
+            "paddingTop": "60px"
+           },
            "visibilityCondition": null
           }
          ],
@@ -3550,6 +3560,10 @@
         "gap": "24px",
         "maxWidth": "100%",
         "padding": "30px 16px",
+        "paddingBottom": "40px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "40px",
         "width": "100%"
        },
        "originalElement": null,
@@ -3560,7 +3574,11 @@
         "flexDirection": "row",
         "gap": "40px",
         "maxWidth": "100%",
-        "padding": "45px 24px"
+        "padding": "45px 24px",
+        "paddingBottom": "60px",
+        "paddingLeft": "24px",
+        "paddingRight": "24px",
+        "paddingTop": "60px"
        },
        "visibilityCondition": null
       },
@@ -4307,14 +4325,22 @@
        "isChildOfComponent": null,
        "isRepeaterBlock": false,
        "mobileStyles": {
-        "padding": "40px 16px"
+        "padding": "40px 16px",
+        "paddingBottom": "40px",
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "paddingTop": "40px"
        },
        "originalElement": null,
        "props": {},
        "rawStyles": {},
        "referenceBlockId": null,
        "tabletStyles": {
-        "padding": "60px 24px"
+        "padding": "60px 24px",
+        "paddingBottom": "60px",
+        "paddingLeft": "24px",
+        "paddingRight": "24px",
+        "paddingTop": "60px"
        },
        "visibilityCondition": null
       },
@@ -5690,7 +5716,7 @@
    "builder_script": "JavaScript-0bd33"
   }
  ],
- "creation": "2026-06-29 15:44:01.889471",
+ "creation": "2026-07-30 14:18:03.340967",
  "disable_indexing": 0,
  "docstatus": 0,
  "doctype": "Builder Page",
@@ -5700,7 +5726,7 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-06-30 12:36:11.890765",
+ "modified": "2026-07-30 14:18:36.693968",
  "modified_by": "Administrator",
  "name": "page-e5ee16a2",
  "owner": "Administrator",
