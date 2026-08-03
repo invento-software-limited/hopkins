@@ -42,7 +42,13 @@ def subscribe_newsletter(email, first_name=None):
 
 
 @frappe.whitelist(allow_guest=True)
-def get_products(page: int = 1, page_length: int = 8, search: str | None = None, category: str | None = None):
+def get_products(
+	page: int = 1,
+	page_length: int = 8,
+	search: str | None = None,
+	category: str | None = None,
+	sort_by: str | None = None,
+):
 	import math
 
 	from invento_webshop.webshop_functions.items import ProductQuery
@@ -66,8 +72,6 @@ def get_products(page: int = 1, page_length: int = 8, search: str | None = None,
 		return {"error": True, "message": "Failed to fetch products. Please try again."}
 
 	items = res.get("items", [])
-	total_count = res.get("items_count", 0)
-	total_pages = math.ceil(total_count / page_length) if total_count else 1
 
 	products = []
 	for item in items:
@@ -83,6 +87,21 @@ def get_products(page: int = 1, page_length: int = 8, search: str | None = None,
 				"stock_code_formatted": f"Stock Code: {item.item_code}",
 			}
 		)
+
+	# Handle sort_by filter
+	if sort_by:
+		sort_key = sort_by.lower().strip()
+		if sort_key in ["price: low to high", "price_low_high", "price_asc"]:
+			products.sort(key=lambda x: x["price"])
+		elif sort_key in ["price: high to low", "price_high_low", "price_desc"]:
+			products.sort(key=lambda x: x["price"], reverse=True)
+		elif sort_key in ["name: a to z", "name_a_z", "name_asc"]:
+			products.sort(key=lambda x: (x["item_name"] or "").lower())
+		elif sort_key in ["name: z to a", "name_z_a", "name_desc"]:
+			products.sort(key=lambda x: (x["item_name"] or "").lower(), reverse=True)
+
+	total_count = res.get("items_count", 0)
+	total_pages = math.ceil(total_count / page_length) if total_count else 1
 
 	return {
 		"products": products,
