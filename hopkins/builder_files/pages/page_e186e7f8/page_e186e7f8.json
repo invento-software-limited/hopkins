@@ -214,6 +214,7 @@
             {
              "blockId": "tsmrhs8bv",
              "blockName": "Subtotal",
+             "innerHTML": "Subtotal",
              "isChildOfComponent": "132256d20bc9f339",
              "referenceBlockId": "80lb6l1pl"
             },
@@ -633,20 +634,26 @@
        "children": [
         {
          "baseStyles": {
-          "backgroundImage": "url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1400&q=80&fit=crop')",
+          "alignItems": "center",
+          "backgroundImage": "url(\"/files/ChatGPT Image Aug 2, 2026, 03_57_18 PM.webp\")",
           "backgroundPosition": "center",
           "backgroundRepeat": "no-repeat",
           "backgroundSize": "cover",
           "bottom": "0px",
           "filter": "brightness(0.55)",
+          "justifyContent": "center",
           "left": "0px",
+          "opacity": "1",
           "position": "absolute",
           "right": "0px",
           "top": "0px"
          },
          "blockId": "5gid3yq9a",
          "element": "div",
-         "isRepeaterBlock": false
+         "isRepeaterBlock": false,
+         "rawStyles": {
+          "": ""
+         }
         },
         {
          "blockId": "oef9tv9do",
@@ -668,16 +675,17 @@
              "referenceBlockId": "7uh9fuvzr"
             },
             {
+             "baseStyles": {
+              "backgroundColor": "#7a666600",
+              "color": "#ffffff",
+              "hover:backgroundColor": "#ffffff",
+              "hover:color": "#131652",
+              "transitionDuration": "300ms",
+              "transitionProperty": "all",
+              "transitionTimingFunction": "ease"
+             },
              "blockId": "b2h69dety",
-             "blockName": null,
-             "children": [],
-             "classes": [],
-             "customAttributes": {},
-             "dataKey": null,
-             "dynamicValues": [],
-             "element": null,
-             "extendedFromComponent": null,
-             "innerHTML": "<p>View All Products</p>",
+             "innerHTML": "View All Products",
              "isChildOfComponent": "47b0e97c38a85c0b",
              "isRepeaterBlock": false,
              "referenceBlockId": "y9xdbjdpv"
@@ -711,6 +719,12 @@
            ],
            "isChildOfComponent": "47b0e97c38a85c0b",
            "isRepeaterBlock": false,
+           "mobileStyles": {
+            "paddingBottom": "28px",
+            "paddingLeft": "15px",
+            "paddingRight": "15px",
+            "paddingTop": "24px"
+           },
            "referenceBlockId": "liqxecizj"
           }
          ],
@@ -721,7 +735,7 @@
        "element": "section",
        "isRepeaterBlock": false,
        "mobileStyles": {
-        "height": "60vh",
+        "height": "80vh",
         "width": "100%"
        },
        "tabletStyles": {
@@ -769,7 +783,7 @@
               {
                "attributes": {
                 "alt": "Products",
-                "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&fit=crop"
+                "src": "/assets/hopkins/builder_assets/wmremove-transformed (1).webp"
                },
                "baseStyles": {
                 "borderRadius": "0px",
@@ -826,7 +840,7 @@
              },
              "blockId": "unb9fc2lt",
              "element": "p",
-             "innerHTML": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+             "innerHTML": "Discover an extensive range of high-quality blind components, fittings, brackets, pulleys, tubes, and specialist hardware. Every product is manufactured to deliver exceptional durability, reliability, and performance across residential, commercial, and heritage applications.",
              "isRepeaterBlock": false
             },
             {
@@ -838,15 +852,17 @@
               "display": "inline-block",
               "fontSize": "14px",
               "fontWeight": "700",
+              "hover:color": "#FAA41A",
               "textDecoration": "underline",
               "textUnderlineOffset": "3px",
-              "transition": "color 0.2s"
+              "transition": "color 0.2s",
+              "transitionDuration": "300ms",
+              "transitionProperty": "all",
+              "transitionTimingFunction": "ease"
              },
              "blockId": "wpu84v8sg",
              "element": "a",
-             "extendedFromComponent": null,
-             "innerHTML": "<p>Search</p>",
-             "isChildOfComponent": null,
+             "innerHTML": "Search",
              "isRepeaterBlock": false,
              "rawStyles": {
               "hover:color": "#1a1f6e"
@@ -879,7 +895,7 @@
               {
                "attributes": {
                 "alt": "Custom Solutions",
-                "src": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80&fit=crop"
+                "src": "/assets/hopkins/builder_assets/wmremove-transformed.webp"
                },
                "baseStyles": {
                 "borderRadius": "0px",
@@ -931,7 +947,7 @@
              },
              "blockId": "ffwxtuirs",
              "element": "p",
-             "innerHTML": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+             "innerHTML": "Every project is different. Our experienced engineering team works closely with customers to design and manufacture bespoke components and complete blind systems tailored to unique specifications, ensuring the perfect fit for every application.",
              "isRepeaterBlock": false
             },
             {
@@ -943,13 +959,17 @@
               "display": "inline-block",
               "fontSize": "14px",
               "fontWeight": "700",
+              "hover:color": "#FAA41A",
               "textDecoration": "underline",
               "textUnderlineOffset": "3px",
-              "transition": "color 0.2s"
+              "transition": "color 0.2s",
+              "transitionDuration": "300ms",
+              "transitionProperty": "all",
+              "transitionTimingFunction": "ease"
              },
              "blockId": "lmo1icxac",
              "element": "a",
-             "innerHTML": "<p>Explore</p>",
+             "innerHTML": "Explore",
              "isRepeaterBlock": false,
              "rawStyles": {
               "hover:color": "#1a1f6e"
@@ -960,7 +980,13 @@
             "fade-3d from-top delay-2"
            ],
            "element": "div",
-           "isRepeaterBlock": false
+           "isRepeaterBlock": false,
+           "mobileStyles": {
+            "marginBottom": "20px",
+            "marginLeft": "0px",
+            "marginRight": "0px",
+            "marginTop": "20px"
+           }
           },
           {
            "baseStyles": {
@@ -987,7 +1013,7 @@
               {
                "attributes": {
                 "alt": "Hopkins",
-                "src": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80&fit=crop&grayscale=true"
+                "src": "/assets/hopkins/builder_assets/img41.webp"
                },
                "baseStyles": {
                 "borderRadius": "0px",
@@ -1039,7 +1065,7 @@
              },
              "blockId": "k5cppecay",
              "element": "p",
-             "innerHTML": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>",
+             "innerHTML": "Since 1753, Hopkins has built a reputation for innovation, craftsmanship, and engineering excellence. Combining centuries of heritage with modern manufacturing technology, we continue to provide trusted solutions for blind professionals across the UK and beyond.",
              "isRepeaterBlock": false
             },
             {
@@ -1051,13 +1077,17 @@
               "display": "inline-block",
               "fontSize": "14px",
               "fontWeight": "700",
+              "hover:color": "#FAA41A",
               "textDecoration": "underline",
               "textUnderlineOffset": "3px",
-              "transition": "color 0.2s"
+              "transition": "color 0.2s",
+              "transitionDuration": "300ms",
+              "transitionProperty": "all",
+              "transitionTimingFunction": "ease"
              },
              "blockId": "ru9t0hxbs",
              "element": "a",
-             "innerHTML": "<p>Discover</p>",
+             "innerHTML": "Discover",
              "isRepeaterBlock": false,
              "rawStyles": {
               "hover:color": "#1a1f6e"
@@ -1088,14 +1118,27 @@
          "baseStyles": {
           "border": "none",
           "borderTop": "1px solid #e0e0e0",
-          "margin": "0px",
+          "marginBottom": "0px",
+          "marginLeft": "0px",
+          "marginRight": "0px",
+          "marginTop": "100px",
           "width": "100%"
          },
          "blockId": "pqja7dakw",
          "element": "hr",
          "isRepeaterBlock": false,
          "mobileStyles": {
+          "marginBottom": "0px",
+          "marginLeft": "0px",
+          "marginRight": "0px",
+          "marginTop": "0px",
           "width": "100%"
+         },
+         "tabletStyles": {
+          "marginBottom": "0px",
+          "marginLeft": "0px",
+          "marginRight": "0px",
+          "marginTop": "0px"
          }
         }
        ],
@@ -1121,7 +1164,10 @@
         "display": "flex",
         "flexDirection": "row",
         "gap": "60px",
-        "margin": "0 auto",
+        "marginBottom": "0px",
+        "marginLeft": "auto",
+        "marginRight": "auto",
+        "marginTop": "0px",
         "maxWidth": "1400px",
         "paddingBottom": "0px",
         "paddingLeft": "40px",
@@ -1278,12 +1324,16 @@
             "fontFamily": "'Rubik', sans-serif",
             "fontSize": "16px",
             "fontWeight": "700",
-            "textDecoration": "underline"
+            "hover:color": "#FAA41A",
+            "textDecoration": "underline",
+            "transitionDuration": "300ms",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
            },
            "blockId": "fmzf8v2k8",
            "blockName": "CTA Link",
            "element": "a",
-           "innerHTML": "<p>Give us a call and speak to one of our experts</p>",
+           "innerHTML": "Give us a call and speak to one of our experts",
            "isRepeaterBlock": false,
            "mobileStyles": {
             "fontSize": "13px"
@@ -1363,7 +1413,7 @@
             {
              "attributes": {
               "alt": "Blueprint and measurement tools",
-              "src": "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80&fit=crop"
+              "src": "/assets/hopkins/builder_assets/wmremove-transformed (3)a7c316.webp"
              },
              "baseStyles": {
               "borderRadius": "0px",
@@ -1424,7 +1474,7 @@
             {
              "attributes": {
               "alt": "Historic building with gardens",
-              "src": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80&fit=crop"
+              "src": "/assets/hopkins/builder_assets/wmremove-transformed (4).webp"
              },
              "baseStyles": {
               "borderRadius": "0px",
@@ -1485,7 +1535,7 @@
            "blockId": "u4ex2mbor",
            "blockName": "Description",
            "element": "p",
-           "innerHTML": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>",
+           "innerHTML": "From concept and design to precision manufacturing, Hopkins develops bespoke solutions for projects that demand exceptional performance, accuracy, and long-term reliability.",
            "isRepeaterBlock": false,
            "mobileStyles": {
             "fontSize": "13px"
@@ -1506,15 +1556,19 @@
             "fontFamily": "'Rubik', sans-serif",
             "fontSize": "14px",
             "fontWeight": "700",
+            "hover:color": "#FAA41A",
             "paddingBottom": "5px",
             "textDecoration": "underline",
             "textUnderlineOffset": "3px",
-            "transition": "color 0.2s"
+            "transition": "color 0.2s",
+            "transitionDuration": "300ms",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
            },
            "blockId": "n4p07fkgl",
            "blockName": "Explore Link",
            "element": "a",
-           "innerHTML": "<p>Explore</p>",
+           "innerHTML": "Explore",
            "isRepeaterBlock": false,
            "mobileStyles": {
             "paddingBottom": "2px"
@@ -1636,7 +1690,7 @@
               {
                "attributes": {
                 "alt": "SUN-X Logo",
-                "src": "https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=240&q=80&fit=crop"
+                "src": "/assets/hopkins/builder_assets/hoplogo_180x37.webp"
                },
                "baseStyles": {
                 "borderRadius": "0px",
@@ -1696,7 +1750,7 @@
        "mobileStyles": {
         "gap": "16px",
         "maxWidth": "100%",
-        "paddingBottom": "30px",
+        "paddingBottom": "60PX",
         "paddingLeft": "16px",
         "paddingRight": "16px",
         "paddingTop": "30px",
@@ -1705,7 +1759,7 @@
        "tabletStyles": {
         "gap": "24px",
         "maxWidth": "100%",
-        "paddingBottom": "45px",
+        "paddingBottom": "65px",
         "paddingLeft": "24px",
         "paddingRight": "24px",
         "paddingTop": "45px"
@@ -2189,13 +2243,14 @@
               {
                "attributes": {
                 "alt": "Case Study One - Historic Building",
-                "src": "https://images.unsplash.com/photo-1570129477492-45c003dc2b6c?w=600&q=80&fit=crop"
+                "src": "/assets/hopkins/builder_assets/wmremove-transformed (4).webp"
                },
                "baseStyles": {
                 "borderRadius": "0px",
                 "height": "100%",
                 "left": "0",
                 "objectFit": "cover",
+                "opacity": "1",
                 "position": "absolute",
                 "top": "0",
                 "width": "100%"
@@ -2280,7 +2335,11 @@
               "fontFamily": "'Rubik', sans-serif",
               "fontSize": "14px",
               "fontWeight": "700",
-              "textDecoration": "none"
+              "hover:color": "#FAA41A",
+              "textDecoration": "none",
+              "transitionDuration": "300ms",
+              "transitionProperty": "all",
+              "transitionTimingFunction": "ease"
              },
              "blockId": "pnko3ik3j",
              "blockName": "Card 1 Link",
@@ -2291,7 +2350,7 @@
               "type": "attribute"
              },
              "element": "a",
-             "innerHTML": "<p>Inspiration</p>",
+             "innerHTML": "Inspiration",
              "isRepeaterBlock": false
             }
            ],
@@ -2418,7 +2477,11 @@
               "fontFamily": "'Rubik', sans-serif",
               "fontSize": "14px",
               "fontWeight": "700",
-              "textDecoration": "none"
+              "hover:color": "#FAA41A",
+              "textDecoration": "none",
+              "transitionDuration": "300ms",
+              "transitionProperty": "all",
+              "transitionTimingFunction": "ease"
              },
              "blockId": "gkue21agg",
              "blockName": "Card 2 Link",
@@ -2429,7 +2492,7 @@
               "type": "attribute"
              },
              "element": "a",
-             "innerHTML": "<p>Inspiration</p>",
+             "innerHTML": "Inspiration",
              "isRepeaterBlock": false
             }
            ],
@@ -2437,7 +2500,13 @@
             "fade-3d from-top delay-2"
            ],
            "element": "div",
-           "isRepeaterBlock": false
+           "isRepeaterBlock": false,
+           "mobileStyles": {
+            "marginBottom": "20PX",
+            "marginLeft": "0PX",
+            "marginRight": "0PX",
+            "marginTop": "20PX"
+           }
           },
           {
            "baseStyles": {
@@ -2563,7 +2632,11 @@
               "fontFamily": "'Rubik', sans-serif",
               "fontSize": "14px",
               "fontWeight": "700",
-              "textDecoration": "none"
+              "hover:color": "#FAA41A",
+              "textDecoration": "none",
+              "transitionDuration": "300ms",
+              "transitionProperty": "all",
+              "transitionTimingFunction": "ease"
              },
              "blockId": "xsneo1mzs",
              "blockName": "Card 3 Link",
@@ -2574,7 +2647,7 @@
               "type": "attribute"
              },
              "element": "a",
-             "innerHTML": "<p>Inspiration</p>",
+             "innerHTML": "Inspiration",
              "isRepeaterBlock": false
             }
            ],
@@ -2612,6 +2685,7 @@
             "href": "#more-inspiration"
            },
            "baseStyles": {
+            "backgroundColor": "#ffffff",
             "border": "2px solid #001a4d",
             "borderRadius": "25px",
             "color": "#001a4d",
@@ -2620,9 +2694,14 @@
             "fontFamily": "'Rubik', sans-serif",
             "fontSize": "14px",
             "fontWeight": "700",
+            "hover:backgroundColor": "#00194d",
+            "hover:color": "#ffffff",
             "padding": "12px 40px",
             "textDecoration": "none",
-            "transition": "all 0.3s ease"
+            "transition": "all 0.3s ease",
+            "transitionDuration": "300ms",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
            },
            "blockId": "qqc0fh5ss",
            "blockName": "More Inspiration Button",
@@ -2724,7 +2803,7 @@
               {
                "attributes": {
                 "alt": "Hopkins team members in conversation",
-                "src": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&q=80&fit=crop"
+                "src": "/assets/hopkins/builder_assets/dfh.webp"
                },
                "baseStyles": {
                 "borderRadius": "0px",
@@ -2813,7 +2892,7 @@
              "blockId": "33jrznm5y",
              "blockName": "Description",
              "element": "p",
-             "innerHTML": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+             "innerHTML": "Whether you need expert advice, technical assistance, or a fully bespoke solution, our experienced team is ready to help. Get in touch today to discuss your project requirements and discover how Hopkins can support your business.",
              "isRepeaterBlock": false,
              "mobileStyles": {
               "fontSize": "13px"
@@ -2860,12 +2939,16 @@
                   "fontFamily": "'Rubik', sans-serif",
                   "fontSize": "16px",
                   "fontWeight": "600",
-                  "textDecoration": "none"
+                  "hover:color": "#FAA41A",
+                  "textDecoration": "none",
+                  "transitionDuration": "300ms",
+                  "transitionProperty": "all",
+                  "transitionTimingFunction": "ease"
                  },
                  "blockId": "0rlua499f",
                  "blockName": "Phone Link",
                  "element": "a",
-                 "innerHTML": "<p>+44 (0)121 326 7733</p>",
+                 "innerHTML": "+44 (0)121 326 7733",
                  "isRepeaterBlock": false,
                  "mobileStyles": {
                   "fontSize": "13px"
@@ -2912,12 +2995,16 @@
                   "fontFamily": "'Rubik', sans-serif",
                   "fontSize": "16px",
                   "fontWeight": "600",
-                  "textDecoration": "none"
+                  "hover:color": "#FAA41A",
+                  "textDecoration": "none",
+                  "transitionDuration": "300ms",
+                  "transitionProperty": "all",
+                  "transitionTimingFunction": "ease"
                  },
                  "blockId": "z9m1wwis6",
                  "blockName": "Email Link",
                  "element": "a",
-                 "innerHTML": "<p>sales@hopkinsfittings.co.uk</p>",
+                 "innerHTML": "sales@hopkinsfittings.co.uk",
                  "isRepeaterBlock": false,
                  "mobileStyles": {
                   "fontSize": "13px"
@@ -2942,6 +3029,7 @@
               "href": "/contact-us"
              },
              "baseStyles": {
+              "backgroundColor": "#ffffff",
               "border": "2px solid #001a4d",
               "borderRadius": "25px",
               "color": "#001a4d",
@@ -2950,15 +3038,20 @@
               "fontFamily": "'Rubik', sans-serif",
               "fontSize": "14px",
               "fontWeight": "700",
+              "hover:backgroundColor": "#00194d",
+              "hover:color": "#ffffff",
               "padding": "12px 40px",
               "textDecoration": "none",
               "transition": "all 0.3s ease",
+              "transitionDuration": "300ms",
+              "transitionProperty": "all",
+              "transitionTimingFunction": "ease",
               "width": "fit-content"
              },
              "blockId": "syzu4iah8",
              "blockName": "Contact Form Button",
              "element": "a",
-             "innerHTML": "<p>CONTACT FORM</p>",
+             "innerHTML": "CONTACT FORM",
              "isRepeaterBlock": false
             }
            ],
@@ -3006,19 +3099,24 @@
        },
        "tabletStyles": {
         "flexDirection": "row",
-        "gap": "40px"
+        "gap": "40px",
+        "paddingBottom": "100PX",
+        "paddingLeft": "40PX",
+        "paddingRight": "40PX",
+        "paddingTop": "100PX"
        }
       },
       {
        "baseStyles": {
         "alignItems": "center",
         "backgroundAttachment": "fixed",
-        "backgroundImage": "url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1400&q=80&fit=crop')",
+        "backgroundImage": "url(\"/files/wmremove-transformed (2).webp\")",
         "backgroundPosition": "center",
+        "backgroundRepeat": "no-repeat",
         "backgroundSize": "cover",
         "display": "flex",
         "justifyContent": "center",
-        "minHeight": "500px",
+        "minHeight": "600px",
         "overflow": "hidden",
         "paddingBottom": "100px",
         "paddingTop": "100px",
@@ -3067,7 +3165,7 @@
          "children": [
           {
            "baseStyles": {
-            "color": "#FFFFFF",
+            "color": "#FAA41A",
             "fontFamily": "'Rubik', sans-serif",
             "fontSize": "14px",
             "fontWeight": "700",
@@ -3107,6 +3205,7 @@
             "href": "/heritage"
            },
            "baseStyles": {
+            "backgroundColor": "#6b3e3e00",
             "border": "2px solid #FFFFFF",
             "borderRadius": "25px",
             "color": "#FFFFFF",
@@ -3115,24 +3214,20 @@
             "fontFamily": "'Rubik', sans-serif",
             "fontSize": "14px",
             "fontWeight": "700",
+            "hover:backgroundColor": "#ffffff",
+            "hover:color": "#131652",
             "padding": "12px 40px",
             "textDecoration": "none",
-            "transition": "all 0.3s ease"
+            "transition": "all 0.3s ease",
+            "transitionDuration": "300ms",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
            },
            "blockId": "gdlf4qq5d",
            "blockName": "CTA Button",
            "element": "a",
-           "extendedFromComponent": null,
-           "innerHTML": "<p>DISCOVER OUR HERITAGE</p>",
-           "isChildOfComponent": null,
-           "isRepeaterBlock": false,
-           "mobileStyles": {},
-           "originalElement": null,
-           "props": {},
-           "rawStyles": {},
-           "referenceBlockId": null,
-           "tabletStyles": {},
-           "visibilityCondition": null
+           "innerHTML": "DISCOVER OUR HERITAGE",
+           "isRepeaterBlock": false
           }
          ],
          "classes": [
@@ -3194,6 +3289,7 @@
                 {
                  "blockId": "mbnlfvjzi",
                  "blockName": "Product 1",
+                 "innerHTML": "Blind Components",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "pbpok6il3"
@@ -3201,6 +3297,7 @@
                 {
                  "blockId": "gjibcwzxb",
                  "blockName": "Product 2",
+                 "innerHTML": "Shutter Parts",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "lmf1ouuwp"
@@ -3208,6 +3305,7 @@
                 {
                  "blockId": "p3a0gz2h5",
                  "blockName": "Product 3",
+                 "innerHTML": "Motors & Automation",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "yo9et4dx2"
@@ -3215,6 +3313,7 @@
                 {
                  "blockId": "9xa2k3uys",
                  "blockName": "Product 4",
+                 "innerHTML": "Traditional Shop Blinds",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "7q84ph3rm"
@@ -3222,6 +3321,7 @@
                 {
                  "blockId": "x5yr0sm2x",
                  "blockName": "Product 5",
+                 "innerHTML": "Brackets & Fittings",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "77zvnicm4"
@@ -3229,6 +3329,7 @@
                 {
                  "blockId": "f37ikbf65",
                  "blockName": "Product 6",
+                 "innerHTML": "Pulleys & Bearings",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "7a3jdeydx"
@@ -3236,6 +3337,7 @@
                 {
                  "blockId": "378tx7tlm",
                  "blockName": "Product 7",
+                 "innerHTML": "Tubes & Rods",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "1f8fgpzsm"
@@ -3243,6 +3345,7 @@
                 {
                  "blockId": "3evwy2eec",
                  "blockName": "Product 8",
+                 "innerHTML": "Complete Blind Systems",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "u62vycfow"
@@ -3250,6 +3353,7 @@
                 {
                  "blockId": "72oqt3x31",
                  "blockName": "Product 9",
+                 "innerHTML": "CNC & Fabrication",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "u6zzbndnz"
@@ -3273,6 +3377,7 @@
                 {
                  "blockId": "m350tsqxz",
                  "blockName": "Solution 1",
+                 "innerHTML": "Custom Engineering",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "wy85i2xpo"
@@ -3280,6 +3385,7 @@
                 {
                  "blockId": "mtrsu4e9n",
                  "blockName": "Solution 2",
+                 "innerHTML": "Home Automation",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "lalmpnydd"
@@ -3287,6 +3393,7 @@
                 {
                  "blockId": "ya7uqsaut",
                  "blockName": "Solution 3",
+                 "innerHTML": "Heritage Restoration",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "8myd8rq3c"
@@ -3301,6 +3408,7 @@
                 {
                  "blockId": "48ejf9ejq",
                  "blockName": "About 1",
+                 "innerHTML": "About Hopkins",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "q3453e949"
@@ -3308,6 +3416,7 @@
                 {
                  "blockId": "uq0sltnd6",
                  "blockName": "About 2",
+                 "innerHTML": "Our Heritage",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "6qbe5tghz"
@@ -3315,6 +3424,15 @@
                 {
                  "blockId": "4rlg37use",
                  "blockName": "About 3",
+                 "innerHTML": "News & Updates",
+                 "isChildOfComponent": "eb786f777423a644",
+                 "isRepeaterBlock": false,
+                 "referenceBlockId": "ixx8edfv7"
+                },
+                {
+                 "blockId": "ip8jebzpn",
+                 "blockName": "About 3",
+                 "innerHTML": "FAQs",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "ixx8edfv7"
@@ -3338,6 +3456,7 @@
                 {
                  "blockId": "1nyot47rm",
                  "blockName": "Support 1",
+                 "innerHTML": "Contact Us",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "ksq17f0nq"
@@ -3345,6 +3464,7 @@
                 {
                  "blockId": "spp165hyq",
                  "blockName": "Support 2",
+                 "innerHTML": "Customer Support",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "gjqez8401"
@@ -3352,6 +3472,7 @@
                 {
                  "blockId": "jo5685sw3",
                  "blockName": "Support 3",
+                 "innerHTML": "Delivery Information",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "dq5x8fwdn"
@@ -3359,6 +3480,7 @@
                 {
                  "blockId": "qhk46zvgd",
                  "blockName": "Support 4",
+                 "innerHTML": "Returns & Refunds",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "iyeetbk4h"
@@ -3366,6 +3488,7 @@
                 {
                  "blockId": "ysokhd1jh",
                  "blockName": "Support 5",
+                 "innerHTML": "Support 5",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "pqgibh8me"
@@ -3373,6 +3496,7 @@
                 {
                  "blockId": "rw3muw4ux",
                  "blockName": "Support 6",
+                 "innerHTML": "Downloads",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "3fjzu2x5r"
@@ -3380,6 +3504,7 @@
                 {
                  "blockId": "4afwutgvu",
                  "blockName": "Support 7",
+                 "innerHTML": "Warranty",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "ilnzw649a"
@@ -3387,6 +3512,7 @@
                 {
                  "blockId": "cvjdf1g0t",
                  "blockName": "Support 8",
+                 "innerHTML": "Privacy Policy",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "ght7zghfd"
@@ -3394,6 +3520,7 @@
                 {
                  "blockId": "xg5cq33kl",
                  "blockName": "Support 9",
+                 "innerHTML": "Terms & Conditions",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "nt4b7h9ku"
@@ -3422,6 +3549,7 @@
               {
                "blockId": "ixqbjn3d7",
                "blockName": "Newsletter Description",
+               "innerHTML": "Stay informed with the latest product launches, industry insights, technical updates, and exclusive offers from Hopkins. Join our newsletter and never miss what's new in blinds, shutters, automation, and specialist fittings.",
                "isChildOfComponent": "eb786f777423a644",
                "isRepeaterBlock": false,
                "referenceBlockId": "gm8xgtn92"
@@ -3447,6 +3575,7 @@
                 {
                  "blockId": "jw6bo7ilf",
                  "blockName": "Sign Up Button",
+                 "innerHTML": "Sign up!",
                  "isChildOfComponent": "eb786f777423a644",
                  "isRepeaterBlock": false,
                  "referenceBlockId": "lpwts1esp"
@@ -3557,7 +3686,7 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-07-30 14:20:38.680562",
+ "modified": "2026-08-03 10:35:17.296438",
  "modified_by": "Administrator",
  "name": "page-e186e7f8",
  "owner": "Administrator",
@@ -3567,6 +3696,6 @@
  "preview": "/files/page-e186e7f8-preview.webp?v=110c7",
  "project_folder": "hopkins",
  "published": 1,
- "published_at": "2026-07-16 17:46:17.167609",
+ "published_at": "2026-08-03 10:35:17.296129",
  "route": "home"
 }
