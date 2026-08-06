@@ -33,6 +33,7 @@
              "blockId": "5y7jz2218",
              "blockName": "Your Cart",
              "isChildOfComponent": "132256d20bc9f339",
+             "isRepeaterBlock": false,
              "referenceBlockId": "gcyw7c1pq"
             },
             {
@@ -43,24 +44,29 @@
                "blockId": "rgjcgowhm",
                "blockName": "Vector",
                "isChildOfComponent": "132256d20bc9f339",
+               "isRepeaterBlock": false,
                "originalElement": "__raw_html__",
                "referenceBlockId": "1dpjfzmc5"
               },
               {
                "blockId": "r90ni904b",
                "isChildOfComponent": "132256d20bc9f339",
+               "isRepeaterBlock": false,
                "referenceBlockId": "4u53j2x49"
               }
              ],
              "isChildOfComponent": "132256d20bc9f339",
+             "isRepeaterBlock": false,
              "referenceBlockId": "m1nlvgof6"
             }
            ],
            "isChildOfComponent": "132256d20bc9f339",
+           "isRepeaterBlock": false,
            "referenceBlockId": "kt9u0f5e0"
           }
          ],
          "isChildOfComponent": "132256d20bc9f339",
+         "isRepeaterBlock": false,
          "referenceBlockId": "kro1o0r8g"
         },
         {
@@ -83,10 +89,12 @@
                  "blockId": "418tejqjh",
                  "blockName": "4-removebg-preview 1",
                  "isChildOfComponent": "132256d20bc9f339",
+                 "isRepeaterBlock": false,
                  "referenceBlockId": "onx54uyq7"
                 }
                ],
                "isChildOfComponent": "132256d20bc9f339",
+               "isRepeaterBlock": false,
                "referenceBlockId": "tpeeua59q"
               },
               {
@@ -105,26 +113,31 @@
                      "blockId": "fiuj5zkmd",
                      "blockName": "HARD WAX OIL",
                      "isChildOfComponent": "132256d20bc9f339",
+                     "isRepeaterBlock": false,
                      "referenceBlockId": "pj7jkfmwa"
                     },
                     {
                      "blockId": "rvcjgtetp",
                      "blockName": "£25.00",
                      "isChildOfComponent": "132256d20bc9f339",
+                     "isRepeaterBlock": false,
                      "referenceBlockId": "c3jm9crug"
                     }
                    ],
                    "isChildOfComponent": "132256d20bc9f339",
+                   "isRepeaterBlock": false,
                    "referenceBlockId": "xczpatut9"
                   },
                   {
                    "blockId": "xtbap94bu",
                    "blockName": "Remove",
                    "isChildOfComponent": "132256d20bc9f339",
+                   "isRepeaterBlock": false,
                    "referenceBlockId": "ftfnoagwm"
                   }
                  ],
                  "isChildOfComponent": "132256d20bc9f339",
+                 "isRepeaterBlock": false,
                  "referenceBlockId": "y3yn9u5ez"
                 },
                 {
@@ -135,48 +148,58 @@
                    "blockId": "e0p520hfz",
                    "blockName": "p | -",
                    "isChildOfComponent": "132256d20bc9f339",
+                   "isRepeaterBlock": false,
                    "referenceBlockId": "kfdal1c6s"
                   },
                   {
                    "blockId": "q9rsw1q13",
                    "blockName": "p | 0",
                    "isChildOfComponent": "132256d20bc9f339",
+                   "isRepeaterBlock": false,
                    "referenceBlockId": "hyr0b8vif"
                   },
                   {
                    "blockId": "hkda3tl83",
                    "blockName": "p | +",
                    "isChildOfComponent": "132256d20bc9f339",
+                   "isRepeaterBlock": false,
                    "referenceBlockId": "ckss2mwh2"
                   }
                  ],
                  "isChildOfComponent": "132256d20bc9f339",
+                 "isRepeaterBlock": false,
                  "referenceBlockId": "rthwseaen"
                 }
                ],
                "isChildOfComponent": "132256d20bc9f339",
+               "isRepeaterBlock": false,
                "referenceBlockId": "zled3ut6f"
               }
              ],
              "isChildOfComponent": "132256d20bc9f339",
+             "isRepeaterBlock": false,
              "referenceBlockId": "nv0xs7xy4"
             }
            ],
            "isChildOfComponent": "132256d20bc9f339",
+           "isRepeaterBlock": false,
            "referenceBlockId": "ke0az5857"
           },
           {
            "blockId": "elk19tcqm",
            "blockName": "container",
            "isChildOfComponent": "132256d20bc9f339",
+           "isRepeaterBlock": false,
            "referenceBlockId": "tlg8e1hdv"
           }
          ],
          "isChildOfComponent": "132256d20bc9f339",
+         "isRepeaterBlock": false,
          "referenceBlockId": "t34jqydbw"
         }
        ],
        "isChildOfComponent": "132256d20bc9f339",
+       "isRepeaterBlock": false,
        "referenceBlockId": "nzoggboz5"
       },
       {
@@ -187,16 +210,19 @@
          "blockId": "vig36hhpd",
          "blockName": "bag",
          "isChildOfComponent": "132256d20bc9f339",
+         "isRepeaterBlock": false,
          "referenceBlockId": "nmonk3yhw"
         },
         {
          "blockId": "zg7vu1hgh",
          "blockName": "No items found.",
          "isChildOfComponent": "132256d20bc9f339",
+         "isRepeaterBlock": false,
          "referenceBlockId": "0ihu962o0"
         }
        ],
        "isChildOfComponent": "132256d20bc9f339",
+       "isRepeaterBlock": false,
        "referenceBlockId": "p7feehznz"
       },
       {
@@ -216,20 +242,24 @@
              "blockName": "Subtotal",
              "innerHTML": "Subtotal",
              "isChildOfComponent": "132256d20bc9f339",
+             "isRepeaterBlock": false,
              "referenceBlockId": "80lb6l1pl"
             },
             {
              "blockId": "fbf29r808",
              "blockName": "£25.00",
              "isChildOfComponent": "132256d20bc9f339",
+             "isRepeaterBlock": false,
              "referenceBlockId": "yrhsdooi1"
             }
            ],
            "isChildOfComponent": "132256d20bc9f339",
+           "isRepeaterBlock": false,
            "referenceBlockId": "w02du4273"
           }
          ],
          "isChildOfComponent": "132256d20bc9f339",
+         "isRepeaterBlock": false,
          "referenceBlockId": "ooa48dmny"
         },
         {
@@ -251,14 +281,17 @@
                 {
                  "blockId": "q6dnoi6j4",
                  "isChildOfComponent": "132256d20bc9f339",
+                 "isRepeaterBlock": false,
                  "referenceBlockId": "qe2kronld"
                 }
                ],
                "isChildOfComponent": "132256d20bc9f339",
+               "isRepeaterBlock": false,
                "referenceBlockId": "20ijd9vbr"
               }
              ],
              "isChildOfComponent": "132256d20bc9f339",
+             "isRepeaterBlock": false,
              "referenceBlockId": "h29lysicl"
             },
             {
@@ -272,22 +305,27 @@
                 {
                  "blockId": "g2oxkazut",
                  "isChildOfComponent": "132256d20bc9f339",
+                 "isRepeaterBlock": false,
                  "referenceBlockId": "27q2s4ayk"
                 }
                ],
                "isChildOfComponent": "132256d20bc9f339",
+               "isRepeaterBlock": false,
                "referenceBlockId": "7ns9ff6bf"
               }
              ],
              "isChildOfComponent": "132256d20bc9f339",
+             "isRepeaterBlock": false,
              "referenceBlockId": "hlsxhhs4a"
             }
            ],
            "isChildOfComponent": "132256d20bc9f339",
+           "isRepeaterBlock": false,
            "referenceBlockId": "hsuhc5wz6"
           }
          ],
          "isChildOfComponent": "132256d20bc9f339",
+         "isRepeaterBlock": false,
          "referenceBlockId": "n8kxbthz8"
         },
         {
@@ -305,14 +343,17 @@
               {
                "blockId": "rjbx8dx5l",
                "isChildOfComponent": "132256d20bc9f339",
+               "isRepeaterBlock": false,
                "referenceBlockId": "4a9m38um0"
               }
              ],
              "isChildOfComponent": "132256d20bc9f339",
+             "isRepeaterBlock": false,
              "referenceBlockId": "xbuqm08rc"
             }
            ],
            "isChildOfComponent": "132256d20bc9f339",
+           "isRepeaterBlock": false,
            "referenceBlockId": "0xozzqf0c"
           },
           {
@@ -326,18 +367,22 @@
               {
                "blockId": "vpcyub2f6",
                "isChildOfComponent": "132256d20bc9f339",
+               "isRepeaterBlock": false,
                "referenceBlockId": "je98h6un2"
               }
              ],
              "isChildOfComponent": "132256d20bc9f339",
+             "isRepeaterBlock": false,
              "referenceBlockId": "t2kfgw7vi"
             }
            ],
            "isChildOfComponent": "132256d20bc9f339",
+           "isRepeaterBlock": false,
            "referenceBlockId": "beu599951"
           }
          ],
          "isChildOfComponent": "132256d20bc9f339",
+         "isRepeaterBlock": false,
          "referenceBlockId": "crif6ggj4"
         },
         {
@@ -352,14 +397,17 @@
              "blockId": "ohpioxxmo",
              "blockName": "Continue to Checkout",
              "isChildOfComponent": "132256d20bc9f339",
+             "isRepeaterBlock": false,
              "referenceBlockId": "29dbd6edr"
             }
            ],
            "isChildOfComponent": "132256d20bc9f339",
+           "isRepeaterBlock": false,
            "referenceBlockId": "s181f1eck"
           }
          ],
          "isChildOfComponent": "132256d20bc9f339",
+         "isRepeaterBlock": false,
          "referenceBlockId": "7tdhf2sv7"
         },
         {
@@ -374,28 +422,34 @@
              "blockId": "oe1gcfdqb",
              "blockName": "Delivery Fee",
              "isChildOfComponent": "132256d20bc9f339",
+             "isRepeaterBlock": false,
              "referenceBlockId": "uchhec3b3"
             },
             {
              "blockId": "biyaxumcy",
              "blockName": "$15",
              "isChildOfComponent": "132256d20bc9f339",
+             "isRepeaterBlock": false,
              "referenceBlockId": "dnifnidhn"
             }
            ],
            "isChildOfComponent": "132256d20bc9f339",
+           "isRepeaterBlock": false,
            "referenceBlockId": "hfdav891u"
           }
          ],
          "isChildOfComponent": "132256d20bc9f339",
+         "isRepeaterBlock": false,
          "referenceBlockId": "1quvgxc05"
         }
        ],
        "isChildOfComponent": "132256d20bc9f339",
+       "isRepeaterBlock": false,
        "referenceBlockId": "dukcxg6iw"
       }
      ],
-     "extendedFromComponent": "132256d20bc9f339"
+     "extendedFromComponent": "132256d20bc9f339",
+     "isRepeaterBlock": false
     },
     {
      "blockId": "wfbcqnjhy",
@@ -656,10 +710,18 @@
          }
         },
         {
+         "baseStyles": {
+          "position": "relative"
+         },
          "blockId": "oef9tv9do",
          "blockName": "container",
          "children": [
           {
+           "baseStyles": {
+            "left": "48px",
+            "position": "absolute",
+            "top": "232px"
+           },
            "blockId": "t6frkf33w",
            "children": [
             {
@@ -711,6 +773,10 @@
              "referenceBlockId": "z3zesbd20"
             },
             {
+             "baseStyles": {
+              "fontSize": "32px",
+              "fontWeight": "500"
+             },
              "blockId": "9rwjq8hjs",
              "isChildOfComponent": "47b0e97c38a85c0b",
              "isRepeaterBlock": false,
@@ -816,7 +882,7 @@
               "color": "#131652",
               "fontFamily": "'Rubik', sans-serif",
               "fontSize": "32px",
-              "fontWeight": "800",
+              "fontWeight": "500",
               "marginBottom": "14px"
              },
              "blockId": "4p4alh9ct",
@@ -923,7 +989,7 @@
               "color": "#131652",
               "fontFamily": "'Rubik', sans-serif",
               "fontSize": "32px",
-              "fontWeight": "800",
+              "fontWeight": "500",
               "marginBottom": "14px"
              },
              "blockId": "3shx6ak4y",
@@ -1041,7 +1107,7 @@
               "color": "#131652",
               "fontFamily": "'Rubik', sans-serif",
               "fontSize": "32px",
-              "fontWeight": "800",
+              "fontWeight": "500",
               "marginBottom": "14px"
              },
              "blockId": "9vkfnxxqd",
@@ -1507,7 +1573,7 @@
             "color": "#001a4d",
             "fontFamily": "'Rubik', sans-serif",
             "fontSize": "36px",
-            "fontWeight": "700",
+            "fontWeight": "500",
             "lineHeight": "1.2",
             "margin": "0 0 15px 0"
            },
@@ -1632,7 +1698,7 @@
           "color": "#001a4d",
           "fontFamily": "'Rubik', sans-serif",
           "fontSize": "42px",
-          "fontWeight": "700",
+          "fontWeight": "500",
           "lineHeight": "1.2",
           "margin": "0"
          },
@@ -2178,7 +2244,7 @@
           "color": "#001a4d",
           "fontFamily": "'Rubik', sans-serif",
           "fontSize": "42px",
-          "fontWeight": "700",
+          "fontWeight": "500",
           "lineHeight": "1.2",
           "margin": "0 0 30px 0"
          },
@@ -2281,7 +2347,7 @@
               "color": "#001a4d",
               "fontFamily": "'Rubik', sans-serif",
               "fontSize": "24px",
-              "fontWeight": "700",
+              "fontWeight": "500",
               "lineHeight": "1.2",
               "margin": "0 0 10px 0"
              },
@@ -2423,7 +2489,7 @@
               "color": "#001a4d",
               "fontFamily": "'Rubik', sans-serif",
               "fontSize": "24px",
-              "fontWeight": "700",
+              "fontWeight": "500",
               "lineHeight": "1.2",
               "margin": "0 0 10px 0"
              },
@@ -2578,7 +2644,7 @@
               "color": "#001a4d",
               "fontFamily": "'Rubik', sans-serif",
               "fontSize": "24px",
-              "fontWeight": "700",
+              "fontWeight": "500",
               "lineHeight": "1.2",
               "margin": "0 0 10px 0"
              },
@@ -2864,7 +2930,7 @@
               "color": "#001a4d",
               "fontFamily": "'Rubik', sans-serif",
               "fontSize": "42px",
-              "fontWeight": "700",
+              "fontWeight": "500",
               "lineHeight": "1.2",
               "margin": "0 0 20px 0"
              },
@@ -3184,7 +3250,7 @@
             "color": "#FFFFFF",
             "fontFamily": "'Rubik', sans-serif",
             "fontSize": "56px",
-            "fontWeight": "700",
+            "fontWeight": "500",
             "lineHeight": "1.2",
             "margin": "0 0 30px 0"
            },
@@ -3686,7 +3752,7 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-08-03 12:47:01.852298",
+ "modified": "2026-08-04 15:53:04.575080",
  "modified_by": "Administrator",
  "name": "page-e186e7f8",
  "owner": "Administrator",
@@ -3696,6 +3762,6 @@
  "preview": "/files/page-e186e7f8-preview.webp?v=356d1",
  "project_folder": "hopkins",
  "published": 1,
- "published_at": "2026-08-03 10:35:17.296129",
+ "published_at": "2026-08-04 15:53:04.458607",
  "route": "home"
 }

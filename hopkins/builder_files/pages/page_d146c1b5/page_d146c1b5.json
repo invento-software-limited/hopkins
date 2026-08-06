@@ -790,7 +790,7 @@
             "color": "#131652",
             "fontFamily": "'Barlow Condensed', sans-serif",
             "fontSize": "34px",
-            "fontWeight": "800",
+            "fontWeight": "500",
             "lineHeight": "1.1"
            },
            "blockId": "vh83xsesq",
@@ -885,7 +885,7 @@
           "color": "#1c2b6b",
           "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
           "fontSize": "48px",
-          "fontWeight": "700",
+          "fontWeight": "500",
           "lineHeight": "1.15",
           "margin": "0"
          },
@@ -895,7 +895,7 @@
           "fade-3d from-left delay-1"
          ],
          "element": "h1",
-         "innerHTML": "Not your average\nblinds supplier.",
+         "innerHTML": "Not your average blinds supplier.",
          "isRepeaterBlock": false,
          "mobileStyles": {
           "fontSize": "32px"
@@ -1148,7 +1148,7 @@
           "color": "#1e2c60",
           "display": "block",
           "fontSize": "40px",
-          "fontWeight": "700",
+          "fontWeight": "500",
           "height": "fit-content",
           "marginBottom": "12px",
           "minWidth": "10px",
@@ -1370,9 +1370,13 @@
          "baseStyles": {
           "color": "#1e2c60",
           "fontSize": "42px",
-          "fontWeight": "800",
+          "fontWeight": "500",
           "lineHeight": "1.2",
           "maxWidth": "500px",
+          "paddingBottom": "20px",
+          "paddingLeft": "0px",
+          "paddingRight": "0px",
+          "paddingTop": "0px",
           "textAlign": "left"
          },
          "blockId": "header-title",
@@ -4064,7 +4068,7 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-08-03 10:55:25.274062",
+ "modified": "2026-08-04 16:33:28.998429",
  "modified_by": "Administrator",
  "name": "page-d146c1b5",
  "owner": "Administrator",
@@ -4073,6 +4077,6 @@
  "preview": "/files/page-d146c1b5-preview.webp?v=39b86",
  "project_folder": "hopkins",
  "published": 1,
- "published_at": "2026-08-03 10:55:25.186987",
+ "published_at": "2026-08-04 16:33:28.868883",
  "route": "heritage"
 }
