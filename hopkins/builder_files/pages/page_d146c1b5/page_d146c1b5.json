@@ -790,7 +790,7 @@
             "color": "#131652",
             "fontFamily": "'Barlow Condensed', sans-serif",
             "fontSize": "34px",
-            "fontWeight": "500",
+            "fontWeight": "800",
             "lineHeight": "1.1"
            },
            "blockId": "vh83xsesq",
@@ -885,7 +885,7 @@
           "color": "#1c2b6b",
           "fontFamily": "Inter, system-ui, -apple-system, sans-serif",
           "fontSize": "48px",
-          "fontWeight": "500",
+          "fontWeight": "700",
           "lineHeight": "1.15",
           "margin": "0"
          },
@@ -895,7 +895,7 @@
           "fade-3d from-left delay-1"
          ],
          "element": "h1",
-         "innerHTML": "Not your average blinds supplier.",
+         "innerHTML": "Not your average\nblinds supplier.",
          "isRepeaterBlock": false,
          "mobileStyles": {
           "fontSize": "32px"
@@ -1148,7 +1148,7 @@
           "color": "#1e2c60",
           "display": "block",
           "fontSize": "40px",
-          "fontWeight": "500",
+          "fontWeight": "700",
           "height": "fit-content",
           "marginBottom": "12px",
           "minWidth": "10px",
@@ -1370,13 +1370,9 @@
          "baseStyles": {
           "color": "#1e2c60",
           "fontSize": "42px",
-          "fontWeight": "500",
+          "fontWeight": "800",
           "lineHeight": "1.2",
           "maxWidth": "500px",
-          "paddingBottom": "20px",
-          "paddingLeft": "0px",
-          "paddingRight": "0px",
-          "paddingTop": "0px",
           "textAlign": "left"
          },
          "blockId": "header-title",
@@ -1445,7 +1441,7 @@
          "blockId": "desktop-svg",
          "blockName": "Desktop SVG Serpentine Line",
          "element": "svg",
-         "innerHTML": "\n<path d=\"M 800 80\nC 800 130, 750 160, 700 160\nL 210 160\nC 160 160, 110 210, 110 260\nC 110 310, 160 360, 210 360\nL 790 360\nC 840 360, 890 410, 890 460\nC 890 510, 840 560, 790 560\nL 210 560\nC 160 560, 110 610, 110 660\nC 110 710, 160 760, 210 760\nL 790 760\nC 840 760, 890 810, 890 860\nC 890 910, 840 960, 790 960\nL 210 960\nC 160 960, 110 1010, 110 1060\" fill=\"none\" stroke=\"#e5e7eb\" stroke-width=\"4\" />\n<circle cx=\"800\" cy=\"80\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"380\" cy=\"160\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"620\" cy=\"160\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"110\" cy=\"260\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"380\" cy=\"360\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"620\" cy=\"360\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"890\" cy=\"460\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"380\" cy=\"560\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"620\" cy=\"560\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"110\" cy=\"660\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"380\" cy=\"760\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"620\" cy=\"760\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"890\" cy=\"860\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"380\" cy=\"960\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"620\" cy=\"960\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<circle cx=\"110\" cy=\"1060\" r=\"8\" fill=\"#faa41a\" class=\"timeline-dot\" />\n<style>\n  .timeline-dot {\n    transition: r 0.2s ease, fill 0.2s ease;\n    cursor: pointer;\n  }\n  .timeline-dot:hover {\n    r: 12px;\n    fill: #f9bf6b;\n  }\n  .label-box:hover {\n    transform: translateY(-4px) !important;\n  }\n</style>\n",
+         "innerHTML": "\n<path id=\"heritage-path\" d=\"M 800 80\nC 800 130, 750 160, 700 160\nL 210 160\nC 160 160, 110 210, 110 260\nC 110 310, 160 360, 210 360\nL 790 360\nC 840 360, 890 410, 890 460\nC 890 510, 840 560, 790 560\nL 210 560\nC 160 560, 110 610, 110 660\nC 110 710, 160 760, 210 760\nL 790 760\nC 840 760, 890 810, 890 860\nC 890 910, 840 960, 790 960\nL 210 960\nC 160 960, 110 1010, 110 1060\" fill=\"none\" stroke=\"#e5e7eb\" stroke-width=\"4\" />\n<circle class=\"timeline-dot\" cx=\"800\" cy=\"80\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"380\" cy=\"160\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"620\" cy=\"160\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"110\" cy=\"260\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"380\" cy=\"360\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"620\" cy=\"360\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"890\" cy=\"460\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"380\" cy=\"560\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"620\" cy=\"560\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"110\" cy=\"660\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"380\" cy=\"760\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"620\" cy=\"760\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"890\" cy=\"860\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"380\" cy=\"960\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"620\" cy=\"960\" r=\"8\" fill=\"#faa41a\" />\n<circle class=\"timeline-dot\" cx=\"110\" cy=\"1060\" r=\"8\" fill=\"#faa41a\" />\n<style>\n  .timeline-dot {\n    opacity: 0;\n    transition: opacity 0.5s ease, r 0.2s ease, fill 0.2s ease;\n    cursor: pointer;\n  }\n  .timeline-dot.is-visible {\n    opacity: 1;\n  }\n  .timeline-dot:hover {\n    r: 12px;\n    fill: #f9bf6b;\n  }\n  .heritage-label {\n    opacity: 0;\n    transition: opacity 0.5s ease 0.05s;\n  }\n  .heritage-label.is-visible {\n    opacity: 1;\n  }\n</style>\n",
          "isRepeaterBlock": false,
          "mobileStyles": {
           "display": "none"
@@ -1507,7 +1503,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -1555,7 +1551,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -1603,7 +1599,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -1650,7 +1646,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -1698,7 +1694,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -1746,7 +1742,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -1793,7 +1789,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -1841,7 +1837,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -1889,7 +1885,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -1936,7 +1932,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -1984,7 +1980,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -2032,7 +2028,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -2079,7 +2075,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -2127,7 +2123,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -2175,7 +2171,7 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
@@ -2223,11 +2219,14 @@
             }
            ],
            "classes": [
-            ""
+            "heritage-label"
            ],
            "element": "div",
            "isRepeaterBlock": false
           }
+         ],
+         "classes": [
+          "heritage-labels"
          ],
          "element": "div",
          "isRepeaterBlock": false,
@@ -3308,7 +3307,8 @@
         }
        ],
        "classes": [
-        "fade-3d from-bottom delay-1"
+        "fade-3d from-bottom delay-1",
+        "heritage-curve-wrapper"
        ],
        "element": "div",
        "isRepeaterBlock": false,
@@ -3316,6 +3316,9 @@
         "minHeight": "auto"
        }
       }
+     ],
+     "classes": [
+      "heritage-section"
      ],
      "element": "div",
      "isRepeaterBlock": false,
@@ -4057,7 +4060,11 @@
    "originalElement": "body"
   }
  ],
- "client_scripts": [],
+ "client_scripts": [
+  {
+   "builder_script": "heritage-timeline.js"
+  }
+ ],
  "creation": "2026-07-30 14:18:03.406698",
  "disable_indexing": 0,
  "docstatus": 0,
@@ -4068,15 +4075,15 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-08-04 16:33:28.998429",
+ "modified": "2026-08-06 11:57:55.456836",
  "modified_by": "Administrator",
  "name": "page-d146c1b5",
  "owner": "Administrator",
  "page_name": "page-d146c1b5",
  "page_title": "Heritage",
- "preview": "/files/page-d146c1b5-preview.webp?v=39b86",
+ "preview": "/files/page-d146c1b5-preview.webp?v=c7652",
  "project_folder": "hopkins",
  "published": 1,
- "published_at": "2026-08-04 16:33:28.868883",
+ "published_at": "2026-08-03 10:55:25.186987",
  "route": "heritage"
 }

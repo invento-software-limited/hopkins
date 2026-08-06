@@ -41,6 +41,23 @@ def subscribe_newsletter(email, first_name=None):
 	return {"status": "success", "message": "Thank you for subscribing!"}
 
 
+#: price_range labels shown in the filter dropdown, mapped to (price_start, price_end).
+#: ProductQuery.check_filters only applies the price filter when price_end > 0, so
+#: "Over £100" needs an explicit high ceiling rather than 0/unbounded.
+PRICE_RANGE_MAP = {
+	"under £25": (0, 25),
+	"£25 - £50": (25, 50),
+	"£50 - £100": (50, 100),
+	"over £100": (100, 999_999_999),
+}
+
+#: stock labels shown in the filter dropdown, mapped to ProductQuery stock filter keys
+STOCK_MAP = {
+	"in stock": "in_stock",
+	"out of stock": "on_backorder",
+}
+
+
 @frappe.whitelist(allow_guest=True)
 def get_products(
 	page: int = 1,
@@ -48,6 +65,8 @@ def get_products(
 	search: str | None = None,
 	category: str | None = None,
 	sort_by: str | None = None,
+	price_range: str | None = None,
+	stock: str | None = None,
 ):
 	import math
 
@@ -62,10 +81,24 @@ def get_products(
 
 	start = (page - 1) * page_length
 
+	price_start, price_end = PRICE_RANGE_MAP.get((price_range or "").lower().strip(), (0, 0))
+	stock_filters = []
+	stock_key = STOCK_MAP.get((stock or "").lower().strip())
+	if stock_key:
+		stock_filters.append(stock_key)
+
 	pq = ProductQuery()
 	try:
 		res = pq.query(
-			filters={"page_length": page_length}, search_term=search, start=start, item_group=category
+			filters={
+				"page_length": page_length,
+				"price_start": price_start,
+				"price_end": price_end,
+				"stock": stock_filters,
+			},
+			search_term=search,
+			start=start,
+			item_group=category,
 		)
 	except Exception as e:
 		frappe.log_error(message=f"ProductQuery failed: {e}", title="get_products")
