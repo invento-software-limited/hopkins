@@ -3752,7 +3752,7 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-08-04 15:53:04.575080",
+ "modified": "2026-08-06 14:31:30.340109",
  "modified_by": "Administrator",
  "name": "page-e186e7f8",
  "owner": "Administrator",
@@ -3762,6 +3762,5 @@
  "preview": "/files/page-e186e7f8-preview.webp?v=356d1",
  "project_folder": "hopkins",
  "published": 1,
- "published_at": "2026-08-04 15:53:04.458607",
  "route": "home"
 }

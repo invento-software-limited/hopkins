@@ -14400,7 +14400,7 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-08-03 13:03:17.135245",
+ "modified": "2026-08-06 14:31:29.853916",
  "modified_by": "Administrator",
  "name": "page-f893b7a7",
  "owner": "Administrator",
@@ -14410,6 +14410,5 @@
  "preview": "/files/page-f893b7a7-preview.webp?v=43396",
  "project_folder": "hopkins",
  "published": 1,
- "published_at": "2026-08-03 11:57:18.166019",
  "route": "checkout"
 }

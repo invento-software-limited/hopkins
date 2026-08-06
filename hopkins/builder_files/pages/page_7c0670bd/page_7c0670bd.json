@@ -2184,7 +2184,7 @@
               {
                "activeState": null,
                "attributes": {
-                "value": "relevance"
+                "value": ""
                },
                "baseStyles": {
                 "appearance": "none",
@@ -2205,7 +2205,9 @@
                "children": [
                 {
                  "activeState": null,
-                 "attributes": {},
+                 "attributes": {
+                  "value": ""
+                 },
                  "baseStyles": {
                   "backgroundColor": "#e2e2e2",
                   "display": "flex",
@@ -2219,14 +2221,20 @@
                  "blockClientScript": "",
                  "blockDataScript": "",
                  "blockId": "jmg8ktu4e",
+                 "blockName": "option",
                  "children": [],
                  "classes": [
                   ""
                  ],
-                 "customAttributes": {},
+                 "customAttributes": {
+                  "disabled": "",
+                  "selected": "",
+                  "value": ""
+                 },
                  "dataKey": {},
                  "dynamicValues": [],
                  "element": "option",
+                 "innerHTML": "<p>Sort by</p>",
                  "mobileStyles": {},
                  "props": {},
                  "rawStyles": {},
@@ -2302,7 +2310,10 @@
                "classes": [
                 "sortby"
                ],
-               "customAttributes": {},
+               "customAttributes": {
+                "placeholder": "Sort By",
+                "value": ""
+               },
                "dataKey": null,
                "dynamicValues": [],
                "element": "select",
@@ -2393,7 +2404,7 @@
               {
                "activeState": null,
                "attributes": {
-                "value": "relevance"
+                "value": ""
                },
                "baseStyles": {
                 "appearance": "none",
@@ -2414,7 +2425,9 @@
                "children": [
                 {
                  "activeState": null,
-                 "attributes": {},
+                 "attributes": {
+                  "value": ""
+                 },
                  "baseStyles": {
                   "backgroundColor": "#e2e2e2",
                   "display": "flex",
@@ -2432,10 +2445,15 @@
                  "classes": [
                   ""
                  ],
-                 "customAttributes": {},
+                 "customAttributes": {
+                  "disabled": "",
+                  "selected": "",
+                  "value": ""
+                 },
                  "dataKey": {},
                  "dynamicValues": [],
                  "element": "option",
+                 "innerHTML": "<p>Select Category</p>",
                  "mobileStyles": {},
                  "props": {},
                  "rawStyles": {},
@@ -2603,7 +2621,7 @@
               {
                "activeState": null,
                "attributes": {
-                "value": "relevance"
+                "value": ""
                },
                "baseStyles": {
                 "appearance": "none",
@@ -2624,7 +2642,9 @@
                "children": [
                 {
                  "activeState": null,
-                 "attributes": {},
+                 "attributes": {
+                  "value": ""
+                 },
                  "baseStyles": {
                   "backgroundColor": "#e2e2e2",
                   "display": "flex",
@@ -2642,10 +2662,14 @@
                  "classes": [
                   ""
                  ],
-                 "customAttributes": {},
+                 "customAttributes": {
+                  "disabled": "",
+                  "selected": ""
+                 },
                  "dataKey": {},
                  "dynamicValues": [],
                  "element": "option",
+                 "innerHTML": "<p>Select price range</p>",
                  "mobileStyles": {},
                  "props": {},
                  "rawStyles": {},
@@ -2813,7 +2837,7 @@
               {
                "activeState": null,
                "attributes": {
-                "value": "relevance"
+                "value": ""
                },
                "baseStyles": {
                 "appearance": "none",
@@ -2834,7 +2858,9 @@
                "children": [
                 {
                  "activeState": null,
-                 "attributes": {},
+                 "attributes": {
+                  "value": ""
+                 },
                  "baseStyles": {
                   "backgroundColor": "#e2e2e2",
                   "display": "flex",
@@ -2852,10 +2878,14 @@
                  "classes": [
                   ""
                  ],
-                 "customAttributes": {},
+                 "customAttributes": {
+                  "disabled": "",
+                  "selected": ""
+                 },
                  "dataKey": {},
                  "dynamicValues": [],
                  "element": "option",
+                 "innerHTML": "<p>Select Stock</p>",
                  "mobileStyles": {},
                  "props": {},
                  "rawStyles": {},
@@ -2977,8 +3007,74 @@
          "dynamicValues": [],
          "element": "div",
          "mobileStyles": {
-          "gap": "0px"
+          "gap": "0px",
+          "gridAutoColumns": "minmax(0, 1fr)",
+          "gridTemplateColumns": "repeat(1, minmax(0, 1fr))"
          },
+         "props": {},
+         "rawStyles": {},
+         "tabletStyles": {
+          "gridAutoColumns": "minmax(0, 1fr)",
+          "gridTemplateColumns": "repeat(2, minmax(0, 1fr))"
+         }
+        },
+        {
+         "activeState": null,
+         "attributes": {},
+         "baseStyles": {
+          "display": "flex",
+          "flexShrink": 0,
+          "justifyContent": "flex-end",
+          "marginTop": "-10px",
+          "width": "100%"
+         },
+         "blockClientScript": "",
+         "blockDataScript": "",
+         "blockId": "6z8g02gcb",
+         "blockName": "container",
+         "children": [
+          {
+           "activeState": null,
+           "attributes": {
+            "type": "button"
+           },
+           "baseStyles": {
+            "backgroundColor": "#ffffff",
+            "border": "1px solid #cbd5e1",
+            "borderRadius": "4px",
+            "color": "#475569",
+            "cursor": "pointer",
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "outline": "none",
+            "padding": "8px 16px"
+           },
+           "blockClientScript": "",
+           "blockDataScript": "",
+           "blockId": "duel0s07m",
+           "children": [],
+           "classes": [
+            "clear-filters-btn"
+           ],
+           "customAttributes": {},
+           "dataKey": null,
+           "dynamicValues": [],
+           "element": "button",
+           "innerHTML": "Clear Filters",
+           "isRepeaterBlock": false,
+           "mobileStyles": {},
+           "props": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [],
+         "customAttributes": {},
+         "dataKey": null,
+         "dynamicValues": [],
+         "element": "div",
+         "isRepeaterBlock": false,
+         "mobileStyles": {},
          "props": {},
          "rawStyles": {},
          "tabletStyles": {}
@@ -3337,6 +3433,89 @@
          "attributes": {},
          "baseStyles": {
           "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "gap": "8px",
+          "justifyContent": "center",
+          "padding": "80px 20px",
+          "textAlign": "center",
+          "width": "100%"
+         },
+         "blockClientScript": "",
+         "blockDataScript": "",
+         "blockId": "4o377njrf",
+         "blockName": "No products found",
+         "children": [
+          {
+           "activeState": null,
+           "attributes": {},
+           "baseStyles": {
+            "color": "#1e293b",
+            "fontSize": "18px",
+            "fontWeight": "600"
+           },
+           "blockClientScript": "",
+           "blockDataScript": "",
+           "blockId": "iw99jvr2y",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "dataKey": null,
+           "dynamicValues": [],
+           "element": "p",
+           "innerHTML": "<p>No products found</p>",
+           "isRepeaterBlock": false,
+           "mobileStyles": {},
+           "props": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          },
+          {
+           "activeState": null,
+           "attributes": {},
+           "baseStyles": {
+            "color": "#64748b",
+            "fontSize": "14px"
+           },
+           "blockClientScript": "",
+           "blockDataScript": "",
+           "blockId": "mdtljnnsh",
+           "children": [],
+           "classes": [],
+           "customAttributes": {},
+           "dataKey": null,
+           "dynamicValues": [],
+           "element": "p",
+           "innerHTML": "<p>Try adjusting your filters or search to find what you're looking for.</p>",
+           "isRepeaterBlock": false,
+           "mobileStyles": {},
+           "props": {},
+           "rawStyles": {},
+           "tabletStyles": {}
+          }
+         ],
+         "classes": [
+          "no-products-found"
+         ],
+         "customAttributes": {},
+         "dataKey": null,
+         "dynamicValues": [],
+         "element": "div",
+         "isRepeaterBlock": false,
+         "mobileStyles": {},
+         "props": {},
+         "rawStyles": {},
+         "tabletStyles": {},
+         "visibilityCondition": {
+          "comesFrom": "dataScript",
+          "key": "no_products"
+         }
+        },
+        {
+         "activeState": null,
+         "attributes": {},
+         "baseStyles": {
+          "alignItems": "center",
           "borderTop": "1px solid #e2e8f0",
           "display": "flex",
           "justifyContent": "space-between",
@@ -3614,7 +3793,7 @@
               {
                "activeState": null,
                "attributes": {
-                "value": "20"
+                "value": "8"
                },
                "baseStyles": {
                 "appearance": "none",
@@ -3635,12 +3814,36 @@
                 {
                  "activeState": null,
                  "attributes": {
-                  "value": "20"
+                  "value": "8"
                  },
                  "baseStyles": {},
                  "blockClientScript": "",
                  "blockDataScript": "",
                  "blockId": "9bb98ca03",
+                 "children": [],
+                 "classes": [],
+                 "customAttributes": {
+                  "selected": ""
+                 },
+                 "dataKey": null,
+                 "dynamicValues": [],
+                 "element": "option",
+                 "innerHTML": "8",
+                 "isRepeaterBlock": false,
+                 "mobileStyles": {},
+                 "props": {},
+                 "rawStyles": {},
+                 "tabletStyles": {}
+                },
+                {
+                 "activeState": null,
+                 "attributes": {
+                  "value": "20"
+                 },
+                 "baseStyles": {},
+                 "blockClientScript": "",
+                 "blockDataScript": "",
+                 "blockId": "10yof2y12",
                  "children": [],
                  "classes": [],
                  "customAttributes": {},
@@ -3657,7 +3860,7 @@
                 {
                  "activeState": null,
                  "attributes": {
-                  "value": "20"
+                  "value": "40"
                  },
                  "baseStyles": {},
                  "blockClientScript": "",
@@ -3679,7 +3882,7 @@
                 {
                  "activeState": null,
                  "attributes": {
-                  "value": "20"
+                  "value": "60"
                  },
                  "baseStyles": {},
                  "blockClientScript": "",
@@ -3701,7 +3904,7 @@
                 {
                  "activeState": null,
                  "attributes": {
-                  "value": "20"
+                  "value": "100"
                  },
                  "baseStyles": {},
                  "blockClientScript": "",
@@ -4914,7 +5117,7 @@
    "tabletStyles": {}
   }
  ],
- "body_html": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n    const sortSelect = document.querySelector(\"select.sortby\");\n    const categorySelect = document.querySelector(\"select.category\");\n    const priceRangeSelect = document.querySelector(\"select.price_range\");\n    const stockSelect = document.querySelector(\"select.stock\");\n\n    const url = new URL(window.location.href);\n\n    // Restore selected values from URL\n    const sortBy = url.searchParams.get(\"sort_by\");\n    const category = url.searchParams.get(\"category\");\n    const priceRange = url.searchParams.get(\"price_range\");\n    const stock = url.searchParams.get(\"stock\");\n\n    if (sortSelect && sortBy) {\n        sortSelect.value = sortBy;\n    }\n\n    if (categorySelect && category) {\n        categorySelect.value = category;\n    }\n\n    if (priceRangeSelect && priceRange) {\n        priceRangeSelect.value = priceRange;\n    }\n\n    if (stockSelect && stock) {\n        stockSelect.value = stock;\n    }\n\n    function updateUrl() {\n        const url = new URL(window.location.href);\n\n        if (sortSelect?.value) {\n            url.searchParams.set(\"sort_by\", sortSelect.value);\n        } else {\n            url.searchParams.delete(\"sort_by\");\n        }\n\n        if (categorySelect?.value) {\n            url.searchParams.set(\"category\", categorySelect.value);\n        } else {\n            url.searchParams.delete(\"category\");\n        }\n\n        if (priceRangeSelect?.value) {\n            url.searchParams.set(\"price_range\", priceRangeSelect.value);\n        } else {\n            url.searchParams.delete(\"price_range\");\n        }\n\n        if (stockSelect?.value) {\n            url.searchParams.set(\"stock\", stockSelect.value);\n        } else {\n            url.searchParams.delete(\"stock\");\n        }\n\n        // Reset page when filters change\n        url.searchParams.delete(\"page\");\n\n        window.location.href = url.toString();\n    }\n\n    sortSelect?.addEventListener(\"change\", updateUrl);\n    categorySelect?.addEventListener(\"change\", updateUrl);\n    priceRangeSelect?.addEventListener(\"change\", updateUrl);\n    stockSelect?.addEventListener(\"change\", updateUrl);\n});\n</script>",
+ "body_html": "<script>\ndocument.addEventListener(\"DOMContentLoaded\", () => {\n    const sortSelect = document.querySelector(\"select.sortby\");\n    const categorySelect = document.querySelector(\"select.category\");\n    const priceRangeSelect = document.querySelector(\"select.price_range\");\n    const stockSelect = document.querySelector(\"select.stock\");\n    const pageLengthSelect = document.querySelector(\"select.page-length-select\");\n    const clearFiltersBtn = document.querySelector(\".clear-filters-btn\");\n\n    const url = new URL(window.location.href);\n\n    // Restore selected values from URL\n    const sortBy = url.searchParams.get(\"sort_by\");\n    const category = url.searchParams.get(\"category\");\n    const priceRange = url.searchParams.get(\"price_range\");\n    const stock = url.searchParams.get(\"stock\");\n\n    if (sortSelect && sortBy) {\n        sortSelect.value = sortBy;\n    }\n\n    if (categorySelect && category) {\n        categorySelect.value = category;\n    }\n\n    if (priceRangeSelect && priceRange) {\n        priceRangeSelect.value = priceRange;\n    }\n\n    if (stockSelect && stock) {\n        stockSelect.value = stock;\n    }\n\n    const pageLength = url.searchParams.get(\"page_length\");\n    if (pageLengthSelect) {\n        // 8 is the server-side default (see page_data_script), so it's the fallback here too\n        pageLengthSelect.value = pageLength || \"8\";\n    }\n\n    function updateUrl() {\n        const url = new URL(window.location.href);\n\n        if (sortSelect?.value) {\n            url.searchParams.set(\"sort_by\", sortSelect.value);\n        } else {\n            url.searchParams.delete(\"sort_by\");\n        }\n\n        if (categorySelect?.value) {\n            url.searchParams.set(\"category\", categorySelect.value);\n        } else {\n            url.searchParams.delete(\"category\");\n        }\n\n        if (priceRangeSelect?.value) {\n            url.searchParams.set(\"price_range\", priceRangeSelect.value);\n        } else {\n            url.searchParams.delete(\"price_range\");\n        }\n\n        if (stockSelect?.value) {\n            url.searchParams.set(\"stock\", stockSelect.value);\n        } else {\n            url.searchParams.delete(\"stock\");\n        }\n\n        if (pageLengthSelect?.value && pageLengthSelect.value !== \"8\") {\n            url.searchParams.set(\"page_length\", pageLengthSelect.value);\n        } else {\n            url.searchParams.delete(\"page_length\");\n        }\n\n        // Reset page when filters change\n        url.searchParams.delete(\"page\");\n\n        window.location.href = url.toString();\n    }\n\n    sortSelect?.addEventListener(\"change\", updateUrl);\n    categorySelect?.addEventListener(\"change\", updateUrl);\n    priceRangeSelect?.addEventListener(\"change\", updateUrl);\n    stockSelect?.addEventListener(\"change\", updateUrl);\n    pageLengthSelect?.addEventListener(\"change\", updateUrl);\n\n    clearFiltersBtn?.addEventListener(\"click\", () => {\n        window.location.href = window.location.pathname;\n    });\n});\n</script>",
  "client_scripts": [],
  "creation": "2026-06-29 15:44:01.927622",
  "disable_indexing": 0,
@@ -4926,14 +5129,14 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-08-06 12:58:00.830392",
+ "modified": "2026-08-06 14:32:38.876597",
  "modified_by": "Administrator",
  "name": "page-7c0670bd",
  "owner": "Administrator",
- "page_data_script": "page_num = frappe.form_dict.get(\"page\", 1)\npage_length = frappe.form_dict.get(\"page_length\", 8)  \nsearch = frappe.form_dict.get(\"search\", None)\ncategory = frappe.form_dict.get(\"category\", None)\nsort_by = frappe.form_dict.get(\"sort_by\", None)\nprice_range = frappe.form_dict.get(\"price_range\", None)\nstock = frappe.form_dict.get(\"stock\", None)\n\nres = frappe.call('hopkins.api.get_products', page=page_num, page_length=page_length, search=search, category=category, sort_by=sort_by, price_range=price_range, stock=stock)\ndata.categories = frappe.get_all('Item Group')\ndata.products = res.get(\"products\", [])\n\ndata.sort_by = [\n    {\n        \"label\": \"Price: Low to High\",\n    },\n    {\n        \"label\": \"Price: High to Low\",\n    },\n    {\n        \"label\": \"Name: A to Z\",\n    },\n    {\n        \"label\": \"Name: Z to A\",\n    },\n]\n\ndata.price_ranges = [\n    {\n        \"label\": \"Under £25\",\n    },\n    {\n        \"label\": \"£25 - £50\",\n    },\n    {\n        \"label\": \"£50 - £100\",\n    },\n    {\n        \"label\": \"Over £100\",\n    },\n]\n\ndata.stock_options = [\n    {\n        \"label\": \"In Stock\",\n    },\n    {\n        \"label\": \"Out of Stock\",\n    },\n]\n\ncsrf = frappe.session.csrf_token\ndata.page_data = {\n  \"csrf\": csrf,\n  \"current_page\": int(page_num),\n  \"total_pages\": int(res.get(\"total_pages\", 1)),\n  \"total_products\": int(res.get(\"total_products\", 0)),\n  \"page_length\": int(page_length)\n}\n",
+ "page_data_script": "page_num = frappe.form_dict.get(\"page\", 1)\npage_length = frappe.form_dict.get(\"page_length\", 8)  \nsearch = frappe.form_dict.get(\"search\", None)\ncategory = frappe.form_dict.get(\"category\", None)\nsort_by = frappe.form_dict.get(\"sort_by\", None)\nprice_range = frappe.form_dict.get(\"price_range\", None)\nstock = frappe.form_dict.get(\"stock\", None)\n\nres = frappe.call('hopkins.api.get_products', page=page_num, page_length=page_length, search=search, category=category, sort_by=sort_by, price_range=price_range, stock=stock)\ndata.categories = frappe.get_all('Item Group')\ndata.products = res.get(\"products\", [])\ndata.no_products = len(data.products) == 0\n\ndata.sort_by = [\n    {\n        \"label\": \"Price: Low to High\",\n    },\n    {\n        \"label\": \"Price: High to Low\",\n    },\n    {\n        \"label\": \"Name: A to Z\",\n    },\n    {\n        \"label\": \"Name: Z to A\",\n    },\n]\n\ndata.price_ranges = [\n    {\n        \"label\": \"Under £25\",\n    },\n    {\n        \"label\": \"£25 - £50\",\n    },\n    {\n        \"label\": \"£50 - £100\",\n    },\n    {\n        \"label\": \"Over £100\",\n    },\n]\n\ndata.stock_options = [\n    {\n        \"label\": \"In Stock\",\n    },\n    {\n        \"label\": \"Out of Stock\",\n    },\n]\n\ncsrf = frappe.session.csrf_token\ndata.page_data = {\n  \"csrf\": csrf,\n  \"current_page\": int(page_num),\n  \"total_pages\": int(res.get(\"total_pages\", 1)),\n  \"total_products\": int(res.get(\"total_products\", 0)),\n  \"page_length\": int(page_length)\n}\n",
  "page_name": "page-7c0670bd",
  "page_title": "Products",
- "preview": "/files/page-7c0670bd-preview.webp?v=295a3",
+ "preview": "/files/page-7c0670bd-preview.webp?v=fdeda",
  "project_folder": "hopkins",
  "published": 1,
  "route": "products"
