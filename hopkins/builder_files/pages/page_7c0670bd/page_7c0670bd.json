@@ -2123,7 +2123,7 @@
           "flexWrap": "wrap",
           "gap": "20px",
           "gridAutoColumns": "minmax(0, 1fr)",
-          "gridTemplateColumns": "repeat(4, minmax(0, 1fr))",
+          "gridTemplateColumns": "repeat(5, minmax(0, 1fr))",
           "overflow": "hidden",
           "width": "100%"
          },
@@ -2138,8 +2138,7 @@
            "baseStyles": {
             "alignItems": "flex-start",
             "display": "flex",
-            "flexDirection": "column",
-            "marginBottom": "20px"
+            "flexDirection": "column"
            },
            "blockClientScript": "",
            "blockDataScript": "",
@@ -2150,6 +2149,7 @@
              "attributes": {},
              "baseStyles": {
               "color": "#475569",
+              "display": "none",
               "fontSize": "14px",
               "fontWeight": "600",
               "marginBottom": "4px"
@@ -2231,7 +2231,7 @@
                   "selected": "",
                   "value": ""
                  },
-                 "dataKey": {},
+                 "dataKey": null,
                  "dynamicValues": [],
                  "element": "option",
                  "innerHTML": "<p>Sort by</p>",
@@ -2358,7 +2358,6 @@
             "alignItems": "flex-start",
             "display": "flex",
             "flexDirection": "column",
-            "marginBottom": "20px",
             "width": "100%"
            },
            "blockClientScript": "",
@@ -2370,6 +2369,7 @@
              "attributes": {},
              "baseStyles": {
               "color": "#475569",
+              "display": "none",
               "fontSize": "14px",
               "fontWeight": "600",
               "marginBottom": "4px"
@@ -2450,7 +2450,7 @@
                   "selected": "",
                   "value": ""
                  },
-                 "dataKey": {},
+                 "dataKey": null,
                  "dynamicValues": [],
                  "element": "option",
                  "innerHTML": "<p>Select Category</p>",
@@ -2575,7 +2575,6 @@
             "alignItems": "flex-start",
             "display": "flex",
             "flexDirection": "column",
-            "marginBottom": "20px",
             "width": "100%"
            },
            "blockClientScript": "",
@@ -2587,6 +2586,7 @@
              "attributes": {},
              "baseStyles": {
               "color": "#475569",
+              "display": "none",
               "fontSize": "14px",
               "fontWeight": "600",
               "marginBottom": "4px"
@@ -2666,7 +2666,7 @@
                   "disabled": "",
                   "selected": ""
                  },
-                 "dataKey": {},
+                 "dataKey": null,
                  "dynamicValues": [],
                  "element": "option",
                  "innerHTML": "<p>Select price range</p>",
@@ -2791,7 +2791,6 @@
             "alignItems": "flex-start",
             "display": "flex",
             "flexDirection": "column",
-            "marginBottom": "20px",
             "width": "100%"
            },
            "blockClientScript": "",
@@ -2803,6 +2802,7 @@
              "attributes": {},
              "baseStyles": {
               "color": "#475569",
+              "display": "none",
               "fontSize": "14px",
               "fontWeight": "600",
               "marginBottom": "4px"
@@ -2882,7 +2882,7 @@
                   "disabled": "",
                   "selected": ""
                  },
-                 "dataKey": {},
+                 "dataKey": null,
                  "dynamicValues": [],
                  "element": "option",
                  "innerHTML": "<p>Select Stock</p>",
@@ -2999,6 +2999,119 @@
            "props": {},
            "rawStyles": {},
            "tabletStyles": {}
+          },
+          {
+           "activeState": null,
+           "attributes": {},
+           "baseStyles": {
+            "alignItems": "center",
+            "display": "flex",
+            "flexDirection": "column",
+            "justifyContent": "center",
+            "width": "100%"
+           },
+           "blockClientScript": "",
+           "blockDataScript": "",
+           "blockId": "neefs5n17",
+           "children": [
+            {
+             "activeState": null,
+             "attributes": {},
+             "baseStyles": {
+              "color": "#475569",
+              "display": "none",
+              "fontSize": "14px",
+              "fontWeight": "600",
+              "marginBottom": "4px"
+             },
+             "blockClientScript": "",
+             "blockDataScript": "",
+             "blockId": "yqov2egyi",
+             "children": [],
+             "classes": [],
+             "customAttributes": {},
+             "dataKey": null,
+             "dynamicValues": [],
+             "element": "span",
+             "isRepeaterBlock": false,
+             "mobileStyles": {},
+             "props": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            },
+            {
+             "activeState": null,
+             "attributes": {},
+             "baseStyles": {
+              "position": "relative",
+              "width": "100%"
+             },
+             "blockClientScript": "",
+             "blockDataScript": "",
+             "blockId": "hadgyc5q3",
+             "children": [
+              {
+               "activeState": null,
+               "attributes": {
+                "type": "button"
+               },
+               "baseStyles": {
+                "backgroundColor": "#ffffff",
+                "border": "1px solid #cbd5e1",
+                "borderRadius": "4px",
+                "color": "#475569",
+                "cursor": "pointer",
+                "fontSize": "14px",
+                "fontWeight": "600",
+                "outline": "none",
+                "padding": "12px",
+                "width": "100%"
+               },
+               "blockClientScript": "",
+               "blockDataScript": "",
+               "blockId": "duel0s07m",
+               "children": [],
+               "classes": [
+                "clear-filters-btn"
+               ],
+               "customAttributes": {},
+               "dataKey": null,
+               "dynamicValues": [],
+               "element": "button",
+               "innerHTML": "<p>Clear Filters</p>",
+               "isRepeaterBlock": false,
+               "mobileStyles": {},
+               "props": {},
+               "rawStyles": {},
+               "tabletStyles": {}
+              }
+             ],
+             "classes": [
+              ""
+             ],
+             "customAttributes": {},
+             "dataKey": null,
+             "dynamicValues": [],
+             "element": "div",
+             "isRepeaterBlock": false,
+             "mobileStyles": {
+              "width": "350px"
+             },
+             "props": {},
+             "rawStyles": {},
+             "tabletStyles": {}
+            }
+           ],
+           "classes": [],
+           "customAttributes": {},
+           "dataKey": null,
+           "dynamicValues": [],
+           "element": "div",
+           "isRepeaterBlock": false,
+           "mobileStyles": {},
+           "props": {},
+           "rawStyles": {},
+           "tabletStyles": {}
           }
          ],
          "classes": [],
@@ -3017,67 +3130,6 @@
           "gridAutoColumns": "minmax(0, 1fr)",
           "gridTemplateColumns": "repeat(2, minmax(0, 1fr))"
          }
-        },
-        {
-         "activeState": null,
-         "attributes": {},
-         "baseStyles": {
-          "display": "flex",
-          "flexShrink": 0,
-          "justifyContent": "flex-end",
-          "marginTop": "-10px",
-          "width": "100%"
-         },
-         "blockClientScript": "",
-         "blockDataScript": "",
-         "blockId": "6z8g02gcb",
-         "blockName": "container",
-         "children": [
-          {
-           "activeState": null,
-           "attributes": {
-            "type": "button"
-           },
-           "baseStyles": {
-            "backgroundColor": "#ffffff",
-            "border": "1px solid #cbd5e1",
-            "borderRadius": "4px",
-            "color": "#475569",
-            "cursor": "pointer",
-            "fontSize": "14px",
-            "fontWeight": "600",
-            "outline": "none",
-            "padding": "8px 16px"
-           },
-           "blockClientScript": "",
-           "blockDataScript": "",
-           "blockId": "duel0s07m",
-           "children": [],
-           "classes": [
-            "clear-filters-btn"
-           ],
-           "customAttributes": {},
-           "dataKey": null,
-           "dynamicValues": [],
-           "element": "button",
-           "innerHTML": "Clear Filters",
-           "isRepeaterBlock": false,
-           "mobileStyles": {},
-           "props": {},
-           "rawStyles": {},
-           "tabletStyles": {}
-          }
-         ],
-         "classes": [],
-         "customAttributes": {},
-         "dataKey": null,
-         "dynamicValues": [],
-         "element": "div",
-         "isRepeaterBlock": false,
-         "mobileStyles": {},
-         "props": {},
-         "rawStyles": {},
-         "tabletStyles": {}
         },
         {
          "activeState": null,
@@ -5129,15 +5181,16 @@
  "idx": 0,
  "is_standard": 1,
  "is_template": 0,
- "modified": "2026-08-06 14:32:38.876597",
+ "modified": "2026-08-06 16:59:48.200970",
  "modified_by": "Administrator",
  "name": "page-7c0670bd",
  "owner": "Administrator",
  "page_data_script": "page_num = frappe.form_dict.get(\"page\", 1)\npage_length = frappe.form_dict.get(\"page_length\", 8)  \nsearch = frappe.form_dict.get(\"search\", None)\ncategory = frappe.form_dict.get(\"category\", None)\nsort_by = frappe.form_dict.get(\"sort_by\", None)\nprice_range = frappe.form_dict.get(\"price_range\", None)\nstock = frappe.form_dict.get(\"stock\", None)\n\nres = frappe.call('hopkins.api.get_products', page=page_num, page_length=page_length, search=search, category=category, sort_by=sort_by, price_range=price_range, stock=stock)\ndata.categories = frappe.get_all('Item Group')\ndata.products = res.get(\"products\", [])\ndata.no_products = len(data.products) == 0\n\ndata.sort_by = [\n    {\n        \"label\": \"Price: Low to High\",\n    },\n    {\n        \"label\": \"Price: High to Low\",\n    },\n    {\n        \"label\": \"Name: A to Z\",\n    },\n    {\n        \"label\": \"Name: Z to A\",\n    },\n]\n\ndata.price_ranges = [\n    {\n        \"label\": \"Under £25\",\n    },\n    {\n        \"label\": \"£25 - £50\",\n    },\n    {\n        \"label\": \"£50 - £100\",\n    },\n    {\n        \"label\": \"Over £100\",\n    },\n]\n\ndata.stock_options = [\n    {\n        \"label\": \"In Stock\",\n    },\n    {\n        \"label\": \"Out of Stock\",\n    },\n]\n\ncsrf = frappe.session.csrf_token\ndata.page_data = {\n  \"csrf\": csrf,\n  \"current_page\": int(page_num),\n  \"total_pages\": int(res.get(\"total_pages\", 1)),\n  \"total_products\": int(res.get(\"total_products\", 0)),\n  \"page_length\": int(page_length)\n}\n",
  "page_name": "page-7c0670bd",
  "page_title": "Products",
- "preview": "/files/page-7c0670bd-preview.webp?v=fdeda",
+ "preview": "/files/page-7c0670bd-preview.webp?v=5f6a4",
  "project_folder": "hopkins",
  "published": 1,
+ "published_at": "2026-08-06 16:13:27.761455",
  "route": "products"
 }

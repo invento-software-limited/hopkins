@@ -1,0 +1,1052 @@
+{
+ "app": "hopkins",
+ "authenticated_access": 0,
+ "blocks": [
+  {
+   "baseStyles": {
+    "alignItems": "center",
+    "display": "flex",
+    "flexDirection": "column",
+    "flexShrink": 0,
+    "flexWrap": "wrap",
+    "position": "relative"
+   },
+   "blockId": "root",
+   "children": [
+    {
+     "blockId": "aux1tsm0w",
+     "children": [
+      {
+       "blockId": "zv8rx1g1k",
+       "blockName": "container",
+       "children": [
+        {
+         "blockId": "mvej7giya",
+         "children": [
+          {
+           "blockId": "z26brg822",
+           "children": [
+            {
+             "blockId": "829t24vwo",
+             "blockName": "container",
+             "children": [
+              {
+               "blockId": "7jkxm8chm",
+               "isChildOfComponent": "d43488f0fe3df2d5",
+               "referenceBlockId": "nnscvlq0t"
+              }
+             ],
+             "isChildOfComponent": "d43488f0fe3df2d5",
+             "referenceBlockId": "egd1gqt8o"
+            }
+           ],
+           "isChildOfComponent": "d43488f0fe3df2d5",
+           "isRepeaterBlock": false,
+           "referenceBlockId": "5623jk9xd"
+          },
+          {
+           "blockId": "qw4db6kp7",
+           "children": [
+            {
+             "blockId": "ud922om50",
+             "isChildOfComponent": "d43488f0fe3df2d5",
+             "isRepeaterBlock": false,
+             "referenceBlockId": "bnq055st2"
+            },
+            {
+             "blockId": "0b5bkssna",
+             "isChildOfComponent": "d43488f0fe3df2d5",
+             "isRepeaterBlock": false,
+             "referenceBlockId": "ctg9ny1ki"
+            },
+            {
+             "blockId": "z7vo42wma",
+             "isChildOfComponent": "d43488f0fe3df2d5",
+             "isRepeaterBlock": false,
+             "referenceBlockId": "qcb5rfxqj"
+            }
+           ],
+           "isChildOfComponent": "d43488f0fe3df2d5",
+           "isRepeaterBlock": false,
+           "referenceBlockId": "gd6hb44rx"
+          }
+         ],
+         "isChildOfComponent": "d43488f0fe3df2d5",
+         "isRepeaterBlock": false,
+         "referenceBlockId": "54tpqfmhn"
+        },
+        {
+         "blockId": "mstz736rh",
+         "children": [
+          {
+           "blockId": "jupe32dam",
+           "children": [
+            {
+             "blockId": "qbfmavixv",
+             "isChildOfComponent": "d43488f0fe3df2d5",
+             "isRepeaterBlock": false,
+             "referenceBlockId": "42yf9e8e4"
+            },
+            {
+             "blockId": "t1a3wudag",
+             "isChildOfComponent": "d43488f0fe3df2d5",
+             "isRepeaterBlock": false,
+             "referenceBlockId": "epxohc21a"
+            }
+           ],
+           "isChildOfComponent": "d43488f0fe3df2d5",
+           "isRepeaterBlock": false,
+           "referenceBlockId": "ko3on025u"
+          },
+          {
+           "blockId": "0pt41can4",
+           "isChildOfComponent": "d43488f0fe3df2d5",
+           "isRepeaterBlock": false,
+           "referenceBlockId": "uxvrueik2"
+          },
+          {
+           "blockId": "frl9cer76",
+           "isChildOfComponent": "d43488f0fe3df2d5",
+           "isRepeaterBlock": false,
+           "referenceBlockId": "zga9u6a33"
+          }
+         ],
+         "isChildOfComponent": "d43488f0fe3df2d5",
+         "isRepeaterBlock": false,
+         "referenceBlockId": "68r7sowv7"
+        },
+        {
+         "blockId": "zcr8zqacw",
+         "children": [
+          {
+           "blockId": "yb2xdcs8z",
+           "isChildOfComponent": "d43488f0fe3df2d5",
+           "isRepeaterBlock": false,
+           "referenceBlockId": "uijdirjmo"
+          },
+          {
+           "blockId": "vthle056k",
+           "isChildOfComponent": "d43488f0fe3df2d5",
+           "originalElement": "__raw_html__",
+           "referenceBlockId": "yerrhrxfi"
+          },
+          {
+           "blockId": "2s86hhund",
+           "blockName": "dropdown",
+           "children": [
+            {
+             "blockId": "6ru341578",
+             "children": [
+              {
+               "blockId": "2vxizfhxh",
+               "blockName": "container",
+               "children": [
+                {
+                 "blockId": "eqlbavut4",
+                 "isChildOfComponent": "d43488f0fe3df2d5",
+                 "referenceBlockId": "p6uzy9sho"
+                }
+               ],
+               "isChildOfComponent": "d43488f0fe3df2d5",
+               "referenceBlockId": "x0n0ddl4v"
+              },
+              {
+               "blockId": "oxl8wu8vp",
+               "blockName": "container",
+               "children": [
+                {
+                 "blockId": "x7wnuv6ac",
+                 "blockName": "div | Somfy Smoove Lighting io",
+                 "isChildOfComponent": "d43488f0fe3df2d5",
+                 "referenceBlockId": "y05ktcj0p"
+                },
+                {
+                 "blockId": "m8wpbxlg1",
+                 "blockName": "p | Price : £85.64",
+                 "isChildOfComponent": "d43488f0fe3df2d5",
+                 "referenceBlockId": "bpek539iv"
+                }
+               ],
+               "isChildOfComponent": "d43488f0fe3df2d5",
+               "referenceBlockId": "fj77cawof"
+              }
+             ],
+             "isChildOfComponent": "d43488f0fe3df2d5",
+             "referenceBlockId": "1bs98x035"
+            }
+           ],
+           "isChildOfComponent": "d43488f0fe3df2d5",
+           "referenceBlockId": "mpcp3id75"
+          }
+         ],
+         "isChildOfComponent": "d43488f0fe3df2d5",
+         "isRepeaterBlock": false,
+         "referenceBlockId": "bucfkhzfc"
+        },
+        {
+         "blockId": "m785jzbrn",
+         "blockName": "Cart Icon",
+         "children": [
+          {
+           "blockId": "572fmw2jn",
+           "blockName": "Cart",
+           "isChildOfComponent": "d43488f0fe3df2d5",
+           "originalElement": "__raw_html__",
+           "referenceBlockId": "4t0oqhte6"
+          },
+          {
+           "blockId": "zaas227qt",
+           "blockName": "p | 0",
+           "isChildOfComponent": "d43488f0fe3df2d5",
+           "referenceBlockId": "vjfrskt64"
+          }
+         ],
+         "isChildOfComponent": "d43488f0fe3df2d5",
+         "referenceBlockId": "sv9xiwyea"
+        }
+       ],
+       "isChildOfComponent": "d43488f0fe3df2d5",
+       "referenceBlockId": "3r40bdic6"
+      }
+     ],
+     "componentVersion": "SNAP-0100",
+     "extendedFromComponent": "d43488f0fe3df2d5",
+     "isRepeaterBlock": false
+    },
+    {
+     "baseStyles": {
+      "height": "70vh",
+      "overflow": "hidden",
+      "position": "relative",
+      "width": "100%"
+     },
+     "blockId": "2q4qienrf",
+     "children": [
+      {
+       "baseStyles": {
+        "alignItems": "center",
+        "backgroundImage": "url(\"/files/ChatGPT Image Aug 2, 2026, 03_20_57 PM.webp\")",
+        "backgroundPosition": "top",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "cover",
+        "bottom": "0px",
+        "filter": "brightness(0.55)",
+        "justifyContent": "center",
+        "left": "0px",
+        "position": "absolute",
+        "right": "0px",
+        "top": "0px"
+       },
+       "blockId": "i90lowliq",
+       "element": "div",
+       "isRepeaterBlock": false
+      },
+      {
+       "baseStyles": {
+        "display": "flex",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "height": "100%",
+        "margin": "auto",
+        "maxWidth": "1400px",
+        "overflow": "hidden",
+        "paddingBottom": "0px",
+        "paddingLeft": "40px",
+        "paddingRight": "40px",
+        "paddingTop": "0px",
+        "width": "100%"
+       },
+       "blockId": "yds1e7o1q",
+       "blockName": "container",
+       "children": [
+        {
+         "baseStyles": {
+          "maxWidth": "700px",
+          "paddingBottom": "60px",
+          "paddingLeft": "0px",
+          "paddingRight": "80px",
+          "paddingTop": "105px",
+          "position": "relative",
+          "zIndex": "10"
+         },
+         "blockId": "yxmtmfyc9",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "rgba(255,255,255,0.85)",
+            "display": "none",
+            "fontSize": "13.5px",
+            "fontWeight": "600",
+            "letterSpacing": "2px",
+            "marginBottom": "18px",
+            "textTransform": "uppercase"
+           },
+           "blockId": "tin021gd5",
+           "element": "p",
+           "innerHTML": "<p>Made in Britain. Trusted by the Trade.</p>",
+           "isRepeaterBlock": false
+          },
+          {
+           "baseStyles": {
+            "color": "#ffffff",
+            "display": "none",
+            "fontFamily": "'Barlow Condensed', sans-serif",
+            "fontSize": "clamp(52px, 7vw, 80px)",
+            "fontWeight": "800",
+            "lineHeight": "1.0",
+            "marginBottom": "36px"
+           },
+           "blockId": "8i5wcmwpl",
+           "element": "h1",
+           "innerHTML": "Solving the unsolvable in blinds – since 1753",
+           "isRepeaterBlock": false,
+           "mobileStyles": {
+            "fontSize": "34px",
+            "marginBottom": "24px"
+           },
+           "tabletStyles": {
+            "fontSize": "44px"
+           }
+          },
+          {
+           "attributes": {
+            "href": "#"
+           },
+           "baseStyles": {
+            "__last_display": "inline-block",
+            "border": "2px solid #ffffff",
+            "borderRadius": "50px",
+            "color": "#ffffff",
+            "display": "none",
+            "fontSize": "12px",
+            "fontWeight": "700",
+            "letterSpacing": "2.5px",
+            "paddingBottom": "14px",
+            "paddingLeft": "28px",
+            "paddingRight": "28px",
+            "paddingTop": "14px",
+            "textDecoration": "none",
+            "textTransform": "uppercase",
+            "transition": "background 0.25s, color 0.25s"
+           },
+           "blockId": "8iz4ck83w",
+           "element": "a",
+           "innerHTML": "View All Products",
+           "isRepeaterBlock": false,
+           "rawStyles": {
+            "hover:background": "#ffffff",
+            "hover:color": "#222222"
+           }
+          }
+         ],
+         "element": "div",
+         "isRepeaterBlock": false,
+         "mobileStyles": {
+          "paddingBottom": "40px",
+          "paddingRight": "0px",
+          "paddingTop": "60px"
+         },
+         "tabletStyles": {
+          "paddingRight": "20px",
+          "paddingTop": "80px"
+         }
+        },
+        {
+         "baseStyles": {
+          "backgroundColor": "#ffffff",
+          "bottom": "0px",
+          "paddingBottom": "28px",
+          "paddingLeft": "32px",
+          "paddingRight": "32px",
+          "paddingTop": "24px",
+          "position": "absolute",
+          "width": "350px"
+         },
+         "blockId": "lz60fwlgm",
+         "children": [
+          {
+           "baseStyles": {
+            "color": "#666666",
+            "fontSize": "11px",
+            "fontWeight": "700",
+            "letterSpacing": "2px",
+            "marginBottom": "8px",
+            "textTransform": "uppercase"
+           },
+           "blockId": "engf7cstr",
+           "element": "p",
+           "innerHTML": "<p>CONTACT US</p>",
+           "isRepeaterBlock": false
+          },
+          {
+           "baseStyles": {
+            "color": "#131652",
+            "fontFamily": "'Barlow Condensed', sans-serif",
+            "fontSize": "34px",
+            "fontWeight": "800",
+            "lineHeight": "1.1"
+           },
+           "blockId": "8wwqzrh89",
+           "element": "h2",
+           "innerHTML": "Let’s get started",
+           "isRepeaterBlock": false,
+           "mobileStyles": {
+            "fontSize": "23px"
+           },
+           "tabletStyles": {
+            "fontSize": "28px"
+           }
+          }
+         ],
+         "classes": [
+          "fade-3d from-bottom delay-1"
+         ],
+         "element": "div",
+         "isRepeaterBlock": false,
+         "mobileStyles": {
+          "bottom": "0px",
+          "left": "0px",
+          "marginTop": "30px",
+          "position": "absolute",
+          "width": "100%"
+         },
+         "tabletStyles": {
+          "bottom": "auto",
+          "left": "auto",
+          "marginTop": "40px",
+          "position": "relative",
+          "width": "100%"
+         }
+        }
+       ],
+       "element": "div",
+       "isRepeaterBlock": false,
+       "mobileStyles": {
+        "paddingLeft": "16px",
+        "paddingRight": "16px",
+        "position": "relative"
+       },
+       "tabletStyles": {
+        "paddingLeft": "24px",
+        "paddingRight": "24px"
+       }
+      }
+     ],
+     "element": "section",
+     "isRepeaterBlock": false,
+     "mobileStyles": {
+      "height": "60vh",
+      "width": "100%"
+     },
+     "tabletStyles": {
+      "height": "80vh"
+     }
+    },
+    {
+     "baseStyles": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexShrink": 0,
+      "gap": "10px",
+      "gridAutoColumns": "minmax(0, 1fr)",
+      "gridTemplateColumns": "repeat(3, minmax(0, 1fr))",
+      "maxWidth": "1400px",
+      "overflow": "hidden",
+      "padding": "40px",
+      "paddingTop": "94px",
+      "position": "static",
+      "width": "100%"
+     },
+     "blockId": "ju0n9cctk",
+     "blockName": "container",
+     "children": [
+      {
+       "baseStyles": {
+        "display": "grid",
+        "flexDirection": "column",
+        "flexShrink": 0,
+        "gap": "30px",
+        "gridAutoColumns": "minmax(0, 1fr)",
+        "gridTemplateColumns": "repeat(3, minmax(0, 1fr))",
+        "overflow": "hidden",
+        "width": "100%"
+       },
+       "blockId": "ukmfp0l77",
+       "blockName": "repeater",
+       "children": [
+        {
+         "baseStyles": {
+          "display": "flex",
+          "flex": "1 1 calc(33.333% - 20px)",
+          "flexDirection": "column",
+          "gap": "15px",
+          "minWidth": "280px"
+         },
+         "blockId": "by9qserz3",
+         "blockName": "Case Study Card 2",
+         "children": [
+          {
+           "baseStyles": {
+            "borderRadius": "0px",
+            "marginBottom": "15px",
+            "overflow": "hidden",
+            "paddingBottom": "100%",
+            "position": "relative",
+            "width": "100%"
+           },
+           "blockId": "nb6872ozl",
+           "blockName": "Card 2 Image Container",
+           "children": [
+            {
+             "attributes": {
+              "alt": "Case Study Two - Interior Design",
+              "src": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?w=600&q=80&fit=crop"
+             },
+             "baseStyles": {
+              "borderRadius": "0px",
+              "height": "100%",
+              "left": "0",
+              "objectFit": "cover",
+              "position": "absolute",
+              "top": "0",
+              "width": "100%"
+             },
+             "blockId": "kfvda7s2q",
+             "blockName": "Card 2 Image",
+             "dataKey": {
+              "comesFrom": "dataScript",
+              "key": "image",
+              "property": "src",
+              "type": "attribute"
+             },
+             "element": "img",
+             "isRepeaterBlock": false,
+             "mobileStyles": {
+              "width": "100%"
+             }
+            }
+           ],
+           "element": "div",
+           "isRepeaterBlock": false,
+           "mobileStyles": {
+            "width": "100%"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "#001a4d",
+            "fontFamily": "'Rubik', sans-serif",
+            "fontSize": "24px",
+            "fontWeight": "500",
+            "lineHeight": "1.2",
+            "margin": "0 0 10px 0"
+           },
+           "blockId": "ns2y2b8vg",
+           "blockName": "Card 2 Title",
+           "dataKey": {
+            "comesFrom": "dataScript",
+            "key": "title",
+            "property": "innerHTML",
+            "type": "key"
+           },
+           "element": "h3",
+           "innerHTML": "CS Two",
+           "isRepeaterBlock": false,
+           "mobileStyles": {
+            "fontSize": "18px"
+           },
+           "tabletStyles": {
+            "fontSize": "21px"
+           }
+          },
+          {
+           "baseStyles": {
+            "color": "#333333",
+            "fontFamily": "'Rubik', sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "400",
+            "lineHeight": "1.6",
+            "margin": "0 0 10px 0"
+           },
+           "blockId": "9fkwgqy9z",
+           "blockName": "Card 2 Description",
+           "dataKey": {
+            "comesFrom": "dataScript",
+            "key": "short_description",
+            "property": "innerHTML",
+            "type": "key"
+           },
+           "element": "p",
+           "innerHTML": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+           "isRepeaterBlock": false
+          },
+          {
+           "attributes": {
+            "href": "#inspiration-2"
+           },
+           "baseStyles": {
+            "color": "#001a4d",
+            "cursor": "pointer",
+            "display": "inline-block",
+            "fontFamily": "'Rubik', sans-serif",
+            "fontSize": "14px",
+            "fontWeight": "700",
+            "hover:color": "#FAA41A",
+            "textDecoration": "none",
+            "transitionDuration": "300ms",
+            "transitionProperty": "all",
+            "transitionTimingFunction": "ease"
+           },
+           "blockId": "5039ii26x",
+           "blockName": "Card 2 Link",
+           "dataKey": {
+            "comesFrom": "dataScript",
+            "key": "route",
+            "property": "href",
+            "type": "attribute"
+           },
+           "element": "a",
+           "innerHTML": "Inspiration",
+           "isRepeaterBlock": false
+          }
+         ],
+         "classes": [
+          "fade-3d from-top delay-2"
+         ],
+         "element": "div",
+         "isRepeaterBlock": false,
+         "mobileStyles": {
+          "marginBottom": "20PX",
+          "marginLeft": "0PX",
+          "marginRight": "0PX",
+          "marginTop": "20PX"
+         }
+        }
+       ],
+       "dataKey": {
+        "comesFrom": "dataScript",
+        "key": "case_studies",
+        "property": "innerHTML",
+        "type": "key"
+       },
+       "element": "div",
+       "isRepeaterBlock": true
+      }
+     ],
+     "element": "div"
+    },
+    {
+     "blockId": "qptbmjt5m",
+     "blockName": "Footer Section",
+     "children": [
+      {
+       "blockId": "dfrrtdjzq",
+       "blockName": "container",
+       "children": [
+        {
+         "blockId": "1raz3fj9r",
+         "blockName": "Logo Section",
+         "children": [
+          {
+           "blockId": "guk0xoijl",
+           "blockName": "Footer Logo",
+           "isChildOfComponent": "eb786f777423a644",
+           "isRepeaterBlock": false,
+           "referenceBlockId": "kvt57kn2v"
+          }
+         ],
+         "isChildOfComponent": "eb786f777423a644",
+         "isRepeaterBlock": false,
+         "referenceBlockId": "ym9kyyd5o"
+        },
+        {
+         "blockId": "odjs299eu",
+         "blockName": "Main Content",
+         "children": [
+          {
+           "blockId": "r3vso31vu",
+           "blockName": "Links Section",
+           "children": [
+            {
+             "blockId": "g0frcrqpc",
+             "blockName": "Products Column",
+             "children": [
+              {
+               "blockId": "wbelgqrzh",
+               "blockName": "Products Heading",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "uzhmhaayn"
+              },
+              {
+               "blockId": "pvug9uddv",
+               "blockName": "Product 1",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "pbpok6il3"
+              },
+              {
+               "blockId": "7zz43xws4",
+               "blockName": "Product 2",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "lmf1ouuwp"
+              },
+              {
+               "blockId": "cc2rt0rbp",
+               "blockName": "Product 3",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "yo9et4dx2"
+              },
+              {
+               "blockId": "yu91o7iox",
+               "blockName": "Product 4",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "7q84ph3rm"
+              },
+              {
+               "blockId": "2f94bf77p",
+               "blockName": "Product 5",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "77zvnicm4"
+              },
+              {
+               "blockId": "kv9d9jem1",
+               "blockName": "Product 6",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "7a3jdeydx"
+              },
+              {
+               "blockId": "fd0o8jfnd",
+               "blockName": "Product 7",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "1f8fgpzsm"
+              },
+              {
+               "blockId": "759m2de84",
+               "blockName": "Product 8",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "u62vycfow"
+              },
+              {
+               "blockId": "vu2i0iy2q",
+               "blockName": "Product 9",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "u6zzbndnz"
+              }
+             ],
+             "isChildOfComponent": "eb786f777423a644",
+             "isRepeaterBlock": false,
+             "referenceBlockId": "twlhkhf87"
+            },
+            {
+             "blockId": "m2umvej5x",
+             "blockName": "Solutions Column",
+             "children": [
+              {
+               "blockId": "mhz4xpiai",
+               "blockName": "Solutions Heading",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "kgp4rt36t"
+              },
+              {
+               "blockId": "6ixdxd4ve",
+               "blockName": "Solution 1",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "wy85i2xpo"
+              },
+              {
+               "blockId": "f0mb1cqc7",
+               "blockName": "Solution 2",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "lalmpnydd"
+              },
+              {
+               "blockId": "daxl0yjgr",
+               "blockName": "Solution 3",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "8myd8rq3c"
+              },
+              {
+               "blockId": "09uzf5bzb",
+               "blockName": "Solution 3",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "za6bfepvi"
+              },
+              {
+               "blockId": "vatij429g",
+               "blockName": "About Heading",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "a3z50dqx9"
+              },
+              {
+               "blockId": "ne0q3q6wl",
+               "blockName": "About 1",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "q3453e949"
+              },
+              {
+               "blockId": "wu9j7m9v8",
+               "blockName": "About 2",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "6qbe5tghz"
+              },
+              {
+               "blockId": "sd2no85iu",
+               "blockName": "About 3",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "ixx8edfv7"
+              },
+              {
+               "blockId": "7lbrd50ox",
+               "blockName": "About 3",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "7vv44yr4l"
+              }
+             ],
+             "isChildOfComponent": "eb786f777423a644",
+             "isRepeaterBlock": false,
+             "referenceBlockId": "u1qcriqlq"
+            },
+            {
+             "blockId": "2cjg6pi42",
+             "blockName": "Support Column",
+             "children": [
+              {
+               "blockId": "1q3hcrp2e",
+               "blockName": "Support Heading",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "0hxutaxxl"
+              },
+              {
+               "blockId": "1w4kcybt1",
+               "blockName": "Support 1",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "ksq17f0nq"
+              },
+              {
+               "blockId": "xtnkeeli8",
+               "blockName": "Support 2",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "gjqez8401"
+              },
+              {
+               "blockId": "zxr3wbt23",
+               "blockName": "Support 3",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "dq5x8fwdn"
+              },
+              {
+               "blockId": "gngxjg3z6",
+               "blockName": "Support 4",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "iyeetbk4h"
+              },
+              {
+               "blockId": "miym9b9cu",
+               "blockName": "Support 5",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "pqgibh8me"
+              },
+              {
+               "blockId": "ix6dolnu8",
+               "blockName": "Support 6",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "3fjzu2x5r"
+              },
+              {
+               "blockId": "ny820juse",
+               "blockName": "Support 7",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "ilnzw649a"
+              },
+              {
+               "blockId": "7bdm6ozmj",
+               "blockName": "Support 8",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "ght7zghfd"
+              },
+              {
+               "blockId": "zmyzr2wkf",
+               "blockName": "Support 9",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "nt4b7h9ku"
+              }
+             ],
+             "isChildOfComponent": "eb786f777423a644",
+             "isRepeaterBlock": false,
+             "referenceBlockId": "l92c9momv"
+            }
+           ],
+           "isChildOfComponent": "eb786f777423a644",
+           "isRepeaterBlock": false,
+           "referenceBlockId": "worjhtd7h"
+          },
+          {
+           "blockId": "tbk26smzi",
+           "blockName": "Newsletter Section",
+           "children": [
+            {
+             "blockId": "pu2uxlto8",
+             "blockName": "Newsletter Heading",
+             "isChildOfComponent": "eb786f777423a644",
+             "isRepeaterBlock": false,
+             "referenceBlockId": "l8w00fjcn"
+            },
+            {
+             "blockId": "5djk86g9z",
+             "blockName": "Newsletter Description",
+             "isChildOfComponent": "eb786f777423a644",
+             "isRepeaterBlock": false,
+             "referenceBlockId": "gm8xgtn92"
+            },
+            {
+             "blockId": "ifllye06j",
+             "blockName": "Newsletter Form",
+             "children": [
+              {
+               "blockId": "ri97cugec",
+               "blockName": "First Name Input",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "jaqa0dufp"
+              },
+              {
+               "blockId": "0u4ri2voi",
+               "blockName": "Email Input",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "yjh2902ps"
+              },
+              {
+               "blockId": "xgmd2d5mu",
+               "blockName": "Sign Up Button",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "lpwts1esp"
+              }
+             ],
+             "isChildOfComponent": "eb786f777423a644",
+             "isRepeaterBlock": false,
+             "referenceBlockId": "ibhohj006"
+            },
+            {
+             "blockId": "b35rkdu2b",
+             "blockName": "Social Icons",
+             "children": [
+              {
+               "blockId": "kssn4ebuj",
+               "blockName": "LinkedIn",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "iy55mt01l"
+              },
+              {
+               "blockId": "senxp1bk6",
+               "blockName": "Instagram",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "sz0aatg6s"
+              },
+              {
+               "blockId": "50068d2eg",
+               "blockName": "Pinterest",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "judenwbrd"
+              },
+              {
+               "blockId": "f0yuwfzrn",
+               "blockName": "Facebook",
+               "isChildOfComponent": "eb786f777423a644",
+               "isRepeaterBlock": false,
+               "referenceBlockId": "qrdxt52to"
+              }
+             ],
+             "isChildOfComponent": "eb786f777423a644",
+             "isRepeaterBlock": false,
+             "referenceBlockId": "943igdz7r"
+            }
+           ],
+           "isChildOfComponent": "eb786f777423a644",
+           "isRepeaterBlock": false,
+           "referenceBlockId": "zee1n5q8n"
+          }
+         ],
+         "isChildOfComponent": "eb786f777423a644",
+         "isRepeaterBlock": false,
+         "referenceBlockId": "fyrsbxcgs"
+        }
+       ],
+       "isChildOfComponent": "eb786f777423a644",
+       "isRepeaterBlock": false,
+       "referenceBlockId": "qc58gui5f"
+      },
+      {
+       "blockId": "q2pgmch96",
+       "blockName": "Embed HTML",
+       "isChildOfComponent": "eb786f777423a644",
+       "originalElement": "__raw_html__",
+       "referenceBlockId": "r6ijicj64"
+      }
+     ],
+     "componentVersion": "SNAP-0114",
+     "extendedFromComponent": "eb786f777423a644",
+     "isRepeaterBlock": false
+    }
+   ],
+   "draggable": false,
+   "element": "div",
+   "originalElement": "body"
+  }
+ ],
+ "client_scripts": [],
+ "creation": "2026-08-06 11:30:18.944784",
+ "disable_indexing": 0,
+ "docstatus": 0,
+ "doctype": "Builder Page",
+ "draft_blocks": null,
+ "dynamic_route": 0,
+ "idx": 0,
+ "is_standard": 1,
+ "is_template": 0,
+ "modified": "2026-08-06 16:40:54.806696",
+ "modified_by": "Administrator",
+ "name": "page-e6f95576",
+ "owner": "Administrator",
+ "page_data_script": "case_studies = frappe.get_all(\n        \"Case Study\",\n        filters={\"published\": 1},\n        fields=[\"title\", \"route\", \"image\", \"short_description\"],\n        order_by=\"creation desc\",\n        limit=3\n)\n\nfor cs in case_studies:\n  cs[\"route\"] = \"/case-studies/\" + cs.get('route')\n\ndata.case_studies = case_studies",
+ "page_name": "page-e6f95576",
+ "page_title": "Case Studies",
+ "preview": "/assets/builder/images/fallback.png",
+ "project_folder": "hopkins",
+ "published": 1,
+ "published_at": "2026-08-06 11:36:10.188997",
+ "route": "case-studies"
+}
