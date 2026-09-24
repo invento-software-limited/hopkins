@@ -109,6 +109,7 @@ def get_products(
 	products = []
 	for item in items:
 		price = item.get("price_list_rate") or 0.0
+		route = item.get("custom_route") or (f"/shop/{item.item_code}" if item.item_code else "#")
 		products.append(
 			{
 				"item_code": item.item_code,
@@ -118,6 +119,8 @@ def get_products(
 				"price": price,
 				"price_formatted": f"£{price:,.2f}",
 				"stock_code_formatted": f"Stock Code: {item.item_code}",
+				"route": route,
+				"custom_route": route,
 			}
 		)
 
