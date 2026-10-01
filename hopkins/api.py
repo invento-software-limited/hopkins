@@ -61,7 +61,7 @@ STOCK_MAP = {
 @frappe.whitelist(allow_guest=True)
 def get_products(
 	page: int = 1,
-	page_length: int = 8,
+	page_length: int = 20,
 	search: str | None = None,
 	category: str | None = None,
 	sort_by: str | None = None,
@@ -77,7 +77,7 @@ def get_products(
 		page_length = int(page_length)
 	except ValueError:
 		page = 1
-		page_length = 8
+		page_length = 20
 
 	start = (page - 1) * page_length
 

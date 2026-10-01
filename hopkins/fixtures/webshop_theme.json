@@ -1,8 +1,8 @@
 [
  {
-  "btn_bg_color": "#F9A31A",
+  "btn_bg_color": "#262C66",
   "btn_color": "#FFFFFF",
-  "btn_hover_bg_color": "#D48B16",
+  "btn_hover_bg_color": "#1E2352",
   "btn_hover_color": "#FFFFFF",
   "carousel_image_1": null,
   "carousel_image_2": null,
@@ -13,7 +13,7 @@
   "footer_logo": null,
   "light_bg_color": "#FBFCF2",
   "logo": null,
-  "modified": "2026-07-30 15:34:09.671540",
+  "modified": "2026-09-29 11:28:53.090773",
   "name": "Navy Amber",
   "primary_color": "#262C66",
   "primary_color_faint": "#E8E8EC",
