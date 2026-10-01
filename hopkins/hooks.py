@@ -260,6 +260,7 @@ fixtures = [
 	"Builder Page",
 	"User Font",
 	{"doctype": "Webshop Theme", "filters": [["name", "in", ["Navy Amber"]]]},
+	"Webshop Settings",
 ]
 
 # Translation
