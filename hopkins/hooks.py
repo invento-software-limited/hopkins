@@ -267,3 +267,33 @@ fixtures = [
 # ------------
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
+
+# Order emails (Notifications, print format, status hooks) -- see order_emails/
+jinja = {"methods": ["hopkins.order_emails.jinja_methods.order_email_context"]}
+
+after_migrate = ["hopkins.order_emails.setup.after_migrate"]
+
+doc_events = {
+	"Sales Order": {
+		"validate": "hopkins.order_emails.events.fill_notification_email",
+	},
+	"Delivery Note": {
+		"validate": "hopkins.order_emails.events.fill_notification_email",
+		"before_submit": "hopkins.order_emails.events.remember_order_status",
+		"on_submit": "hopkins.order_emails.events.after_delivery_note_submit",
+	},
+	"Sales Invoice": {
+		"before_submit": "hopkins.order_emails.events.remember_order_status",
+		"on_submit": "hopkins.order_emails.events.after_invoice_submit",
+	},
+	"Email Queue": {
+		"before_insert": "hopkins.order_emails.events.render_print_attachments",
+		"after_insert": "hopkins.order_emails.events.send_queued_now",
+	},
+}
+
+# Hopkins is Cash on Delivery only and tightens who can cancel an order.
+override_whitelisted_methods = {
+	"invento_webshop.webshop_functions.cart.place_order": "hopkins.order_emails.api.place_order",
+	"invento_webshop.webshop_functions.order.order.cancel_order": "hopkins.order_emails.api.cancel_order",
+}
